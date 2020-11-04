@@ -225,7 +225,7 @@ def price_calculator(okitjson, all_resources):
                     PAYG, Monthly_Flex = calculator.OCPU_per_hr(
                         dbaas_license_price, OCPU)
                     # Non-RAC VM - 456GB storage will be added
-                    dbaas_storage += dbaas['data_storage_size_in_gb'] + 456
+                    dbaas_storage += int(dbaas['data_storage_size_in_gb']) + 456
 
                     # parsing to bom format
                     bom.update_bom(df, base_dbaas_sku, OCPU, ocpu_per_month)
@@ -431,6 +431,7 @@ def price_calculator(okitjson, all_resources):
     # File Storage Service price calculator
     #############################################
     if okitjson['file_storage_systems']:
+        # we should let user input capacity and request in the future release
         # default 1TB
         fss_gb = 1000
         # get file storage service price
@@ -451,12 +452,13 @@ def price_calculator(okitjson, all_resources):
     # Object Storage Service price calculator
     #############################################
     if okitjson['object_storage_buckets']:
+        # we should let user input capacity and request in the future release
         # default 1TB, 100K request,  fist 50K resuests will be free
         object_storage_gb = 1000
         requests = 1000000
         # get requests of object storage
         object_request_price = calculator.get_oci_price_ords('B91627')
-        # fist 50K resuests will be free
+        # fist 50K request will be free
         requests -= 50000
         PAYG_Request, Monthly_Flex_Request = calculator.Request_per_month(
             object_request_price, requests)
@@ -479,7 +481,7 @@ def price_calculator(okitjson, all_resources):
         results.update({'object_storage_buckets': (PAYG_Object_Storage_price, PAYG_Object_Storage_price)})
 
         # parsing DBaaS storage to bom format
-        bom.update_bom(df, 'B91627', requests, storage_per_month)
+        bom.update_bom(df, 'B91627', requests/10000, storage_per_month)
         bom.update_bom(df, 'B91628', object_storage_gb, storage_per_month)
 
     else:
@@ -506,7 +508,7 @@ def price_calculator(okitjson, all_resources):
                 shape = pool['node_shape']
                 boot_volume = int(pool['node_source_details']['boot_volume_size_in_gbs'])
                 OCPU, MEM, SSD, Compute_SKU = shapes.ComputeShape(shape)
-                ocpu_price = calculator.get_oci_price_ords(Compute_SKU)
+                ocpu_price = calcultor.get_oci_price_ords(Compute_SKU)
                 # total number of ocpu based on number of instance
                 OCPU = OCPU * number_of_instance
                 PAYG, Monthly_Flex = calculator.OCPU_per_hr(ocpu_price, OCPU)
@@ -519,8 +521,6 @@ def price_calculator(okitjson, all_resources):
                 """
                 # check if OS is windows, However, Kubernetes engine will run only linux at this moment.
                 instance_os = str(pool['node_source_details']['os']).lower()
-
-
                 # All Linux at this moment
                 if instance_os == "windows":
                     windows_price = calculator.get_oci_price_ords("B88318")
