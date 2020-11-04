@@ -119,6 +119,8 @@ def BM_Exa_OCPU_per_hr(license_model,database_edition, dbaas_license_price, dbaa
     return PAYG_OCPU, Monthly_Flex_OCPU, sku , additional_ocpu
 
 def Request_per_month(request_price,numberOfrequest):
+    # 10,000 Requests per Month
+    numberOfrequest /= 10000
     # PAYG
     PAYG_Object_Request = request_price[0] * numberOfrequest
     # Monthly Flex
