@@ -21,7 +21,11 @@ function saveZip(url, filename="") {
     a.click();
 }
 
-function handleGenerateTerraform(e) {
+function handleExportToTerraformLocal(e) {
+    hideNavMenu();
+    okitJsonModel.validate(generateTerraform);
+}
+function handleExportToTerraformGit(e) {
     hideNavMenu();
     okitJsonModel.validate(generateTerraform);
 }
@@ -50,7 +54,11 @@ function generateTerraform(results) {
     }
 }
 
-function handleGenerateAnsible(e) {
+function handleExportToAnsibleLocal(e) {
+    hideNavMenu();
+    okitJsonModel.validate(generateAnsible);
+}
+function handleExportToAnsibleGit(e) {
     hideNavMenu();
     okitJsonModel.validate(generateAnsible);
 }
@@ -377,11 +385,15 @@ function loadResourceManagerStacks() {
     });
 }
 
-function handleExportToResourceManagerGitLab(e) {
+function handleExportToResourceManagerLocal(e) {
     hideNavMenu();
-    okitJsonModel.validate(generateResourceManagerGitLab);
+    okitJsonModel.validate(generateResourceManagerLocal);
 }
-function generateResourceManagerGitLab(results) {
+function handleExportToResourceManagerGit(e) {
+    hideNavMenu();
+    okitJsonModel.validate(generateResourceManagerLocal);
+}
+function generateResourceManagerLocal(results) {
     if (results.valid) {
         let requestJson = JSON.parse(JSON.stringify(okitJsonModel));
         console.info(okitSettings);

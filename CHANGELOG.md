@@ -1,11 +1,41 @@
 # Release Notes
 
 
+
+## Version 0.15.0 
+**Release Date**: 9th December 2020
+### Features
+1. Clone functionality for simple Artefacts, i.e. not container Artefacts
+2. Updated Developer Guide on creating new Artefacts.
+3. Artefact Skeleton generator for developer kick start.
+
+### Bug Fixes
+1. Adding an instance and an autonomous database in the same compartment overlays them on the canvas Issue #187
+2. Resolve issue parsing TF Json.
+
+
+## Version 0.14.1 
+**Release Date**: 18th November 2020
+### Bug Fixes
+1. Reinstate Public / Private to Subnet description
+2. Fix delete issue with IPSec
+3. Fix delete issue with CPE
+
+
 ## Version 0.14.0 
 **Release Date**: 18th November 2020
 ### Features
+1. Add collapse / expand to container style artefacts Compartment / VCN / Subnet.
+2. Implement updated, Oracle Standard, Look and Feel for diagram elements.
+3. Add Preferences option to choose display label (Name / Resource / None) this will be displayed below the element on the SVG (Enhancement: #126).
+4. Add OKIT specific "Definition" field to all artefacts to allow a free text definition of the artefact (Enhancement: #149).
+5. Add preference to specify the type of tooltip to be displayed (Name / Definition / Summary) when hovering over elements in the diagram.
+6. Add artefact element highlighting when the properties sheet is open. Moving the cursor over the properties sheet will highlight the associated artefact. 
+7. Implement simple Auto Save functionality to save model every 60 seconds to local storage (Enhancement: #169).
+8. Generate Title & Description for queried diagrams (Enhancement: #164).
 
 ### Bug Fixes
+1. Fix issue where MySQL Databases could not be deleted.
 
 
 ## Version 0.13.0 

@@ -5,7 +5,7 @@
 FROM oraclelinux:7-slim
 LABEL "provider"="Oracle" \
       "issues"="https://github.com/oracle/oci-designer-toolkit/issues" \
-      "version"="0.14.0" \
+      "version"="0.15.0" \
       "description"="OKIT Web Server Container." \
       "copyright"="Copyright (c) 2020, Oracle and/or its affiliates."
 SHELL ["/bin/bash", "-c"]
@@ -30,6 +30,7 @@ RUN yum install -y \
  && yum update -y \
 # Install additional packages
  && yum install -y \
+        git \
         python36 \
         python3-pip \
 #        python36-pyyaml \
@@ -37,24 +38,26 @@ RUN yum install -y \
 #        rh-nginx114 \
  && rm -rf /var/cache/yum \
 # Upgrade pip
- && python3 -m pip install --upgrade pip==20.0.2 \
+ && python3 -m pip install --upgrade pip \
 # Install required python modules
  && pip3 install --no-cache-dir \
         flask==1.1.1 \
+        gitpython==3.1.11 \
         gunicorn==20.0.4 \
         oci==2.22.0 \
         pandas==1.1.2 \
         python-magic==0.4.18 \
-        pyyaml==5.2 \
+        pyyaml==5.3.1 \
         requests==2.24.0 \
         xlsxwriter==1.3.6 \
 # Create Workspace
- && mkdir -p /okit/{config,log,visualiser,okitweb,workspace,templates} \
+ && mkdir -p /okit/{config,log,visualiser,okitweb,workspace,templates,skeletons} \
  && mkdir -p /okit/okitweb/static/okit/templates \
  && ln -s /okit/templates /okit/okitweb/static/okit/templates/user
 # Copy source code
 COPY okitweb /okit/okitweb
 COPY visualiser /okit/visualiser
+COPY skeletons /okit/skeletons
 COPY containers/oci/* /root/.oci/
 # Add entrypoint to automatically start webserver
 ENTRYPOINT ["gunicorn"]
