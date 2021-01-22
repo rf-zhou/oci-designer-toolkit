@@ -11,6 +11,7 @@ let okitJsonModel = new OkitJson();
 let okitOciConfig = new OkitOCIConfig();
 let okitOciData = new OkitOCIData();
 let okitSettings = new OkitSettings();
+let okitGitConfig = new OkitGITConfig();
 let okitAutoSave = undefined;
 /*
 ** Ready function initiated on page load.
@@ -22,6 +23,7 @@ $(document).ready(function() {
     okitOciConfig = new OkitOCIConfig();
     okitOciData = new OkitOCIData();
     okitSettings = new OkitSettings();
+    okitGitConfig = new OkitGITConfig();
     okitJsonModel = new OkitJson();
     okitJsonView = new OkitDesignerJsonView(okitJsonModel);
     console.info(okitJsonView);
@@ -97,6 +99,21 @@ $(document).ready(function() {
         .text('Preferences');
 
     // Right Bar & Panels
+    // Description
+    d3.select(d3Id('console_right_bar')).append('label')
+        .attr('id', 'toggle_properties_button')
+        .attr('class', 'okit-pointer-cursor')
+        .on('click', function () {
+            let open = $(this).hasClass('okit-bar-panel-displayed');
+            slideRightPanelsOffScreen();
+            if (!open) {
+                $(jqId(DESCRIPTION_PANEL)).removeClass('hidden');
+                $(this).addClass('okit-bar-panel-displayed');
+                $(jqId('right_column_dragbar')).removeClass('hidden');
+            }
+            checkRightColumn();
+        })
+        .text('Description');
     // Properties
     d3.select(d3Id('console_right_bar')).append('label')
         .attr('id', 'toggle_properties_button')
@@ -314,5 +331,5 @@ $(document).ready(function() {
     /*
     ** Add redraw on resize
      */
-    window.addEventListener('resize', () => { redrawSVGCanvas() });
+    window.addEventListener('resize', () => { redrawSVGCanvas(true) });
 });

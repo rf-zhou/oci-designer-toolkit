@@ -1,17 +1,29 @@
 # Release Notes
 
+## Version 0.16.0
+**Release Date**: 20th January 2021
+### Features
+1. Description now displayed as a right side panel allowing multi line entry (Enhancement Request #165)
+2. Remove dialog associated with Save As Template because the Title & Description are now part of the main screen.
+3. Add Preference to display the OCID for a Resource.
+4. Simple GIT integration for saving Template / Terraform / Ansible files.
+5. Export to Markdown to provide design documentation, description field (Enhancement Request #165) allows Markdown whilst each contains a Documentation field to provide resource specific information.
+
+### Bug Fixes
+1. Object Storage Bucket not displaying queried name (Issue #206)
 
 
 ## Version 0.15.0 
 **Release Date**: 9th December 2020
 ### Features
-1. Clone functionality for simple Artefacts, i.e. not container Artefacts
+1. Cut / Copy / Paste / Clone functionality added.
 2. Updated Developer Guide on creating new Artefacts.
 3. Artefact Skeleton generator for developer kick start.
 
 ### Bug Fixes
 1. Adding an instance and an autonomous database in the same compartment overlays them on the canvas Issue #187
 2. Resolve issue parsing TF Json.
+3. Undefined variable in ansible export Issue: #189
 
 
 ## Version 0.14.1 

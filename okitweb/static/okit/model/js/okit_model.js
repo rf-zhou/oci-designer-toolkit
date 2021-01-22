@@ -13,7 +13,9 @@ class OkitJson {
      */
     constructor(okit_json_string = '') {
         this.title = "OKIT OCI Visualiser Json";
-        this.description = "";
+        this.description = `# Description\n__Created ${getCurrentDateTime()}__\n\n--------------------------------------\n\n`;
+        this.created = getCurrentDateTime();
+        this.updated = this.created;
         this.okit_version = okitVersion;
         this.compartments = [];
         this.customer_premise_equipments = [];
@@ -971,7 +973,7 @@ class OkitArtifact {
     constructor (okitjson) {
         this.getOkitJson = function() {return okitjson};
         // Add Id
-        this.id = 'okit.' + this.constructor.name.toLowerCase() + '.' + uuidv4();
+        this.id = this.okit_id;
         // All Artefacts will have compartment id, display name & description
         this.compartment_id = '';
         this.display_name = '';
@@ -980,7 +982,17 @@ class OkitArtifact {
         // Add default for common Tag variables
         this.freeform_tags = {};
         this.defined_tags = {};
+        Object.defineProperty(this, 'okit_json', {
+            get: function () {
+                return okitjson;
+            }
+        });
     }
+
+    get okit_id() {return 'okit.' + this.constructor.name.toLowerCase() + '.' + uuidv4();}
+    get resource_name() {return this.getArtifactReference();}
+    get list_name() {return `${this.resource_name.toLowerCase().split(' ').join('_')}s`;}
+    get json_model_list() {return this.okit_json[this.list_name];}
 
     /*
     ** Clone Functionality
