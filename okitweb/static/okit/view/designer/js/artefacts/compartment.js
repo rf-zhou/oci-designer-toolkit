@@ -71,7 +71,8 @@ class CompartmentView extends OkitContainerDesignerArtefactView {
     ** Child Type Functions
      */
     getTopArtifacts() {
-        return [Instance.getArtifactReference()];
+        // TODO: Analytics - Modified Add Analytics.getArtifactReference()
+        return [Instance.getArtifactReference(), Analytics.getArtifactReference()];
     }
 
     getContainerArtifacts() {

@@ -141,6 +141,11 @@ class OkitDesignerJsonView extends OkitJsonView {
         for (let mysql_database_system of this.mysql_database_systems) {
             mysql_database_system.draw();
         }
+        // TODO: Analytics - Added
+        // Analitics
+        for (let analytics of this.getAnalyticss()) {
+            analytics.draw();
+        }
 
         // Resize Main Canvas if required
         $(jqId("canvas-svg")).children("svg [data-type='" + Compartment.getArtifactReference() + "']").each(function () {

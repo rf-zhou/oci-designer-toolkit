@@ -19,6 +19,8 @@ class OkitJson {
         this.okit_version = okitVersion;
         this.compartments = [];
         this.customer_premise_equipments = [];
+        // TODO: Analytics - Added
+        this.analyticss = [];
         this.autonomous_databases = [];
         this.block_storage_volumes = [];
         this.database_systems = [];
