@@ -1,5 +1,5 @@
 /*
-** Copyright (c) 2020, Oracle and/or its affiliates.
+** Copyright (c) 2021, Oracle and/or its affiliates.
 ** Licensed under the Universal Permissive License v 1.0 as shown at https://oss.oracle.com/licenses/upl.
 */
 console.info('Loaded OKIT Designer View Javascript');
@@ -174,7 +174,7 @@ class OkitTabularJsonView extends OkitJsonView {
         // Loop through Model elements and create and create a tab for each
         Object.entries(this.okitjson).forEach(([key, value]) => {
             if (Array.isArray(value)) {
-                this.addTab(tabbar, key)
+                if (value.length) this.addTab(tabbar, key);
             }
         })
     }
@@ -229,10 +229,12 @@ class OkitTabularJsonView extends OkitJsonView {
         const self = this;
         // Table Body
         const tbody = table.append('div').attr('class', 'tbody okit-tbody-alternating-colours');
+        let first = true;
         for (let resource of this.okitjson[resource_type]) {
             // Designer View Object
             const view_resource = this.getViewResource(resource.getArtifactReference(), resource.id);
             const tr = tbody.append('div').attr('class', 'tr').on('click', function() {view_resource.loadSlidePanels()});
+            if (first) {first = false; view_resource.loadSlidePanels();}
             Object.entries(property_map).forEach(([key, value]) => {
                 let cell_data = '';
                 if (value.lookup) {
