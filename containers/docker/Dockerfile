@@ -54,6 +54,7 @@ RUN yum install -y \
         pyyaml==5.3.1 \
         requests==2.24.0 \
         xlsxwriter==1.3.6 \
+	Authlib==0.15.3 \
 # Create Workspace
  && mkdir -p /okit/{config,git,log,ssl,visualiser,okitweb,workspace,templates,skeletons} \
  && mkdir -p /okit/okitweb/static/okit/templates \
@@ -62,7 +63,9 @@ RUN yum install -y \
  && ln -s /okit/git /okit/okitweb/static/okit/templates/git \
  && ln -s /okit/git /okit/okitweb/static/okit/git
 # Copy source code
+COPY config /okit/config
 COPY okitweb /okit/okitweb
+COPY instance /okit/instance
 COPY visualiser /okit/visualiser
 COPY skeletons /okit/skeletons
 COPY containers/oci/* /root/.oci/
@@ -70,6 +73,5 @@ COPY containers/ssh/* /root/.ssh/
 RUN chmod 600 /root/.ssh/*
 
 # Add entrypoint to automatically start webserver
-ENTRYPOINT ["gunicorn"]
-CMD ["--workers=4", "--limit-request-line", "0", "--timeout", "120", "--bind=0.0.0.0:80", "okitweb.wsgi:app"]
-#CMD ["--workers=4", "--limit-request-line", "0", "--timeout", "120", "--certfile=/okit/ssl/okit.crt", "--keyfile=/okit/ssl/okit.key", "--bind=0.0.0.0:443", "okitweb.wsgi:app"]
+ENTRYPOINT ["gunicorn", "okitweb.wsgi:app"]
+CMD ["--config", "/okit/config/gunicorn_http.py"]
