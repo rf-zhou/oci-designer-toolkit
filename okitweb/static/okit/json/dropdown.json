@@ -6,105 +6,105 @@
         "platform_software_version": "R80.20",
         "vendor": "Check Point"
       },
-      "id": "33623514-e21a-4719-a61c-3f8a67d4a88b"
-    },
-    {
-      "cpe_device_info": {
-        "platform_software_version": "IOS version 15.4M or later",
-        "vendor": "Cisco"
-      },
-      "id": "12763256-4003-4780-9375-ce378d6b7bae"
-    },
-    {
-      "cpe_device_info": {
-        "platform_software_version": "ASA Policy-Based VPN 8.5+ (single tunnel, static)",
-        "vendor": "Cisco"
-      },
-      "id": "4aaa4867-e141-4571-b804-be45fcf9de8b"
+      "id": "f0bc2863-d9c2-4870-82e2-ef6f6641f32e"
     },
     {
       "cpe_device_info": {
         "platform_software_version": "ASA Route-Based VPN 9.7.1 or later",
         "vendor": "Cisco"
       },
-      "id": "50143b23-bab0-4c22-a207-6582d77431e6"
+      "id": "1b662f99-f232-4f0a-97ae-e3a65a4b5aad"
+    },
+    {
+      "cpe_device_info": {
+        "platform_software_version": "ASA Policy-Based VPN 8.5+ (single tunnel, static)",
+        "vendor": "Cisco"
+      },
+      "id": "5fccd0b9-999e-4bd4-b480-57de649fd72f"
+    },
+    {
+      "cpe_device_info": {
+        "platform_software_version": "IOS version 15.4M or later",
+        "vendor": "Cisco"
+      },
+      "id": "97122544-682f-4153-b94a-56bde5952737"
     },
     {
       "cpe_device_info": {
         "platform_software_version": "FortiGate 6.0.4 or later",
         "vendor": "Fortinet"
       },
-      "id": "0e894a65-3ebd-4af0-a1ca-a46d526b24e4"
+      "id": "4b7e9afa-b773-488d-b6ff-561d434a897e"
     },
     {
       "cpe_device_info": {
         "platform_software_version": "FITELnet-F220/F221 Firmware 01.00(00)[0]00.00.0 [2019/07/05 15:00]",
         "vendor": "Furukawa"
       },
-      "id": "306a77d1-90e2-4ec9-a721-42930efbf217"
+      "id": "debd4048-53e7-4d1e-8dec-9a1a81c3787c"
     },
     {
       "cpe_device_info": {
         "platform_software_version": "MX Series - JunOS 15.1 or later",
         "vendor": "Juniper"
       },
-      "id": "16d40738-1549-477b-9692-38b33c5f2674"
+      "id": "bbf334ea-f191-4aae-b1f5-474cbec268b4"
     },
     {
       "cpe_device_info": {
         "platform_software_version": "SRX Series - JunOS 11.0 or later",
         "vendor": "Juniper"
       },
-      "id": "3b3d918a-ec27-4c5a-9fa0-ee39b146e072"
+      "id": "cfbb394e-a1df-412d-93d0-cdc62b89ee8d"
     },
     {
       "cpe_device_info": {
         "platform_software_version": "3.18 or later",
         "vendor": "Libreswan"
       },
-      "id": "c4be89f9-3d73-41db-a64d-40d244b1b6f3"
+      "id": "3842bd0b-7cdf-4c72-8042-be13aac998bf"
     },
     {
       "cpe_device_info": {
         "platform_software_version": "IX Series 10.1.16",
         "vendor": "NEC"
       },
-      "id": "d79e2880-4cfc-4af2-b476-1ec0ed71173f"
+      "id": "4be4b95b-3a16-4c29-abe0-b0a5d89ab93e"
     },
     {
       "cpe_device_info": {
         "platform_software_version": "N.A",
         "vendor": "Other"
       },
-      "id": "52bf4ff4-4c91-4876-8f56-0e01f1b6b04a"
+      "id": "0c14a129-ce70-43f3-bf07-e980a6784ae8"
     },
     {
       "cpe_device_info": {
         "platform_software_version": "PAN-OS 8.0.0",
         "vendor": "Palo Alto"
       },
-      "id": "a1480b49-1575-48de-877b-f432359ccd58"
+      "id": "f9015b65-7d14-4832-a44a-cb4002f38597"
     },
     {
       "cpe_device_info": {
         "platform_software_version": "Firebox with Fireware v12",
         "vendor": "WatchGuard"
       },
-      "id": "f8509c5e-9d5a-4f85-9c10-1dac741106d3"
+      "id": "abdc6580-c410-46ad-942c-870ba3594b70"
     },
     {
       "cpe_device_info": {
         "platform_software_version": "RTX RTX1210 Firmware Rev.14.01.28",
         "vendor": "Yamaha"
       },
-      "id": "5ce7fbf4-966a-4dff-88d3-2d5dfe634453"
+      "id": "03315612-3c96-4c18-b0ad-348af9dfca84"
     },
     {
       "cpe_device_info": {
         "platform_software_version": "RTX RTX830 Firmware Rev.15.02.03",
         "vendor": "Yamaha"
       },
-      "id": "e96b8eab-72ce-4ec7-9f9d-3abb2830b9b7"
+      "id": "1c2177ed-9e11-41b4-950a-b99a195c985a"
     }
   ],
   "db_system_shapes": [
@@ -800,11 +800,11 @@
       "bandwith_shape_management": "CUSTOMER_MANAGED",
       "customer_asn_management": "PROVIDER_MANAGED",
       "description": "https://www.synaptic.att.com/clouduser/html/productdetail/ATT_NetBond.htm\t",
-      "id": "ocid1.providerservice.oc1.phx.aaaaaaaatvmylnjdhfldcxy7jmkwghq3qz2svi26p5u7gal6wxbed2fyioxq",
+      "id": "ocid1.providerservice.oc1.iad.aaaaaaaabx5gptln3rrxsttt5ss4mzbxfkwonsmi2doapxo2u2uv3o26wh4a",
       "private_peering_bgp_management": "PROVIDER_MANAGED",
       "provider_name": "AT&T",
       "provider_service_key_management": "PROVIDER_MANAGED",
-      "provider_service_name": "NetBond",
+      "provider_service_name": "Netbond",
       "public_peering_bgp_management": "PROVIDER_MANAGED",
       "required_total_cross_connects": 1,
       "supported_virtual_circuit_types": [
@@ -826,12 +826,12 @@
     {
       "bandwith_shape_management": "CUSTOMER_MANAGED",
       "customer_asn_management": "CUSTOMER_MANAGED",
-      "description": "https:c3ntro.com",
-      "id": "ocid1.providerservice.oc1.phx.aaaaaaaaly42pwdcfm2c7l4vgiuj37a2e6ljkpuxzo7mc4hl4ronpffbvxva",
+      "description": "https://www.aryaka.com/services",
+      "id": "ocid1.providerservice.oc1.iad.aaaaaaaagnrdp62jc4ud24cots2lh3ngtsmttlulnm5nbjoja7oeeazri2bq",
       "private_peering_bgp_management": "CUSTOMER_MANAGED",
-      "provider_name": "C3ntro",
+      "provider_name": "Aryaka",
       "provider_service_key_management": "PROVIDER_MANAGED",
-      "provider_service_name": "Cloud Connectivity ",
+      "provider_service_name": "Cloud Connect",
       "public_peering_bgp_management": "ORACLE_MANAGED",
       "required_total_cross_connects": 1,
       "supported_virtual_circuit_types": [
@@ -843,18 +843,104 @@
         {
           "bandwidth_in_mbps": 1000,
           "name": "1 Gbps"
+        },
+        {
+          "bandwidth_in_mbps": 10000,
+          "name": "10 Gbps"
+        }
+      ]
+    },
+    {
+      "bandwith_shape_management": "CUSTOMER_MANAGED",
+      "customer_asn_management": "PROVIDER_MANAGED",
+      "description": "http://www.bt.com",
+      "id": "ocid1.providerservice.oc1.iad.aaaaaaaaaotx5azz3er275znu5dl6zhgmxypxfpwockq2m3fhhw6jbuhuorq",
+      "private_peering_bgp_management": "PROVIDER_MANAGED",
+      "provider_name": "BT",
+      "provider_service_key_management": "PROVIDER_MANAGED",
+      "provider_service_name": "Cloud Connect",
+      "public_peering_bgp_management": "ORACLE_MANAGED",
+      "required_total_cross_connects": 1,
+      "supported_virtual_circuit_types": [
+        "PRIVATE",
+        "PUBLIC"
+      ],
+      "type": "LAYER3",
+      "virtual_circuit_bandwidth_shape": [
+        {
+          "bandwidth_in_mbps": 1000,
+          "name": "1 Gbps"
+        },
+        {
+          "bandwidth_in_mbps": 10000,
+          "name": "10 Gbps"
+        },
+        {
+          "bandwidth_in_mbps": 3000,
+          "name": "3 Gbps"
+        },
+        {
+          "bandwidth_in_mbps": 4000,
+          "name": "4 Gbps"
+        },
+        {
+          "bandwidth_in_mbps": 5000,
+          "name": "5 Gbps"
+        },
+        {
+          "bandwidth_in_mbps": 10000,
+          "name": "10 Gbps"
+        },
+        {
+          "bandwidth_in_mbps": 20000,
+          "name": "20 Gbps"
+        },
+        {
+          "bandwidth_in_mbps": 30000,
+          "name": "30 Gbps"
+        },
+        {
+          "bandwidth_in_mbps": 40000,
+          "name": "40 Gbps"
         }
       ]
     },
     {
       "bandwith_shape_management": "CUSTOMER_MANAGED",
       "customer_asn_management": "CUSTOMER_MANAGED",
-      "description": "http://www.coresite.com\t",
-      "id": "ocid1.providerservice.oc1.phx.aaaaaaaahriodfhfpjpunyzpt75dbdjw7vzwae5qo7w6wgkgdn7abweq5zdq",
+      "description": "https:c3ntro.com",
+      "id": "ocid1.providerservice.oc1.iad.aaaaaaaarje4kkwvl25dyz2g6qhmkrfipuc2nw4wuptk2nofzh2gkizkvlda",
       "private_peering_bgp_management": "CUSTOMER_MANAGED",
-      "provider_name": "CoreSite",
+      "provider_name": "C3ntro",
       "provider_service_key_management": "PROVIDER_MANAGED",
-      "provider_service_name": "Open Cloud Exchange",
+      "provider_service_name": "Cloud Connectivity",
+      "public_peering_bgp_management": "ORACLE_MANAGED",
+      "required_total_cross_connects": 1,
+      "supported_virtual_circuit_types": [
+        "PRIVATE",
+        "PUBLIC"
+      ],
+      "type": "LAYER2",
+      "virtual_circuit_bandwidth_shape": [
+        {
+          "bandwidth_in_mbps": 1000,
+          "name": "1 Gbps"
+        },
+        {
+          "bandwidth_in_mbps": 10000,
+          "name": "10 Gbps"
+        }
+      ]
+    },
+    {
+      "bandwith_shape_management": "CUSTOMER_MANAGED",
+      "customer_asn_management": "CUSTOMER_MANAGED",
+      "description": "http://www.cologix.com/",
+      "id": "ocid1.providerservice.oc1.iad.aaaaaaaalezicghllvcdqr7eqsprqenwiub22zoeafqgdyso5bohinmwxddq",
+      "private_peering_bgp_management": "CUSTOMER_MANAGED",
+      "provider_name": "Cologix",
+      "provider_service_key_management": "PROVIDER_MANAGED",
+      "provider_service_name": "Cloud Exchange",
       "public_peering_bgp_management": "ORACLE_MANAGED",
       "required_total_cross_connects": 1,
       "supported_virtual_circuit_types": [
@@ -904,8 +990,51 @@
     {
       "bandwith_shape_management": "CUSTOMER_MANAGED",
       "customer_asn_management": "CUSTOMER_MANAGED",
+      "description": "http://www.coresite.com",
+      "id": "ocid1.providerservice.oc1.iad.aaaaaaaa2suqjwzqpiv5pfaengnrvwinflqmlozudkwok4fypbum3s6276yq",
+      "private_peering_bgp_management": "CUSTOMER_MANAGED",
+      "provider_name": "CoreSite",
+      "provider_service_key_management": "PROVIDER_MANAGED",
+      "provider_service_name": "Open Cloud Exchange",
+      "public_peering_bgp_management": "ORACLE_MANAGED",
+      "required_total_cross_connects": 1,
+      "supported_virtual_circuit_types": [
+        "PRIVATE",
+        "PUBLIC"
+      ],
+      "type": "LAYER2",
+      "virtual_circuit_bandwidth_shape": [
+        {
+          "bandwidth_in_mbps": 1000,
+          "name": "1 Gbps"
+        },
+        {
+          "bandwidth_in_mbps": 2000,
+          "name": "2 Gbps"
+        },
+        {
+          "bandwidth_in_mbps": 3000,
+          "name": "3 Gbps"
+        },
+        {
+          "bandwidth_in_mbps": 4000,
+          "name": "4 Gbps"
+        },
+        {
+          "bandwidth_in_mbps": 5000,
+          "name": "5 Gbps"
+        },
+        {
+          "bandwidth_in_mbps": 10000,
+          "name": "10 Gbps"
+        }
+      ]
+    },
+    {
+      "bandwith_shape_management": "CUSTOMER_MANAGED",
+      "customer_asn_management": "CUSTOMER_MANAGED",
       "description": "https://marketplaceportal.com/web/guest/login",
-      "id": "ocid1.providerservice.oc1.phx.aaaaaaaashhewqxvazysllofspiuang2osntf5x4qjua2u2v4brcsjpmnlya",
+      "id": "ocid1.providerservice.oc1.iad.aaaaaaaaxfalh4alpwekppgfslmefexhtx5a5wuia4ngdykpsx57ejya2mjq",
       "private_peering_bgp_management": "CUSTOMER_MANAGED",
       "provider_name": "Digital Realty",
       "provider_service_key_management": "PROVIDER_MANAGED",
@@ -925,6 +1054,22 @@
         {
           "bandwidth_in_mbps": 10000,
           "name": "10 Gbps"
+        },
+        {
+          "bandwidth_in_mbps": 3000,
+          "name": "3 Gbps"
+        },
+        {
+          "bandwidth_in_mbps": 4000,
+          "name": "4 Gbps"
+        },
+        {
+          "bandwidth_in_mbps": 5000,
+          "name": "5 Gbps"
+        },
+        {
+          "bandwidth_in_mbps": 10000,
+          "name": "10 Gbps"
         }
       ]
     },
@@ -932,7 +1077,7 @@
       "bandwith_shape_management": "CUSTOMER_MANAGED",
       "customer_asn_management": "CUSTOMER_MANAGED",
       "description": "https://www.edgeconnex.com/",
-      "id": "ocid1.providerservice.oc1.phx.aaaaaaaakaplcuq6oxfdcbeb2g2syfudupywyfelaajfbvoupz2ulljho3jq",
+      "id": "ocid1.providerservice.oc1.iad.aaaaaaaamnrt2c5hseqn7trfwhaogkosxtycblcjouanjqynxclxe23b6t4q",
       "private_peering_bgp_management": "CUSTOMER_MANAGED",
       "provider_name": "EdgeConneX",
       "provider_service_key_management": "PROVIDER_MANAGED",
@@ -958,8 +1103,55 @@
     {
       "bandwith_shape_management": "CUSTOMER_MANAGED",
       "customer_asn_management": "CUSTOMER_MANAGED",
+      "description": "https://www.infiny.cloud",
+      "id": "ocid1.providerservice.oc1.iad.aaaaaaaaxi66bphfnmpfohvnc7sfglcn7qcfv635hf3oa7s43yf6cuxkjtkq",
+      "private_peering_bgp_management": "CUSTOMER_MANAGED",
+      "provider_name": "Epsilon Telecommunications",
+      "provider_service_key_management": "PROVIDER_MANAGED",
+      "provider_service_name": "CloudLX",
+      "public_peering_bgp_management": "ORACLE_MANAGED",
+      "required_total_cross_connects": 1,
+      "supported_virtual_circuit_types": [
+        "PRIVATE",
+        "PUBLIC"
+      ],
+      "type": "LAYER2",
+      "virtual_circuit_bandwidth_shape": [
+        {
+          "bandwidth_in_mbps": 1000,
+          "name": "1 Gbps"
+        },
+        {
+          "bandwidth_in_mbps": 2000,
+          "name": "2 Gbps"
+        },
+        {
+          "bandwidth_in_mbps": 3000,
+          "name": "3 Gbps"
+        },
+        {
+          "bandwidth_in_mbps": 4000,
+          "name": "4 Gbps"
+        },
+        {
+          "bandwidth_in_mbps": 5000,
+          "name": "5 Gbps"
+        },
+        {
+          "bandwidth_in_mbps": 6000,
+          "name": "6 Gbps"
+        },
+        {
+          "bandwidth_in_mbps": 10000,
+          "name": "10 Gbps"
+        }
+      ]
+    },
+    {
+      "bandwith_shape_management": "CUSTOMER_MANAGED",
+      "customer_asn_management": "CUSTOMER_MANAGED",
       "description": "http://www.equinix.com/services/interconnection-connectivity/cloud-exchange/",
-      "id": "ocid1.providerservice.oc1.phx.aaaaaaaavaux3ugttlfiwv3mctfikgt4ofm4r7eyvly3a2usvrec34aamv7q",
+      "id": "ocid1.providerservice.oc1.iad.aaaaaaaa7q44ewum6c2h4njpke26texdlppyrbhd4preu4jkzv6xvvef3tcq",
       "private_peering_bgp_management": "CUSTOMER_MANAGED",
       "provider_name": "Equinix",
       "provider_service_key_management": "PROVIDER_MANAGED",
@@ -1001,8 +1193,35 @@
     {
       "bandwith_shape_management": "CUSTOMER_MANAGED",
       "customer_asn_management": "CUSTOMER_MANAGED",
+      "description": "oracle@intercloud.com",
+      "id": "ocid1.providerservice.oc1.iad.aaaaaaaaye7doa4xrn2fvpv2lt5pvrta2nun3u47nawykjjevsti2dz2uu4a",
+      "private_peering_bgp_management": "CUSTOMER_MANAGED",
+      "provider_name": "InterCloud",
+      "provider_service_key_management": "PROVIDER_MANAGED",
+      "provider_service_name": null,
+      "public_peering_bgp_management": "ORACLE_MANAGED",
+      "required_total_cross_connects": 1,
+      "supported_virtual_circuit_types": [
+        "PRIVATE",
+        "PUBLIC"
+      ],
+      "type": "LAYER2",
+      "virtual_circuit_bandwidth_shape": [
+        {
+          "bandwidth_in_mbps": 1000,
+          "name": "1 Gbps"
+        },
+        {
+          "bandwidth_in_mbps": 10000,
+          "name": "10 Gbps"
+        }
+      ]
+    },
+    {
+      "bandwith_shape_management": "CUSTOMER_MANAGED",
+      "customer_asn_management": "CUSTOMER_MANAGED",
       "description": "https://www.centurylink.com/business/hybrid-it-cloud/cloud-connect.html",
-      "id": "ocid1.providerservice.oc1.phx.aaaaaaaa5dbfeyv4ndgbbd7j26a7yjzttgyxrh37jvrmmei6w7rikubd7lkq",
+      "id": "ocid1.providerservice.oc1.iad.aaaaaaaah22ybeiddfa6koo7u2mfpqaacfrgsstf57avwwnih6qqe4bewzba",
       "private_peering_bgp_management": "CUSTOMER_MANAGED",
       "provider_name": "Lumen",
       "provider_service_key_management": "PROVIDER_MANAGED",
@@ -1013,6 +1232,34 @@
         "PRIVATE",
         "PUBLIC"
       ],
+      "type": "LAYER2",
+      "virtual_circuit_bandwidth_shape": [
+        {
+          "bandwidth_in_mbps": 1000,
+          "name": "1 Gbps"
+        },
+        {
+          "bandwidth_in_mbps": 2000,
+          "name": "2 Gbps"
+        },
+        {
+          "bandwidth_in_mbps": 3000,
+          "name": "3 Gbps"
+        }
+      ]
+    },
+    {
+      "bandwith_shape_management": "CUSTOMER_MANAGED",
+      "customer_asn_management": "CUSTOMER_MANAGED",
+      "description": "https://megaport.al/",
+      "id": "ocid1.providerservice.oc1.iad.aaaaaaaa4rgqwggwkobz2jmenexhmvvg5knpts4n73v4rm4ohqpncam24efa",
+      "private_peering_bgp_management": "CUSTOMER_MANAGED",
+      "provider_name": "Megaport",
+      "provider_service_key_management": "PROVIDER_MANAGED",
+      "provider_service_name": "Service",
+      "public_peering_bgp_management": "ORACLE_MANAGED",
+      "required_total_cross_connects": 1,
+      "supported_virtual_circuit_types": null,
       "type": "LAYER2",
       "virtual_circuit_bandwidth_shape": [
         {
@@ -1043,16 +1290,53 @@
     },
     {
       "bandwith_shape_management": "CUSTOMER_MANAGED",
-      "customer_asn_management": "CUSTOMER_MANAGED",
-      "description": "https://megaport.al/",
-      "id": "ocid1.providerservice.oc1.phx.aaaaaaaamj33a2ebotdg5jzwjmlrp7ufslcgl2r4skusfse4ijlgzqonvy3a",
+      "customer_asn_management": "ORACLE_MANAGED",
+      "description": "https://portal.azure.com",
+      "id": "ocid1.providerservice.oc1.iad.aaaaaaaamdyta753fb6tshj3p2g5zezjwfoki5l46jcaaikxt3hszboiag4q",
       "private_peering_bgp_management": "CUSTOMER_MANAGED",
-      "provider_name": "Megaport",
+      "provider_name": "Microsoft Azure",
+      "provider_service_key_management": "CUSTOMER_MANAGED",
+      "provider_service_name": "ExpressRoute",
+      "public_peering_bgp_management": "ORACLE_MANAGED",
+      "required_total_cross_connects": 2,
+      "supported_virtual_circuit_types": [
+        "PRIVATE"
+      ],
+      "type": "LAYER3",
+      "virtual_circuit_bandwidth_shape": [
+        {
+          "bandwidth_in_mbps": 1000,
+          "name": "1 Gbps"
+        },
+        {
+          "bandwidth_in_mbps": 2000,
+          "name": "2 Gbps"
+        },
+        {
+          "bandwidth_in_mbps": 5000,
+          "name": "5 Gbps"
+        },
+        {
+          "bandwidth_in_mbps": 10000,
+          "name": "10 Gbps"
+        }
+      ]
+    },
+    {
+      "bandwith_shape_management": "CUSTOMER_MANAGED",
+      "customer_asn_management": "CUSTOMER_MANAGED",
+      "description": "https://www.neutrona.com",
+      "id": "ocid1.providerservice.oc1.iad.aaaaaaaapoyuhojk2whbf3d5ae65oehwla75u7osukmrmujsbrah2n7m6p5q",
+      "private_peering_bgp_management": "CUSTOMER_MANAGED",
+      "provider_name": "Neutrona Networks",
       "provider_service_key_management": "PROVIDER_MANAGED",
-      "provider_service_name": "Service",
+      "provider_service_name": null,
       "public_peering_bgp_management": "ORACLE_MANAGED",
       "required_total_cross_connects": 1,
-      "supported_virtual_circuit_types": null,
+      "supported_virtual_circuit_types": [
+        "PRIVATE",
+        "PUBLIC"
+      ],
       "type": "LAYER2",
       "virtual_circuit_bandwidth_shape": [
         {
@@ -1068,8 +1352,8 @@
     {
       "bandwith_shape_management": "CUSTOMER_MANAGED",
       "customer_asn_management": "PROVIDER_MANAGED",
-      "description": "https://cloudmarketplace.oracle.com/marketplace/listing/6808950",
-      "id": "ocid1.providerservice.oc1.phx.aaaaaaaa4sy3byqh5dpaqhow3deqy5eq5oo2255rjo26hvlf5mnayzktr5aq",
+      "description": "https://cloudmarketplace.oracle.com/marketplace/listing/6808950\t",
+      "id": "ocid1.providerservice.oc1.iad.aaaaaaaaz6t4mb7umxyqbo7wllmsdf4r2xg3sm2lny4edixtg2igzyigba5a",
       "private_peering_bgp_management": "PROVIDER_MANAGED",
       "provider_name": "OMCS",
       "provider_service_key_management": "PROVIDER_MANAGED",
@@ -1094,9 +1378,102 @@
     },
     {
       "bandwith_shape_management": "CUSTOMER_MANAGED",
+      "customer_asn_management": "PROVIDER_MANAGED",
+      "description": "https://www.orange-business.com/en/products/business-vpn-galerie",
+      "id": "ocid1.providerservice.oc1.iad.aaaaaaaafq6qrujw3cw5qkmnsvm2mno5deb3aqcst2kefq7ltxtz5zlp4tsa",
+      "private_peering_bgp_management": "PROVIDER_MANAGED",
+      "provider_name": "Orange Business Systems",
+      "provider_service_key_management": "PROVIDER_MANAGED",
+      "provider_service_name": "Galerie",
+      "public_peering_bgp_management": "ORACLE_MANAGED",
+      "required_total_cross_connects": 1,
+      "supported_virtual_circuit_types": [
+        "PRIVATE",
+        "PUBLIC"
+      ],
+      "type": "LAYER3",
+      "virtual_circuit_bandwidth_shape": [
+        {
+          "bandwidth_in_mbps": 1000,
+          "name": "1 Gbps"
+        },
+        {
+          "bandwidth_in_mbps": 2000,
+          "name": "2 Gbps"
+        },
+        {
+          "bandwidth_in_mbps": 3000,
+          "name": "3 Gbps"
+        },
+        {
+          "bandwidth_in_mbps": 4000,
+          "name": "4 Gbps"
+        },
+        {
+          "bandwidth_in_mbps": 5000,
+          "name": "5 Gbps"
+        },
+        {
+          "bandwidth_in_mbps": 10000,
+          "name": "10 Gbps"
+        },
+        {
+          "bandwidth_in_mbps": 20000,
+          "name": "20 Gbps"
+        },
+        {
+          "bandwidth_in_mbps": 30000,
+          "name": "30 Gbps"
+        },
+        {
+          "bandwidth_in_mbps": 40000,
+          "name": "40 Gbps"
+        }
+      ]
+    },
+    {
+      "bandwith_shape_management": "CUSTOMER_MANAGED",
+      "customer_asn_management": "CUSTOMER_MANAGED",
+      "description": "https://www.pitchile.cl",
+      "id": "ocid1.providerservice.oc1.iad.aaaaaaaaibrhtgf76xdabilznltr6r67lngj7q3oszgv2fq6vgsd3hpiex7q",
+      "private_peering_bgp_management": "CUSTOMER_MANAGED",
+      "provider_name": "PIT US",
+      "provider_service_key_management": "PROVIDER_MANAGED",
+      "provider_service_name": null,
+      "public_peering_bgp_management": "ORACLE_MANAGED",
+      "required_total_cross_connects": 1,
+      "supported_virtual_circuit_types": [
+        "PRIVATE"
+      ],
+      "type": "LAYER2",
+      "virtual_circuit_bandwidth_shape": [
+        {
+          "bandwidth_in_mbps": 1000,
+          "name": "1 Gbps"
+        },
+        {
+          "bandwidth_in_mbps": 2000,
+          "name": "2 Gbps"
+        },
+        {
+          "bandwidth_in_mbps": 3000,
+          "name": "3 Gbps"
+        },
+        {
+          "bandwidth_in_mbps": 5000,
+          "name": "5 Gbps"
+        },
+        {
+          "bandwidth_in_mbps": 10000,
+          "name": "10 Gbps"
+        }
+      ]
+    },
+    {
+      "bandwith_shape_management": "CUSTOMER_MANAGED",
       "customer_asn_management": "CUSTOMER_MANAGED",
       "description": "https://www.packetfabric.com/packetcor",
-      "id": "ocid1.providerservice.oc1.phx.aaaaaaaawwxrzsc7d3d633xcd3n6al3jwiukjxi7aghikbdj4eygztgf5oza",
+      "id": "ocid1.providerservice.oc1.iad.aaaaaaaa27euxgxsa4bkafym52wduzjgza4gndffstorlzyapjtyyiass35q",
       "private_peering_bgp_management": "CUSTOMER_MANAGED",
       "provider_name": "PacketFabric",
       "provider_service_key_management": "PROVIDER_MANAGED",
@@ -1114,6 +1491,14 @@
           "name": "1 Gbps"
         },
         {
+          "bandwidth_in_mbps": 2000,
+          "name": "2 Gbps"
+        },
+        {
+          "bandwidth_in_mbps": 5000,
+          "name": "5 Gbps"
+        },
+        {
           "bandwidth_in_mbps": 10000,
           "name": "10 Gbps"
         }
@@ -1123,14 +1508,17 @@
       "bandwith_shape_management": "CUSTOMER_MANAGED",
       "customer_asn_management": "CUSTOMER_MANAGED",
       "description": "https://qtsdatacenters.com",
-      "id": "ocid1.providerservice.oc1.phx.aaaaaaaarzjvobr2cyhz2h4eujhlpyoltjo4zlfu74fre46kggiwkabuyxjq",
+      "id": "ocid1.providerservice.oc1.iad.aaaaaaaahixyiths7n55uzbwj3onhemrne7nffdararvplxul3atnwrdqwdq",
       "private_peering_bgp_management": "CUSTOMER_MANAGED",
-      "provider_name": "QTS",
+      "provider_name": "QTS ",
       "provider_service_key_management": "PROVIDER_MANAGED",
       "provider_service_name": "Cloud Connect",
       "public_peering_bgp_management": "ORACLE_MANAGED",
       "required_total_cross_connects": 1,
-      "supported_virtual_circuit_types": null,
+      "supported_virtual_circuit_types": [
+        "PRIVATE",
+        "PUBLIC"
+      ],
       "type": "LAYER2",
       "virtual_circuit_bandwidth_shape": [
         {
@@ -1143,7 +1531,7 @@
       "bandwith_shape_management": "CUSTOMER_MANAGED",
       "customer_asn_management": "PROVIDER_MANAGED",
       "description": "Verizon",
-      "id": "ocid1.providerservice.oc1.phx.aaaaaaaa7qf6aygb5iuis7oadx4ij4vmn2nisneaqkbvcvjty547tihxiama",
+      "id": "ocid1.providerservice.oc1.iad.aaaaaaaavmg5tuzkpjsxkrkulfamtbdt5y4wclh3w7igaebhiarc2fom6k6q",
       "private_peering_bgp_management": "PROVIDER_MANAGED",
       "provider_name": "Verizon",
       "provider_service_key_management": "PROVIDER_MANAGED",
@@ -1151,8 +1539,7 @@
       "public_peering_bgp_management": "ORACLE_MANAGED",
       "required_total_cross_connects": 2,
       "supported_virtual_circuit_types": [
-        "PRIVATE",
-        "PUBLIC"
+        "PRIVATE"
       ],
       "type": "LAYER3",
       "virtual_circuit_bandwidth_shape": [
@@ -1161,16 +1548,67 @@
           "name": "1 Gbps"
         },
         {
+          "bandwidth_in_mbps": 2000,
+          "name": "2 Gbps"
+        },
+        {
+          "bandwidth_in_mbps": 3000,
+          "name": "3 Gbps"
+        },
+        {
+          "bandwidth_in_mbps": 4000,
+          "name": "4 Gbps"
+        },
+        {
+          "bandwidth_in_mbps": 5000,
+          "name": "5 Gbps"
+        },
+        {
           "bandwidth_in_mbps": 10000,
           "name": "10 Gbps"
+        },
+        {
+          "bandwidth_in_mbps": 20000,
+          "name": "20 Gbps"
+        },
+        {
+          "bandwidth_in_mbps": 30000,
+          "name": "30 Gbps"
+        },
+        {
+          "bandwidth_in_mbps": 40000,
+          "name": "40 Gbps"
         }
       ]
     },
     {
       "bandwith_shape_management": "CUSTOMER_MANAGED",
       "customer_asn_management": "CUSTOMER_MANAGED",
-      "description": "https://www.zayo.com/services/cloud-connectivity/\t",
-      "id": "ocid1.providerservice.oc1.phx.aaaaaaaaiscawhoymnpkudonpna3ohvh5bcu4e7bllxymfgtuavc4wwwliea",
+      "description": "http://windstream.",
+      "id": "ocid1.providerservice.oc1.iad.aaaaaaaa2ty2prjm76yfq5rgjmayhmtbbdvz73jgrq7igu7nk6v2gmybhnzq",
+      "private_peering_bgp_management": "CUSTOMER_MANAGED",
+      "provider_name": "WindStream",
+      "provider_service_key_management": "PROVIDER_MANAGED",
+      "provider_service_name": "Cloud Connect",
+      "public_peering_bgp_management": "ORACLE_MANAGED",
+      "required_total_cross_connects": 1,
+      "supported_virtual_circuit_types": [
+        "PRIVATE",
+        "PUBLIC"
+      ],
+      "type": "LAYER2",
+      "virtual_circuit_bandwidth_shape": [
+        {
+          "bandwidth_in_mbps": 1000,
+          "name": "1 Gbps"
+        }
+      ]
+    },
+    {
+      "bandwith_shape_management": "CUSTOMER_MANAGED",
+      "customer_asn_management": "CUSTOMER_MANAGED",
+      "description": "https://www.zayo.com/services/cloud-connectivity/",
+      "id": "ocid1.providerservice.oc1.iad.aaaaaaaaxgbf33iqvsm56e3sipm24kvekbvzwi3y2nyel5suxoot3rhva3ca",
       "private_peering_bgp_management": "CUSTOMER_MANAGED",
       "provider_name": "Zayo",
       "provider_service_key_management": "PROVIDER_MANAGED",
@@ -1217,9 +1655,9 @@
       "compartment_id": null,
       "create_image_allowed": true,
       "defined_tags": {},
-      "display_name": "Canonical-Ubuntu-16.04-Gen2-GPU-2021.01.26-0",
+      "display_name": "Canonical-Ubuntu-16.04-Gen2-GPU-2021.02.16-0",
       "freeform_tags": {},
-      "id": "ocid1.image.oc1.phx.aaaaaaaamnjllb6qtmqo25knnwqhdgu2powizexveh3w5dp5lyifvftihl7q",
+      "id": "ocid1.image.oc1.iad.aaaaaaaa2iutz4sx3xg2z7sdwfvaedprri2tm2zv6lvrn35ujx4olcgooocq",
       "launch_mode": "NATIVE",
       "launch_options": {
         "boot_volume_type": "PARAVIRTUALIZED",
@@ -1243,7 +1681,41 @@
       ],
       "size_in_mbs": 47694,
       "sort_key": "Canonical Ubuntu 16.04",
-      "time_created": "2021-01-30T00:09:03.242000+00:00"
+      "time_created": "2021-02-18T21:23:49.489000+00:00"
+    },
+    {
+      "agent_features": null,
+      "base_image_id": null,
+      "compartment_id": null,
+      "create_image_allowed": true,
+      "defined_tags": {},
+      "display_name": "Canonical-Ubuntu-16.04-Gen2-GPU-2021.01.26-0",
+      "freeform_tags": {},
+      "id": "ocid1.image.oc1.iad.aaaaaaaagxggfosxttirctdnlr3p2k5d2taxdrkun6yrstldyl56qavjcgta",
+      "launch_mode": "NATIVE",
+      "launch_options": {
+        "boot_volume_type": "PARAVIRTUALIZED",
+        "firmware": "UEFI_64",
+        "is_consistent_volume_naming_enabled": true,
+        "is_pv_encryption_in_transit_enabled": true,
+        "network_type": "PARAVIRTUALIZED",
+        "remote_data_volume_type": "PARAVIRTUALIZED"
+      },
+      "lifecycle_state": "AVAILABLE",
+      "operating_system": "Canonical Ubuntu",
+      "operating_system_version": "16.04",
+      "shapes": [
+        "VM.GPU2.1",
+        "VM.GPU3.1",
+        "VM.GPU3.2",
+        "VM.GPU3.4",
+        "BM.GPU4.8",
+        "BM.GPU2.2",
+        "BM.GPU3.8"
+      ],
+      "size_in_mbs": 47694,
+      "sort_key": "Canonical Ubuntu 16.04",
+      "time_created": "2021-01-30T00:02:06.118000+00:00"
     },
     {
       "agent_features": null,
@@ -1253,7 +1725,7 @@
       "defined_tags": {},
       "display_name": "Canonical-Ubuntu-16.04-Gen2-GPU-2020.12.18-0",
       "freeform_tags": {},
-      "id": "ocid1.image.oc1.phx.aaaaaaaa2c3z67cmubak7yrc7ldpc7jzxpmkktc4xley47fhltfdcz3rbfuq",
+      "id": "ocid1.image.oc1.iad.aaaaaaaa2g6pri4x3uzlp4erwkgforxdpv3ixzly3fi7uswtjoplvielwhbq",
       "launch_mode": "NATIVE",
       "launch_options": {
         "boot_volume_type": "PARAVIRTUALIZED",
@@ -1277,7 +1749,7 @@
       ],
       "size_in_mbs": 47694,
       "sort_key": "Canonical Ubuntu 16.04",
-      "time_created": "2020-12-21T22:57:51.512000+00:00"
+      "time_created": "2020-12-21T22:56:11.210000+00:00"
     },
     {
       "agent_features": null,
@@ -1285,9 +1757,9 @@
       "compartment_id": null,
       "create_image_allowed": true,
       "defined_tags": {},
-      "display_name": "Canonical-Ubuntu-16.04-Gen2-GPU-2020.11.11-0",
+      "display_name": "Canonical-Ubuntu-16.04-2021.02.12-0",
       "freeform_tags": {},
-      "id": "ocid1.image.oc1.phx.aaaaaaaafcrmztapfopqkgt6m5k43jk43ewnwv4xkstma4cijt4br3xbs6qa",
+      "id": "ocid1.image.oc1.iad.aaaaaaaagb5qskvcu3l3hlpzhtve3brereaffud2ps2m7xcffk3zeuqjvpqa",
       "launch_mode": "NATIVE",
       "launch_options": {
         "boot_volume_type": "PARAVIRTUALIZED",
@@ -1301,17 +1773,55 @@
       "operating_system": "Canonical Ubuntu",
       "operating_system_version": "16.04",
       "shapes": [
+        "VM.DenseIO1.16",
+        "VM.DenseIO1.4",
+        "VM.DenseIO1.8",
+        "VM.DenseIO2.16",
+        "VM.DenseIO2.24",
+        "VM.DenseIO2.8",
         "VM.GPU2.1",
         "VM.GPU3.1",
         "VM.GPU3.2",
         "VM.GPU3.4",
+        "VM.Standard.B1.1",
+        "VM.Standard.B1.16",
+        "VM.Standard.B1.2",
+        "VM.Standard.B1.4",
+        "VM.Standard.B1.8",
+        "VM.Standard.E2.1",
+        "VM.Standard.E2.1.Micro",
+        "VM.Standard.E2.2",
+        "VM.Standard.E2.4",
+        "VM.Standard.E2.8",
+        "VM.Standard.E3.Flex",
+        "VM.Standard1.1",
+        "VM.Standard1.16",
+        "VM.Standard1.2",
+        "VM.Standard1.4",
+        "VM.Standard1.8",
+        "VM.Standard2.1",
+        "VM.Standard2.16",
+        "VM.Standard2.2",
+        "VM.Standard2.24",
+        "VM.Standard2.4",
+        "VM.Standard2.8",
+        "BM.Standard.E2.64",
+        "BM.Standard.E3.128",
         "BM.GPU4.8",
+        "BM.Standard1.36",
+        "BM.HighIO1.36",
+        "BM.DenseIO1.36",
+        "x5-2.36.512.nvme-6.4-Internal",
+        "BM.Standard.B1.44",
         "BM.GPU2.2",
-        "BM.GPU3.8"
+        "BM.HPC2.36",
+        "BM.Standard2.52",
+        "BM.GPU3.8",
+        "BM.DenseIO2.52"
       ],
       "size_in_mbs": 47694,
       "sort_key": "Canonical Ubuntu 16.04",
-      "time_created": "2020-11-12T22:51:30.301000+00:00"
+      "time_created": "2021-02-18T21:29:09.054000+00:00"
     },
     {
       "agent_features": null,
@@ -1321,7 +1831,7 @@
       "defined_tags": {},
       "display_name": "Canonical-Ubuntu-16.04-2021.01.25-0",
       "freeform_tags": {},
-      "id": "ocid1.image.oc1.phx.aaaaaaaahuntkbemfd76qqabj3onaaae37k7hmmuskimrzcvcfsmarz6jznq",
+      "id": "ocid1.image.oc1.iad.aaaaaaaac4aavja7p2n2nqzaq3wbmlr5ku7es4kx5pxktnwvlgrnyrs7d4jq",
       "launch_mode": "NATIVE",
       "launch_options": {
         "boot_volume_type": "PARAVIRTUALIZED",
@@ -1383,7 +1893,7 @@
       ],
       "size_in_mbs": 47694,
       "sort_key": "Canonical Ubuntu 16.04",
-      "time_created": "2021-01-30T00:09:50.061000+00:00"
+      "time_created": "2021-01-29T23:57:27.819000+00:00"
     },
     {
       "agent_features": null,
@@ -1393,7 +1903,7 @@
       "defined_tags": {},
       "display_name": "Canonical-Ubuntu-16.04-2020.12.10-0",
       "freeform_tags": {},
-      "id": "ocid1.image.oc1.phx.aaaaaaaazhtdb3yagmwupbct5vw3mmy55oawkvnq63ict2k5tuzu4iohz3hq",
+      "id": "ocid1.image.oc1.iad.aaaaaaaazc7yyfhwbfvobsesdjpxpnqsaozgyr2kovt2v74ydhu223wm3g2a",
       "launch_mode": "NATIVE",
       "launch_options": {
         "boot_volume_type": "PARAVIRTUALIZED",
@@ -1455,7 +1965,7 @@
       ],
       "size_in_mbs": 47694,
       "sort_key": "Canonical Ubuntu 16.04",
-      "time_created": "2020-12-21T22:59:08.405000+00:00"
+      "time_created": "2020-12-21T22:57:06.826000+00:00"
     },
     {
       "agent_features": null,
@@ -1463,9 +1973,9 @@
       "compartment_id": null,
       "create_image_allowed": true,
       "defined_tags": {},
-      "display_name": "Canonical-Ubuntu-16.04-2020.11.11-0",
+      "display_name": "Canonical-Ubuntu-16.04-Minimal-2021.02.12-0",
       "freeform_tags": {},
-      "id": "ocid1.image.oc1.phx.aaaaaaaat4zzrzukpf3fz7mgmcnedw4anzuzncpxowtmzntzowwvctrz7yya",
+      "id": "ocid1.image.oc1.iad.aaaaaaaa2r73ooqpdintpxzqbiwdmozxm4tswzcun53tmtfifugrypfg2x3q",
       "launch_mode": "NATIVE",
       "launch_options": {
         "boot_volume_type": "PARAVIRTUALIZED",
@@ -1477,7 +1987,7 @@
       },
       "lifecycle_state": "AVAILABLE",
       "operating_system": "Canonical Ubuntu",
-      "operating_system_version": "16.04",
+      "operating_system_version": "16.04 Minimal",
       "shapes": [
         "VM.DenseIO1.16",
         "VM.DenseIO1.4",
@@ -1526,8 +2036,8 @@
         "BM.DenseIO2.52"
       ],
       "size_in_mbs": 47694,
-      "sort_key": "Canonical Ubuntu 16.04",
-      "time_created": "2020-11-12T22:52:57.435000+00:00"
+      "sort_key": "Canonical Ubuntu 16.04 Minimal",
+      "time_created": "2021-02-18T21:21:27.350000+00:00"
     },
     {
       "agent_features": null,
@@ -1537,7 +2047,7 @@
       "defined_tags": {},
       "display_name": "Canonical-Ubuntu-16.04-Minimal-2021.01.19-0",
       "freeform_tags": {},
-      "id": "ocid1.image.oc1.phx.aaaaaaaaev2og2iedtda77mjqiklsnfhapwg4scbhfvdsk2n7xivynmoeipq",
+      "id": "ocid1.image.oc1.iad.aaaaaaaa5qjekkso4vb62srajuhlbzx4vwyadwuvfpxqns7uhiqex4dy5opq",
       "launch_mode": "NATIVE",
       "launch_options": {
         "boot_volume_type": "PARAVIRTUALIZED",
@@ -1599,7 +2109,7 @@
       ],
       "size_in_mbs": 47694,
       "sort_key": "Canonical Ubuntu 16.04 Minimal",
-      "time_created": "2021-02-01T11:07:34.997000+00:00"
+      "time_created": "2021-02-01T11:11:05.636000+00:00"
     },
     {
       "agent_features": null,
@@ -1609,7 +2119,7 @@
       "defined_tags": {},
       "display_name": "Canonical-Ubuntu-16.04-Minimal-2020.12.10-0",
       "freeform_tags": {},
-      "id": "ocid1.image.oc1.phx.aaaaaaaaykrf64h27ngrmtwyfnh27st2xomav3l3kgvvaeimk72qurcmzjua",
+      "id": "ocid1.image.oc1.iad.aaaaaaaa62mu2wpakbexmfvymxg6d5kufpuycwfei5qeldvfv5ztt7ehdkvq",
       "launch_mode": "NATIVE",
       "launch_options": {
         "boot_volume_type": "PARAVIRTUALIZED",
@@ -1671,7 +2181,7 @@
       ],
       "size_in_mbs": 47694,
       "sort_key": "Canonical Ubuntu 16.04 Minimal",
-      "time_created": "2020-12-21T22:58:09.885000+00:00"
+      "time_created": "2020-12-21T22:59:48.448000+00:00"
     },
     {
       "agent_features": null,
@@ -1679,9 +2189,9 @@
       "compartment_id": null,
       "create_image_allowed": true,
       "defined_tags": {},
-      "display_name": "Canonical-Ubuntu-16.04-Minimal-2020.11.11-0",
+      "display_name": "Canonical-Ubuntu-18.04-2021.02.18-0",
       "freeform_tags": {},
-      "id": "ocid1.image.oc1.phx.aaaaaaaajhnpchjjxobvjyatmwhpdwcpwbogusx4q4lrjbfwu4uczvelcqwq",
+      "id": "ocid1.image.oc1.iad.aaaaaaaahbhxtlyngbqrclsmwtqiacnpmbto24zkhcp2eejd22ksfkq4274a",
       "launch_mode": "NATIVE",
       "launch_options": {
         "boot_volume_type": "PARAVIRTUALIZED",
@@ -1693,7 +2203,7 @@
       },
       "lifecycle_state": "AVAILABLE",
       "operating_system": "Canonical Ubuntu",
-      "operating_system_version": "16.04 Minimal",
+      "operating_system_version": "18.04",
       "shapes": [
         "VM.DenseIO1.16",
         "VM.DenseIO1.4",
@@ -1716,6 +2226,7 @@
         "VM.Standard.E2.4",
         "VM.Standard.E2.8",
         "VM.Standard.E3.Flex",
+        "VM.Standard.E4.Flex",
         "VM.Standard1.1",
         "VM.Standard1.16",
         "VM.Standard1.2",
@@ -1730,6 +2241,7 @@
         "BM.Standard.E2.64",
         "BM.Standard.E3.128",
         "BM.GPU4.8",
+        "BM.Standard.E4.128",
         "BM.Standard1.36",
         "BM.HighIO1.36",
         "BM.DenseIO1.36",
@@ -1742,8 +2254,8 @@
         "BM.DenseIO2.52"
       ],
       "size_in_mbs": 47694,
-      "sort_key": "Canonical Ubuntu 16.04 Minimal",
-      "time_created": "2020-11-12T22:53:50.216000+00:00"
+      "sort_key": "Canonical Ubuntu 18.04",
+      "time_created": "2021-02-18T21:24:01.033000+00:00"
     },
     {
       "agent_features": null,
@@ -1753,7 +2265,7 @@
       "defined_tags": {},
       "display_name": "Canonical-Ubuntu-18.04-2021.01.25-0",
       "freeform_tags": {},
-      "id": "ocid1.image.oc1.phx.aaaaaaaa3wktpwwvpwlf25nlssxbqxaa3k3gao2j2lph7nfft434pppvmvlq",
+      "id": "ocid1.image.oc1.iad.aaaaaaaaltidlv22e4bfrzkzknejzioldhxpcd4ivopd2aghjalcj3kcwu6a",
       "launch_mode": "NATIVE",
       "launch_options": {
         "boot_volume_type": "PARAVIRTUALIZED",
@@ -1815,7 +2327,7 @@
       ],
       "size_in_mbs": 47694,
       "sort_key": "Canonical Ubuntu 18.04",
-      "time_created": "2021-02-01T07:30:36.017000+00:00"
+      "time_created": "2021-02-01T07:34:40.031000+00:00"
     },
     {
       "agent_features": null,
@@ -1825,7 +2337,7 @@
       "defined_tags": {},
       "display_name": "Canonical-Ubuntu-18.04-2020.12.11-0",
       "freeform_tags": {},
-      "id": "ocid1.image.oc1.phx.aaaaaaaaiz72kdaznhk3kynsw4faync6z3ibd3en6vchupnb4vonfsnvizwq",
+      "id": "ocid1.image.oc1.iad.aaaaaaaacliktmviofdyzhua77nyur2htmrzwjaxollbfae52q6zfuvkcjdq",
       "launch_mode": "NATIVE",
       "launch_options": {
         "boot_volume_type": "PARAVIRTUALIZED",
@@ -1887,7 +2399,7 @@
       ],
       "size_in_mbs": 47694,
       "sort_key": "Canonical Ubuntu 18.04",
-      "time_created": "2020-12-21T22:57:10.751000+00:00"
+      "time_created": "2020-12-21T22:59:55.647000+00:00"
     },
     {
       "agent_features": null,
@@ -1895,9 +2407,9 @@
       "compartment_id": null,
       "create_image_allowed": true,
       "defined_tags": {},
-      "display_name": "Canonical-Ubuntu-18.04-2020.11.11-0",
+      "display_name": "Canonical-Ubuntu-18.04-Minimal-2021.02.16-0",
       "freeform_tags": {},
-      "id": "ocid1.image.oc1.phx.aaaaaaaar27kl5u4baitst3l4hooikmi7qyayt5hpnsy4vskjimex6bmxfoa",
+      "id": "ocid1.image.oc1.iad.aaaaaaaabu65w2vsd26kt5jdd7oglpmukmvk3d4l4xhkgqjusfhuspohovja",
       "launch_mode": "NATIVE",
       "launch_options": {
         "boot_volume_type": "PARAVIRTUALIZED",
@@ -1909,7 +2421,7 @@
       },
       "lifecycle_state": "AVAILABLE",
       "operating_system": "Canonical Ubuntu",
-      "operating_system_version": "18.04",
+      "operating_system_version": "18.04 Minimal",
       "shapes": [
         "VM.DenseIO1.16",
         "VM.DenseIO1.4",
@@ -1932,6 +2444,7 @@
         "VM.Standard.E2.4",
         "VM.Standard.E2.8",
         "VM.Standard.E3.Flex",
+        "VM.Standard.E4.Flex",
         "VM.Standard1.1",
         "VM.Standard1.16",
         "VM.Standard1.2",
@@ -1946,6 +2459,7 @@
         "BM.Standard.E2.64",
         "BM.Standard.E3.128",
         "BM.GPU4.8",
+        "BM.Standard.E4.128",
         "BM.Standard1.36",
         "BM.HighIO1.36",
         "BM.DenseIO1.36",
@@ -1958,8 +2472,8 @@
         "BM.DenseIO2.52"
       ],
       "size_in_mbs": 47694,
-      "sort_key": "Canonical Ubuntu 18.04",
-      "time_created": "2020-11-12T22:51:22.539000+00:00"
+      "sort_key": "Canonical Ubuntu 18.04 Minimal",
+      "time_created": "2021-02-18T21:23:58.411000+00:00"
     },
     {
       "agent_features": null,
@@ -1969,7 +2483,7 @@
       "defined_tags": {},
       "display_name": "Canonical-Ubuntu-18.04-Minimal-2021.01.26-0",
       "freeform_tags": {},
-      "id": "ocid1.image.oc1.phx.aaaaaaaay5azy4q7hzolsgfkuor3vv3popf33vpism7pzxdhlik7lzsvsq3a",
+      "id": "ocid1.image.oc1.iad.aaaaaaaazt2jnqpvygiq3ynnqmtxs2bg3vbissbpse5rj5axc7peqzlcs4yq",
       "launch_mode": "NATIVE",
       "launch_options": {
         "boot_volume_type": "PARAVIRTUALIZED",
@@ -2031,7 +2545,7 @@
       ],
       "size_in_mbs": 47694,
       "sort_key": "Canonical Ubuntu 18.04 Minimal",
-      "time_created": "2021-02-01T07:33:22.506000+00:00"
+      "time_created": "2021-02-01T07:34:42.815000+00:00"
     },
     {
       "agent_features": null,
@@ -2041,7 +2555,7 @@
       "defined_tags": {},
       "display_name": "Canonical-Ubuntu-18.04-Minimal-2020.12.16-0",
       "freeform_tags": {},
-      "id": "ocid1.image.oc1.phx.aaaaaaaanbjs6qikogaon4qgr7hllbpef6hufi3vatawwvhyzyhtmoeixj5q",
+      "id": "ocid1.image.oc1.iad.aaaaaaaa6hqu5tzjvml2tfbtz7z6mlumjni572apskosakyiep4ymiy6hgea",
       "launch_mode": "NATIVE",
       "launch_options": {
         "boot_volume_type": "PARAVIRTUALIZED",
@@ -2103,7 +2617,7 @@
       ],
       "size_in_mbs": 47694,
       "sort_key": "Canonical Ubuntu 18.04 Minimal",
-      "time_created": "2020-12-21T22:55:41.880000+00:00"
+      "time_created": "2020-12-21T22:56:59.829000+00:00"
     },
     {
       "agent_features": null,
@@ -2111,9 +2625,9 @@
       "compartment_id": null,
       "create_image_allowed": true,
       "defined_tags": {},
-      "display_name": "Canonical-Ubuntu-18.04-Minimal-2020.11.11-0",
+      "display_name": "Canonical-Ubuntu-20.04-2021.02.15-0",
       "freeform_tags": {},
-      "id": "ocid1.image.oc1.phx.aaaaaaaaebi24zktxinljneeuj3rdqgelh4zvhdd6geh2ymvg4lmdh5n4t4q",
+      "id": "ocid1.image.oc1.iad.aaaaaaaalukjk3ut7ibmrfphe6g2klmcl4hodvapraj2e4frw4bjsqswts2q",
       "launch_mode": "NATIVE",
       "launch_options": {
         "boot_volume_type": "PARAVIRTUALIZED",
@@ -2125,7 +2639,7 @@
       },
       "lifecycle_state": "AVAILABLE",
       "operating_system": "Canonical Ubuntu",
-      "operating_system_version": "18.04 Minimal",
+      "operating_system_version": "20.04",
       "shapes": [
         "VM.DenseIO1.16",
         "VM.DenseIO1.4",
@@ -2148,6 +2662,7 @@
         "VM.Standard.E2.4",
         "VM.Standard.E2.8",
         "VM.Standard.E3.Flex",
+        "VM.Standard.E4.Flex",
         "VM.Standard1.1",
         "VM.Standard1.16",
         "VM.Standard1.2",
@@ -2162,6 +2677,7 @@
         "BM.Standard.E2.64",
         "BM.Standard.E3.128",
         "BM.GPU4.8",
+        "BM.Standard.E4.128",
         "BM.Standard1.36",
         "BM.HighIO1.36",
         "BM.DenseIO1.36",
@@ -2174,8 +2690,8 @@
         "BM.DenseIO2.52"
       ],
       "size_in_mbs": 47694,
-      "sort_key": "Canonical Ubuntu 18.04 Minimal",
-      "time_created": "2020-11-12T22:52:23.385000+00:00"
+      "sort_key": "Canonical Ubuntu 20.04",
+      "time_created": "2021-02-18T21:21:32.486000+00:00"
     },
     {
       "agent_features": null,
@@ -2185,7 +2701,7 @@
       "defined_tags": {},
       "display_name": "Canonical-Ubuntu-20.04-2021.01.25-0",
       "freeform_tags": {},
-      "id": "ocid1.image.oc1.phx.aaaaaaaavhykwhe4bhsoa25kv2sbjixy3a3kqud33wvfjnim7yuhbvwbb4gq",
+      "id": "ocid1.image.oc1.iad.aaaaaaaaelmoipzacl2gvbly55peod7vu327nvkixj6jno7r7ei3mtns44mq",
       "launch_mode": "NATIVE",
       "launch_options": {
         "boot_volume_type": "PARAVIRTUALIZED",
@@ -2220,6 +2736,7 @@
         "VM.Standard.E2.4",
         "VM.Standard.E2.8",
         "VM.Standard.E3.Flex",
+        "VM.Standard.E4.Flex",
         "VM.Standard1.1",
         "VM.Standard1.16",
         "VM.Standard1.2",
@@ -2234,6 +2751,7 @@
         "BM.Standard.E2.64",
         "BM.Standard.E3.128",
         "BM.GPU4.8",
+        "BM.Standard.E4.128",
         "BM.Standard1.36",
         "BM.HighIO1.36",
         "BM.DenseIO1.36",
@@ -2247,7 +2765,7 @@
       ],
       "size_in_mbs": 47694,
       "sort_key": "Canonical Ubuntu 20.04",
-      "time_created": "2021-01-30T00:06:56.770000+00:00"
+      "time_created": "2021-01-30T00:01:19.168000+00:00"
     },
     {
       "agent_features": null,
@@ -2257,7 +2775,7 @@
       "defined_tags": {},
       "display_name": "Canonical-Ubuntu-20.04-2020.12.11-0",
       "freeform_tags": {},
-      "id": "ocid1.image.oc1.phx.aaaaaaaabv2zpldicrlrbe2u2r7c5jarsk4ac3lzfdr6pbdwgwtgumqqmw7a",
+      "id": "ocid1.image.oc1.iad.aaaaaaaaalat4ulnbmprft3kbggr6ha2elqavlj3yzhpj7yfaao4w4g46c5q",
       "launch_mode": "NATIVE",
       "launch_options": {
         "boot_volume_type": "PARAVIRTUALIZED",
@@ -2319,7 +2837,7 @@
       ],
       "size_in_mbs": 47694,
       "sort_key": "Canonical Ubuntu 20.04",
-      "time_created": "2020-12-21T22:57:29.227000+00:00"
+      "time_created": "2020-12-21T22:58:52.673000+00:00"
     },
     {
       "agent_features": null,
@@ -2327,9 +2845,9 @@
       "compartment_id": null,
       "create_image_allowed": true,
       "defined_tags": {},
-      "display_name": "Canonical-Ubuntu-20.04-2020.11.11-0",
+      "display_name": "Canonical-Ubuntu-20.04-Minimal-2021.02.16-0",
       "freeform_tags": {},
-      "id": "ocid1.image.oc1.phx.aaaaaaaa7erbqtk6wgxvo6yvn2gqnua2pzooplts5pupncv66ceazy3pex5a",
+      "id": "ocid1.image.oc1.iad.aaaaaaaa3lgud4qd5op4euavw7ilyeaie7fiakvs64khlswok4llmcsasmiq",
       "launch_mode": "NATIVE",
       "launch_options": {
         "boot_volume_type": "PARAVIRTUALIZED",
@@ -2341,7 +2859,7 @@
       },
       "lifecycle_state": "AVAILABLE",
       "operating_system": "Canonical Ubuntu",
-      "operating_system_version": "20.04",
+      "operating_system_version": "20.04 Minimal",
       "shapes": [
         "VM.DenseIO1.16",
         "VM.DenseIO1.4",
@@ -2364,6 +2882,7 @@
         "VM.Standard.E2.4",
         "VM.Standard.E2.8",
         "VM.Standard.E3.Flex",
+        "VM.Standard.E4.Flex",
         "VM.Standard1.1",
         "VM.Standard1.16",
         "VM.Standard1.2",
@@ -2378,6 +2897,7 @@
         "BM.Standard.E2.64",
         "BM.Standard.E3.128",
         "BM.GPU4.8",
+        "BM.Standard.E4.128",
         "BM.Standard1.36",
         "BM.HighIO1.36",
         "BM.DenseIO1.36",
@@ -2390,8 +2910,8 @@
         "BM.DenseIO2.52"
       ],
       "size_in_mbs": 47694,
-      "sort_key": "Canonical Ubuntu 20.04",
-      "time_created": "2020-11-12T22:50:04.676000+00:00"
+      "sort_key": "Canonical Ubuntu 20.04 Minimal",
+      "time_created": "2021-02-18T21:28:53.463000+00:00"
     },
     {
       "agent_features": null,
@@ -2401,7 +2921,7 @@
       "defined_tags": {},
       "display_name": "Canonical-Ubuntu-20.04-Minimal-2021.01.19-0",
       "freeform_tags": {},
-      "id": "ocid1.image.oc1.phx.aaaaaaaacctmcjjajc7xawyz3uuot4ei7q2tqw4yipbh5okosppc5v3yxava",
+      "id": "ocid1.image.oc1.iad.aaaaaaaawwax2iqkcrg65cxr3w656erbgsb2v7pcjbsm45aocl5qic24h2va",
       "launch_mode": "NATIVE",
       "launch_options": {
         "boot_volume_type": "PARAVIRTUALIZED",
@@ -2463,7 +2983,7 @@
       ],
       "size_in_mbs": 47694,
       "sort_key": "Canonical Ubuntu 20.04 Minimal",
-      "time_created": "2021-01-30T00:03:15.081000+00:00"
+      "time_created": "2021-01-30T00:00:18.420000+00:00"
     },
     {
       "agent_features": null,
@@ -2473,7 +2993,7 @@
       "defined_tags": {},
       "display_name": "Canonical-Ubuntu-20.04-Minimal-2020.12.10-0",
       "freeform_tags": {},
-      "id": "ocid1.image.oc1.phx.aaaaaaaaw3twvo6nuegzhrayv4rfv4ci6c4fm3aqzoh3uosqoo7rguqjooca",
+      "id": "ocid1.image.oc1.iad.aaaaaaaaoclx5ildoj76phxbkj3l2l7fxyuvqjxrn4enw2xbxfnwrpsxaihq",
       "launch_mode": "NATIVE",
       "launch_options": {
         "boot_volume_type": "PARAVIRTUALIZED",
@@ -2535,79 +3055,7 @@
       ],
       "size_in_mbs": 47694,
       "sort_key": "Canonical Ubuntu 20.04 Minimal",
-      "time_created": "2020-12-21T22:56:49.511000+00:00"
-    },
-    {
-      "agent_features": null,
-      "base_image_id": null,
-      "compartment_id": null,
-      "create_image_allowed": true,
-      "defined_tags": {},
-      "display_name": "Canonical-Ubuntu-20.04-Minimal-2020.11.11-0",
-      "freeform_tags": {},
-      "id": "ocid1.image.oc1.phx.aaaaaaaaxtnq5qvyp7eixde2kbblcx4sqcbv7subwpe5bv5li6gz4bhwmw2q",
-      "launch_mode": "NATIVE",
-      "launch_options": {
-        "boot_volume_type": "PARAVIRTUALIZED",
-        "firmware": "UEFI_64",
-        "is_consistent_volume_naming_enabled": true,
-        "is_pv_encryption_in_transit_enabled": true,
-        "network_type": "PARAVIRTUALIZED",
-        "remote_data_volume_type": "PARAVIRTUALIZED"
-      },
-      "lifecycle_state": "AVAILABLE",
-      "operating_system": "Canonical Ubuntu",
-      "operating_system_version": "20.04 Minimal",
-      "shapes": [
-        "VM.DenseIO1.16",
-        "VM.DenseIO1.4",
-        "VM.DenseIO1.8",
-        "VM.DenseIO2.16",
-        "VM.DenseIO2.24",
-        "VM.DenseIO2.8",
-        "VM.GPU2.1",
-        "VM.GPU3.1",
-        "VM.GPU3.2",
-        "VM.GPU3.4",
-        "VM.Standard.B1.1",
-        "VM.Standard.B1.16",
-        "VM.Standard.B1.2",
-        "VM.Standard.B1.4",
-        "VM.Standard.B1.8",
-        "VM.Standard.E2.1",
-        "VM.Standard.E2.1.Micro",
-        "VM.Standard.E2.2",
-        "VM.Standard.E2.4",
-        "VM.Standard.E2.8",
-        "VM.Standard.E3.Flex",
-        "VM.Standard1.1",
-        "VM.Standard1.16",
-        "VM.Standard1.2",
-        "VM.Standard1.4",
-        "VM.Standard1.8",
-        "VM.Standard2.1",
-        "VM.Standard2.16",
-        "VM.Standard2.2",
-        "VM.Standard2.24",
-        "VM.Standard2.4",
-        "VM.Standard2.8",
-        "BM.Standard.E2.64",
-        "BM.Standard.E3.128",
-        "BM.GPU4.8",
-        "BM.Standard1.36",
-        "BM.HighIO1.36",
-        "BM.DenseIO1.36",
-        "x5-2.36.512.nvme-6.4-Internal",
-        "BM.Standard.B1.44",
-        "BM.GPU2.2",
-        "BM.HPC2.36",
-        "BM.Standard2.52",
-        "BM.GPU3.8",
-        "BM.DenseIO2.52"
-      ],
-      "size_in_mbs": 47694,
-      "sort_key": "Canonical Ubuntu 20.04 Minimal",
-      "time_created": "2020-11-12T22:51:44.626000+00:00"
+      "time_created": "2020-12-21T22:55:09.481000+00:00"
     },
     {
       "agent_features": null,
@@ -2617,7 +3065,7 @@
       "defined_tags": {},
       "display_name": "CentOS-6.10-2020.11.30-0",
       "freeform_tags": {},
-      "id": "ocid1.image.oc1.phx.aaaaaaaagomxh6kz5w2qyowz4bovjwcplqwemlvx6xu67slgq4bd7d7sdnoq",
+      "id": "ocid1.image.oc1.iad.aaaaaaaaxlttdkc7i64s3tgfcjd3pzhe5z2ci373rfdfbf5mdnnt27wfwp6q",
       "launch_mode": "NATIVE",
       "launch_options": {
         "boot_volume_type": "PARAVIRTUALIZED",
@@ -2637,7 +3085,6 @@
         "VM.DenseIO2.16",
         "VM.DenseIO2.24",
         "VM.DenseIO2.8",
-        "VM.Standard.A1.Flex",
         "VM.Standard.E2.1",
         "VM.Standard.E2.2",
         "VM.Standard.E2.4",
@@ -2661,11 +3108,12 @@
         "BM.HPC2.36",
         "BM.Standard2.52",
         "BM.GPU3.8",
+        "BM.DenseIO2.52",
         "BM.DenseIO2.52"
       ],
       "size_in_mbs": 47694,
       "sort_key": "CentOS 6.10",
-      "time_created": "2020-12-01T00:17:07.381000+00:00"
+      "time_created": "2020-12-01T00:12:43.436000+00:00"
     },
     {
       "agent_features": null,
@@ -2675,7 +3123,7 @@
       "defined_tags": {},
       "display_name": "CentOS-6.10-2020.10.21-0",
       "freeform_tags": {},
-      "id": "ocid1.image.oc1.phx.aaaaaaaabahzlltad2dwfgwbvyp2xju4efyuydq23gg3uifakab7umpyyjba",
+      "id": "ocid1.image.oc1.iad.aaaaaaaaqgkrfuxbas2exdndzcpfl55s7so4b7cjurhpwoz6l5jfyd47re5a",
       "launch_mode": "NATIVE",
       "launch_options": {
         "boot_volume_type": "PARAVIRTUALIZED",
@@ -2722,7 +3170,7 @@
       ],
       "size_in_mbs": 47694,
       "sort_key": "CentOS 6.10",
-      "time_created": "2020-10-27T18:29:41.501000+00:00"
+      "time_created": "2020-10-27T18:35:20.881000+00:00"
     },
     {
       "agent_features": null,
@@ -2732,7 +3180,7 @@
       "defined_tags": {},
       "display_name": "CentOS-6.10-2020.09.21-0",
       "freeform_tags": {},
-      "id": "ocid1.image.oc1.phx.aaaaaaaa4krne6bs2onsnjbyo7vo2fa2wt4cp4jpra2fjbprumpmcjuhqwuq",
+      "id": "ocid1.image.oc1.iad.aaaaaaaahl7nxijejwoexysjxfukznv63cljtv6oqtpbbeo2x5j4dm6rvgvq",
       "launch_mode": "NATIVE",
       "launch_options": {
         "boot_volume_type": "PARAVIRTUALIZED",
@@ -2779,7 +3227,74 @@
       ],
       "size_in_mbs": 47694,
       "sort_key": "CentOS 6.10",
-      "time_created": "2020-09-30T05:14:13.700000+00:00"
+      "time_created": "2020-09-30T05:12:33.793000+00:00"
+    },
+    {
+      "agent_features": null,
+      "base_image_id": null,
+      "compartment_id": null,
+      "create_image_allowed": true,
+      "defined_tags": {},
+      "display_name": "CentOS-7-2021.03.01-0",
+      "freeform_tags": {},
+      "id": "ocid1.image.oc1.iad.aaaaaaaa42qkxvf724bsmmxxpbqqmjfwbrkheg6ycjdl3rbta6qjxsovcd3a",
+      "launch_mode": "NATIVE",
+      "launch_options": {
+        "boot_volume_type": "PARAVIRTUALIZED",
+        "firmware": "UEFI_64",
+        "is_consistent_volume_naming_enabled": true,
+        "is_pv_encryption_in_transit_enabled": true,
+        "network_type": "PARAVIRTUALIZED",
+        "remote_data_volume_type": "PARAVIRTUALIZED"
+      },
+      "lifecycle_state": "AVAILABLE",
+      "operating_system": "CentOS",
+      "operating_system_version": "7",
+      "shapes": [
+        "VM.DenseIO1.16",
+        "VM.DenseIO1.4",
+        "VM.DenseIO1.8",
+        "VM.DenseIO2.16",
+        "VM.DenseIO2.24",
+        "VM.DenseIO2.8",
+        "VM.GPU2.1",
+        "VM.GPU3.1",
+        "VM.GPU3.2",
+        "VM.GPU3.4",
+        "VM.Standard.E2.1",
+        "VM.Standard.E2.1.Micro",
+        "VM.Standard.E2.2",
+        "VM.Standard.E2.4",
+        "VM.Standard.E2.8",
+        "VM.Standard.E3.Flex",
+        "VM.Standard.E4.Flex",
+        "VM.Standard1.1",
+        "VM.Standard1.16",
+        "VM.Standard1.2",
+        "VM.Standard1.4",
+        "VM.Standard1.8",
+        "VM.Standard2.1",
+        "VM.Standard2.16",
+        "VM.Standard2.2",
+        "VM.Standard2.24",
+        "VM.Standard2.4",
+        "VM.Standard2.8",
+        "BM.Standard.E2.64",
+        "BM.Standard.E3.128",
+        "BM.GPU4.8",
+        "BM.Standard.E4.128",
+        "BM.Standard1.36",
+        "BM.HighIO1.36",
+        "BM.DenseIO1.36",
+        "BM.GPU2.2",
+        "BM.HPC2.36",
+        "BM.Standard2.52",
+        "BM.GPU3.8",
+        "BM.DenseIO2.52"
+      ],
+      "size_in_mbs": 47694,
+      "sort_key": "CentOS 7",
+      "time_created": "2021-03-01T22:01:49.057000+00:00"
     },
     {
       "agent_features": null,
@@ -2789,7 +3304,7 @@
       "defined_tags": {},
       "display_name": "CentOS-7-2021.01.14-0",
       "freeform_tags": {},
-      "id": "ocid1.image.oc1.phx.aaaaaaaa4asphkm3spt4uuawwovhktrb4x6minpoer3gt6kjwvfre2vi6ohq",
+      "id": "ocid1.image.oc1.iad.aaaaaaaapfxnrize4t6khi7zf6g42texxhe2fog2wkn3givz3664g7uodxbq",
       "launch_mode": "NATIVE",
       "launch_options": {
         "boot_volume_type": "PARAVIRTUALIZED",
@@ -2845,7 +3360,7 @@
       ],
       "size_in_mbs": 47694,
       "sort_key": "CentOS 7",
-      "time_created": "2021-01-15T17:50:02.815000+00:00"
+      "time_created": "2021-01-15T17:42:22.292000+00:00"
     },
     {
       "agent_features": null,
@@ -2855,7 +3370,7 @@
       "defined_tags": {},
       "display_name": "CentOS-7-2020.12.14-0",
       "freeform_tags": {},
-      "id": "ocid1.image.oc1.phx.aaaaaaaaaro3ccuu3xtgs4whl23jryutzr6lq3w7zcp6ibmr4b737zdz5gaq",
+      "id": "ocid1.image.oc1.iad.aaaaaaaaatmaaxweorpdp6uumrj7neogyu5uqs34qp4acq4opsullqxnxmmq",
       "launch_mode": "NATIVE",
       "launch_options": {
         "boot_volume_type": "PARAVIRTUALIZED",
@@ -2911,7 +3426,7 @@
       ],
       "size_in_mbs": 47694,
       "sort_key": "CentOS 7",
-      "time_created": "2020-12-16T00:32:42.238000+00:00"
+      "time_created": "2020-12-16T00:34:17.241000+00:00"
     },
     {
       "agent_features": null,
@@ -2919,9 +3434,9 @@
       "compartment_id": null,
       "create_image_allowed": true,
       "defined_tags": {},
-      "display_name": "CentOS-7-2020.11.30-0",
+      "display_name": "CentOS-8-2021.02.26-0",
       "freeform_tags": {},
-      "id": "ocid1.image.oc1.phx.aaaaaaaahbjoyfrpvfekoanc4upq3aw76gn6elvvtusxqlwtgml6h3m3alyq",
+      "id": "ocid1.image.oc1.iad.aaaaaaaa7xk6yemzeu5fr2ilz5zv5ghxu255th7n4e6psrip7xv2ujqcghyq",
       "launch_mode": "NATIVE",
       "launch_options": {
         "boot_volume_type": "PARAVIRTUALIZED",
@@ -2933,7 +3448,7 @@
       },
       "lifecycle_state": "AVAILABLE",
       "operating_system": "CentOS",
-      "operating_system_version": "7",
+      "operating_system_version": "8",
       "shapes": [
         "VM.DenseIO1.16",
         "VM.DenseIO1.4",
@@ -2945,13 +3460,13 @@
         "VM.GPU3.1",
         "VM.GPU3.2",
         "VM.GPU3.4",
-        "VM.Standard.A1.Flex",
         "VM.Standard.E2.1",
         "VM.Standard.E2.1.Micro",
         "VM.Standard.E2.2",
         "VM.Standard.E2.4",
         "VM.Standard.E2.8",
         "VM.Standard.E3.Flex",
+        "VM.Standard.E4.Flex",
         "VM.Standard1.1",
         "VM.Standard1.16",
         "VM.Standard1.2",
@@ -2966,6 +3481,7 @@
         "BM.Standard.E2.64",
         "BM.Standard.E3.128",
         "BM.GPU4.8",
+        "BM.Standard.E4.128",
         "BM.Standard1.36",
         "BM.HighIO1.36",
         "BM.DenseIO1.36",
@@ -2973,11 +3489,14 @@
         "BM.HPC2.36",
         "BM.Standard2.52",
         "BM.GPU3.8",
+        "BM.DenseIO2.52",
+        "BM.Standard2.52",
+        "BM.GPU3.8",
         "BM.DenseIO2.52"
       ],
       "size_in_mbs": 47694,
-      "sort_key": "CentOS 7",
-      "time_created": "2020-12-01T00:25:26.896000+00:00"
+      "sort_key": "CentOS 8",
+      "time_created": "2021-03-01T20:21:07.670000+00:00"
     },
     {
       "agent_features": null,
@@ -2987,7 +3506,7 @@
       "defined_tags": {},
       "display_name": "CentOS-8-2021.01.14-0",
       "freeform_tags": {},
-      "id": "ocid1.image.oc1.phx.aaaaaaaa2o6pedsahmakjfcrzy3yyh2ju4zuuusxzgwdnr7pozqeqb6fp3jq",
+      "id": "ocid1.image.oc1.iad.aaaaaaaafch45que5dgi22gofsasjr4nznev7itjuyimf2meletwa6iz5dta",
       "launch_mode": "NATIVE",
       "launch_options": {
         "boot_volume_type": "PARAVIRTUALIZED",
@@ -3032,6 +3551,7 @@
         "BM.Standard.E2.64",
         "BM.Standard.E3.128",
         "BM.GPU4.8",
+        "BM.Standard.E4.128",
         "BM.Standard1.36",
         "BM.HighIO1.36",
         "BM.DenseIO1.36",
@@ -3040,14 +3560,13 @@
         "BM.Standard2.52",
         "BM.GPU3.8",
         "BM.DenseIO2.52",
-        "BM.HPC2.36",
         "BM.Standard2.52",
         "BM.GPU3.8",
         "BM.DenseIO2.52"
       ],
       "size_in_mbs": 47694,
       "sort_key": "CentOS 8",
-      "time_created": "2021-01-15T17:52:15.583000+00:00"
+      "time_created": "2021-01-15T17:38:35.368000+00:00"
     },
     {
       "agent_features": null,
@@ -3057,7 +3576,7 @@
       "defined_tags": {},
       "display_name": "CentOS-8-2020.12.16-1",
       "freeform_tags": {},
-      "id": "ocid1.image.oc1.phx.aaaaaaaajjjgpo7lpr6ejf5enndfbgqhts6vyntjjcm5nuc67qaosxnxisqq",
+      "id": "ocid1.image.oc1.iad.aaaaaaaaqhsjqifwro3n5jocgjcyo6kyq6rp2xyjxkkiupwtkjxlb5um2gsq",
       "launch_mode": "NATIVE",
       "launch_options": {
         "boot_volume_type": "PARAVIRTUALIZED",
@@ -3109,6 +3628,7 @@
         "BM.Standard2.52",
         "BM.GPU3.8",
         "BM.DenseIO2.52",
+        "x5-2.36.512.nvme-6.4-Internal",
         "BM.Standard.B1.44",
         "BM.HPC2.36",
         "BM.Standard2.52",
@@ -3117,7 +3637,7 @@
       ],
       "size_in_mbs": 47694,
       "sort_key": "CentOS 8",
-      "time_created": "2020-12-17T02:30:49.289000+00:00"
+      "time_created": "2020-12-17T02:31:23.730000+00:00"
     },
     {
       "agent_features": null,
@@ -3127,7 +3647,7 @@
       "defined_tags": {},
       "display_name": "Oracle-Autonomous-Linux-7.9-2021.01-0",
       "freeform_tags": {},
-      "id": "ocid1.image.oc1.phx.aaaaaaaadzbjqqwjzgl7yweoiqbltuh2y7kb4alzyuv4k3mambxpcpiicj3a",
+      "id": "ocid1.image.oc1.iad.aaaaaaaauitscop5dhasbqkegaju56brylkckgi2wfecct2cuvn4xk33d2wq",
       "launch_mode": "NATIVE",
       "launch_options": {
         "boot_volume_type": "PARAVIRTUALIZED",
@@ -3188,7 +3708,7 @@
       ],
       "size_in_mbs": 47694,
       "sort_key": "Oracle Autonomous Linux 7.9",
-      "time_created": "2021-01-12T22:29:47.609000+00:00"
+      "time_created": "2021-01-12T22:26:24.758000+00:00"
     },
     {
       "agent_features": null,
@@ -3198,7 +3718,7 @@
       "defined_tags": {},
       "display_name": "Oracle-Autonomous-Linux-7.9-2020.12-1",
       "freeform_tags": {},
-      "id": "ocid1.image.oc1.phx.aaaaaaaastxtqyq3pw6qv3uooxeunozqqckhaqxwiu7g73bpmp2qivmzrf4a",
+      "id": "ocid1.image.oc1.iad.aaaaaaaakul36ap3hlenybrjd4yginchdqbguygbjvekvrqeb6a3yf2ddrgq",
       "launch_mode": "NATIVE",
       "launch_options": {
         "boot_volume_type": "PARAVIRTUALIZED",
@@ -3259,7 +3779,7 @@
       ],
       "size_in_mbs": 47694,
       "sort_key": "Oracle Autonomous Linux 7.9",
-      "time_created": "2020-12-21T21:12:01.797000+00:00"
+      "time_created": "2020-12-21T21:14:32.962000+00:00"
     },
     {
       "agent_features": null,
@@ -3269,7 +3789,7 @@
       "defined_tags": {},
       "display_name": "Oracle-Autonomous-Linux-7.9-2020.12-0",
       "freeform_tags": {},
-      "id": "ocid1.image.oc1.phx.aaaaaaaazwululyfmkhtctbr6jfgjnpq3oyi53hoqy4xkv2o7h4bcww2bv6a",
+      "id": "ocid1.image.oc1.iad.aaaaaaaahq4pjtvt6clxvq6yv6ibldmkgdjgraaa7f4wen6nbjc4xat67vuq",
       "launch_mode": "NATIVE",
       "launch_options": {
         "boot_volume_type": "PARAVIRTUALIZED",
@@ -3330,7 +3850,7 @@
       ],
       "size_in_mbs": 47694,
       "sort_key": "Oracle Autonomous Linux 7.9",
-      "time_created": "2020-12-08T08:35:40.152000+00:00"
+      "time_created": "2020-12-08T08:28:09.606000+00:00"
     },
     {
       "agent_features": null,
@@ -3340,7 +3860,7 @@
       "defined_tags": {},
       "display_name": "Oracle-Linux-6.10-2021.01.12-0",
       "freeform_tags": {},
-      "id": "ocid1.image.oc1.phx.aaaaaaaauxxbnrkuwxll3t7tmra5cymdhhtdtmjduuagxfg2nicmmjykmumq",
+      "id": "ocid1.image.oc1.iad.aaaaaaaa2jjfyhytvqmouqwc2wlqq567nrfpzg5wcwqe5oislwio35fiuqxa",
       "launch_mode": "NATIVE",
       "launch_options": {
         "boot_volume_type": "PARAVIRTUALIZED",
@@ -3395,11 +3915,13 @@
         "BM.HPC2.36",
         "BM.Standard2.52",
         "BM.GPU3.8",
+        "BM.DenseIO2.52",
+        "BM.GPU3.8",
         "BM.DenseIO2.52"
       ],
       "size_in_mbs": 47694,
       "sort_key": "Oracle Linux 6.10",
-      "time_created": "2021-01-11T19:09:21.990000+00:00"
+      "time_created": "2021-01-11T18:58:30.133000+00:00"
     },
     {
       "agent_features": null,
@@ -3409,7 +3931,7 @@
       "defined_tags": {},
       "display_name": "Oracle-Linux-6.10-2020.12.17-0",
       "freeform_tags": {},
-      "id": "ocid1.image.oc1.phx.aaaaaaaa47ha746jytnhzmyde2woaivw7hx63xaty6wssju6aqopbyjoc5ea",
+      "id": "ocid1.image.oc1.iad.aaaaaaaafwnt2edpvcrwwiebzzzaftk7776jrkxgc4ahozae6lcxkjppon4q",
       "launch_mode": "NATIVE",
       "launch_options": {
         "boot_volume_type": "PARAVIRTUALIZED",
@@ -3464,11 +3986,14 @@
         "BM.HPC2.36",
         "BM.Standard2.52",
         "BM.GPU3.8",
+        "BM.DenseIO2.52",
+        "BM.Standard2.52",
+        "BM.GPU3.8",
         "BM.DenseIO2.52"
       ],
       "size_in_mbs": 47694,
       "sort_key": "Oracle Linux 6.10",
-      "time_created": "2020-12-20T19:08:04.798000+00:00"
+      "time_created": "2020-12-20T19:01:17.617000+00:00"
     },
     {
       "agent_features": null,
@@ -3478,7 +4003,7 @@
       "defined_tags": {},
       "display_name": "Oracle-Linux-6.10-2020.11.10-0",
       "freeform_tags": {},
-      "id": "ocid1.image.oc1.phx.aaaaaaaapafhv7eh6nsdxwu3ifebcb244jwiyapcaeymlose7mtsbn7wnrpa",
+      "id": "ocid1.image.oc1.iad.aaaaaaaagosnui7ecfocom5n5k3t7vxids2wzg4aflrpncf3xl37qc46cara",
       "launch_mode": "NATIVE",
       "launch_options": {
         "boot_volume_type": "PARAVIRTUALIZED",
@@ -3534,13 +4059,13 @@
         "BM.Standard2.52",
         "BM.GPU3.8",
         "BM.DenseIO2.52",
-        "BM.Standard2.52",
         "BM.GPU3.8",
+        "BM.DenseIO2.52",
         "BM.DenseIO2.52"
       ],
       "size_in_mbs": 47694,
       "sort_key": "Oracle Linux 6.10",
-      "time_created": "2020-11-07T04:59:04.502000+00:00"
+      "time_created": "2020-11-07T04:54:54.113000+00:00"
     },
     {
       "agent_features": null,
@@ -3550,7 +4075,7 @@
       "defined_tags": {},
       "display_name": "Oracle-Linux-6.10-2020.09.22-0",
       "freeform_tags": {},
-      "id": "ocid1.image.oc1.phx.aaaaaaaasmphyymx2soyt5cz4mb3rc7mnppjjnacm5gbkz7cmgwaopvqaniq",
+      "id": "ocid1.image.oc1.iad.aaaaaaaaylticds373mqplbog7p53btaqaovs2bqtzfdlkj3cnd77zsktoda",
       "launch_mode": "NATIVE",
       "launch_options": {
         "boot_volume_type": "PARAVIRTUALIZED",
@@ -3612,7 +4137,7 @@
       ],
       "size_in_mbs": 47694,
       "sort_key": "Oracle Linux 6.10",
-      "time_created": "2020-09-23T22:07:27.284000+00:00"
+      "time_created": "2020-09-23T22:07:35.813000+00:00"
     },
     {
       "agent_features": null,
@@ -3622,7 +4147,7 @@
       "defined_tags": {},
       "display_name": "Oracle-Linux-7.8-2020.05.26-0",
       "freeform_tags": {},
-      "id": "ocid1.image.oc1.phx.aaaaaaaay2kmwg3owseae3ppamxzegb3x4ezitizh6pyhnahzqmubfhxvmhq",
+      "id": "ocid1.image.oc1.iad.aaaaaaaashyy2whsxs65paokuhg5uyjjqq3x54tnix5all4jjxzvdlz6kltq",
       "launch_mode": "NATIVE",
       "launch_options": {
         "boot_volume_type": "PARAVIRTUALIZED",
@@ -3684,7 +4209,7 @@
       ],
       "size_in_mbs": 47694,
       "sort_key": "Oracle Linux 7.8",
-      "time_created": "2020-05-28T22:43:10.902000+00:00"
+      "time_created": "2020-05-28T22:54:17.631000+00:00"
     },
     {
       "agent_features": null,
@@ -3694,7 +4219,7 @@
       "defined_tags": {},
       "display_name": "Oracle-Linux-7.9-Gen2-GPU-2021.01.12-0",
       "freeform_tags": {},
-      "id": "ocid1.image.oc1.phx.aaaaaaaaty625aj4wgw6qbjj2kgtbiwuhmhea4fjv5uygdwshqvzmlafxmva",
+      "id": "ocid1.image.oc1.iad.aaaaaaaagfafap5ccwkxnqrg64gcnp4avfgk2odlwvhpmwmvmir4uaboxdsq",
       "launch_mode": "NATIVE",
       "launch_options": {
         "boot_volume_type": "PARAVIRTUALIZED",
@@ -3756,7 +4281,7 @@
       ],
       "size_in_mbs": 47694,
       "sort_key": "Oracle Linux 7.9",
-      "time_created": "2021-01-11T19:05:33.811000+00:00"
+      "time_created": "2021-01-11T18:58:32.199000+00:00"
     },
     {
       "agent_features": null,
@@ -3766,7 +4291,7 @@
       "defined_tags": {},
       "display_name": "Oracle-Linux-7.9-Gen2-GPU-2020.12.17-0",
       "freeform_tags": {},
-      "id": "ocid1.image.oc1.phx.aaaaaaaaxnafkvicrjguh3nji4ohslynatfp4jhrag6xe7bpigxlbf3glivq",
+      "id": "ocid1.image.oc1.iad.aaaaaaaax6antvrwkhgmzxncixdxllhsell3vwui3fy6iw2boowxkwiz5xwq",
       "launch_mode": "NATIVE",
       "launch_options": {
         "boot_volume_type": "PARAVIRTUALIZED",
@@ -3828,7 +4353,7 @@
       ],
       "size_in_mbs": 47694,
       "sort_key": "Oracle Linux 7.9",
-      "time_created": "2020-12-20T20:30:41.050000+00:00"
+      "time_created": "2020-12-20T20:25:45.031000+00:00"
     },
     {
       "agent_features": null,
@@ -3838,7 +4363,7 @@
       "defined_tags": {},
       "display_name": "Oracle-Linux-7.9-Gen2-GPU-2020.11.10-0",
       "freeform_tags": {},
-      "id": "ocid1.image.oc1.phx.aaaaaaaaz3d4hrs4jxxj5ue3fvg3pwr4zseixqhvvielziklfzjruxn55kpq",
+      "id": "ocid1.image.oc1.iad.aaaaaaaag3s2smtrzrkdvrtengr2lakb6qavcvtdcfiwicmcsxcp7twiarfq",
       "launch_mode": "NATIVE",
       "launch_options": {
         "boot_volume_type": "PARAVIRTUALIZED",
@@ -3900,7 +4425,7 @@
       ],
       "size_in_mbs": 47694,
       "sort_key": "Oracle Linux 7.9",
-      "time_created": "2020-11-07T04:58:43.925000+00:00"
+      "time_created": "2020-11-07T04:53:07.226000+00:00"
     },
     {
       "agent_features": null,
@@ -3910,7 +4435,7 @@
       "defined_tags": {},
       "display_name": "Oracle-Linux-7.9-Gen2-GPU-2020.10.28-0",
       "freeform_tags": {},
-      "id": "ocid1.image.oc1.phx.aaaaaaaawu52q4tlwknfi7iyo52j3wc324z24kqnez4nvppp2bwyq4s6gvqq",
+      "id": "ocid1.image.oc1.iad.aaaaaaaaufaqyf5hn35x33teymaxpy3q7wvt2qvyo2oqvgxiloyvlcitauva",
       "launch_mode": "NATIVE",
       "launch_options": {
         "boot_volume_type": "PARAVIRTUALIZED",
@@ -3945,6 +4470,7 @@
         "VM.Standard.E2.4",
         "VM.Standard.E2.8",
         "VM.Standard.E3.Flex",
+        "VM.Standard.E4.Flex",
         "VM.Standard1.1",
         "VM.Standard1.16",
         "VM.Standard1.2",
@@ -3959,6 +4485,10 @@
         "BM.Standard.E2.64",
         "BM.Standard.E3.128",
         "BM.GPU4.8",
+        "BM.Standard.E4.128",
+        "BM.Standard2T.E4.128",
+        "BM.BigData.E4.128",
+        "BM.DenseIO.E4.128",
         "BM.Standard1.36",
         "BM.HighIO1.36",
         "BM.DenseIO1.36",
@@ -3972,7 +4502,7 @@
       ],
       "size_in_mbs": 47694,
       "sort_key": "Oracle Linux 7.9",
-      "time_created": "2020-11-03T22:41:45.076000+00:00"
+      "time_created": "2020-11-03T22:37:01.005000+00:00"
     },
     {
       "agent_features": null,
@@ -3982,7 +4512,7 @@
       "defined_tags": {},
       "display_name": "Oracle-Linux-7.9-2021.01.12-0",
       "freeform_tags": {},
-      "id": "ocid1.image.oc1.phx.aaaaaaaaptdwhdot3iosccxikn3oqb3l2qew7c5mcryixlulpn4diszgncfq",
+      "id": "ocid1.image.oc1.iad.aaaaaaaaqdc7jslbtue7abhwvxaq3ihvazfvihhs2rwk2mvciv36v7ux5sda",
       "launch_mode": "NATIVE",
       "launch_options": {
         "boot_volume_type": "PARAVIRTUALIZED",
@@ -4017,6 +4547,7 @@
         "VM.Standard.E2.4",
         "VM.Standard.E2.8",
         "VM.Standard.E3.Flex",
+        "VM.Standard.E4.Flex",
         "VM.Standard1.1",
         "VM.Standard1.16",
         "VM.Standard1.2",
@@ -4031,6 +4562,10 @@
         "BM.Standard.E2.64",
         "BM.Standard.E3.128",
         "BM.GPU4.8",
+        "BM.Standard.E4.128",
+        "BM.Standard2T.E4.128",
+        "BM.BigData.E4.128",
+        "BM.DenseIO.E4.128",
         "BM.Standard1.36",
         "BM.HighIO1.36",
         "BM.DenseIO1.36",
@@ -4040,12 +4575,11 @@
         "BM.HPC2.36",
         "BM.Standard2.52",
         "BM.GPU3.8",
-        "BM.DenseIO2.52",
         "BM.DenseIO2.52"
       ],
       "size_in_mbs": 47694,
       "sort_key": "Oracle Linux 7.9",
-      "time_created": "2021-01-11T19:09:42.315000+00:00"
+      "time_created": "2021-01-11T18:55:38.149000+00:00"
     },
     {
       "agent_features": null,
@@ -4055,7 +4589,7 @@
       "defined_tags": {},
       "display_name": "Oracle-Linux-7.9-2020.12.16-0",
       "freeform_tags": {},
-      "id": "ocid1.image.oc1.phx.aaaaaaaaykn4jrvc7z742odk6c5ilyzoijju6zzvtm2nn5w7i6pwqwnub74a",
+      "id": "ocid1.image.oc1.iad.aaaaaaaaikmjwo533nlmn2c4yabihw2a3wruqkml6xv5fhavaiuz5dh57b5q",
       "launch_mode": "NATIVE",
       "launch_options": {
         "boot_volume_type": "PARAVIRTUALIZED",
@@ -4113,11 +4647,16 @@
         "BM.HPC2.36",
         "BM.Standard2.52",
         "BM.GPU3.8",
+        "BM.DenseIO2.52",
+        "BM.GPU2.2",
+        "BM.HPC2.36",
+        "BM.Standard2.52",
+        "BM.GPU3.8",
         "BM.DenseIO2.52"
       ],
       "size_in_mbs": 47694,
       "sort_key": "Oracle Linux 7.9",
-      "time_created": "2020-12-16T20:47:12.898000+00:00"
+      "time_created": "2020-12-16T20:46:49.449000+00:00"
     },
     {
       "agent_features": null,
@@ -4127,7 +4666,7 @@
       "defined_tags": {},
       "display_name": "Oracle-Linux-7.9-2020.11.10-1",
       "freeform_tags": {},
-      "id": "ocid1.image.oc1.phx.aaaaaaaaxdnx3den32vwplngpeu44zakw7lxup7vcdd3jmke4pfleaug3m6q",
+      "id": "ocid1.image.oc1.iad.aaaaaaaaf2wxqc6ee5axabpbandk6ji27oyxyicatqw5iwkrk76kecqrrdyq",
       "launch_mode": "NATIVE",
       "launch_options": {
         "boot_volume_type": "PARAVIRTUALIZED",
@@ -4151,7 +4690,6 @@
         "VM.GPU3.1",
         "VM.GPU3.2",
         "VM.GPU3.4",
-        "VM.Standard.A1.Flex",
         "VM.Standard.B1.1",
         "VM.Standard.B1.16",
         "VM.Standard.B1.2",
@@ -4190,7 +4728,7 @@
       ],
       "size_in_mbs": 47694,
       "sort_key": "Oracle Linux 7.9",
-      "time_created": "2020-11-11T06:17:35.790000+00:00"
+      "time_created": "2020-11-11T06:14:38.974000+00:00"
     },
     {
       "agent_features": null,
@@ -4200,7 +4738,7 @@
       "defined_tags": {},
       "display_name": "Oracle-Linux-7.9-2020.10.26-0",
       "freeform_tags": {},
-      "id": "ocid1.image.oc1.phx.aaaaaaaacirjuulpw2vbdiogz3jtcw3cdd3u5iuangemxq5f5ajfox3aplxa",
+      "id": "ocid1.image.oc1.iad.aaaaaaaabbg2rypwy5pwnzinrutzjbrs3r35vqzwhfjui7yibmydzl7qgn6a",
       "launch_mode": "NATIVE",
       "launch_options": {
         "boot_volume_type": "PARAVIRTUALIZED",
@@ -4262,7 +4800,7 @@
       ],
       "size_in_mbs": 47694,
       "sort_key": "Oracle Linux 7.9",
-      "time_created": "2020-10-27T06:35:40.075000+00:00"
+      "time_created": "2020-10-27T06:31:53.859000+00:00"
     },
     {
       "agent_features": null,
@@ -4272,7 +4810,7 @@
       "defined_tags": {},
       "display_name": "Oracle-Linux-8.3-Gen2-GPU-2021.01.12-0",
       "freeform_tags": {},
-      "id": "ocid1.image.oc1.phx.aaaaaaaa7zfitddebg2o6rfwqtlc7g7vpkikole4ltif6cq45rwbdvvxg2va",
+      "id": "ocid1.image.oc1.iad.aaaaaaaadly6hoipurnavvailrrizvq3sdxlkquw6mmzm7mc2jjburlzrfqa",
       "launch_mode": "NATIVE",
       "launch_options": {
         "boot_volume_type": "PARAVIRTUALIZED",
@@ -4307,6 +4845,7 @@
         "VM.Standard.E2.4",
         "VM.Standard.E2.8",
         "VM.Standard.E3.Flex",
+        "VM.Standard.E4.Flex",
         "VM.Standard1.1",
         "VM.Standard1.16",
         "VM.Standard1.2",
@@ -4320,6 +4859,7 @@
         "VM.Standard2.8",
         "BM.Standard.E2.64",
         "BM.Standard.E3.128",
+        "BM.Standard.E4.128",
         "BM.Standard1.36",
         "BM.HighIO1.36",
         "BM.DenseIO1.36",
@@ -4333,7 +4873,7 @@
       ],
       "size_in_mbs": 47694,
       "sort_key": "Oracle Linux 8",
-      "time_created": "2021-01-11T19:05:36.782000+00:00"
+      "time_created": "2021-01-11T19:03:27.146000+00:00"
     },
     {
       "agent_features": null,
@@ -4343,7 +4883,7 @@
       "defined_tags": {},
       "display_name": "Oracle-Linux-8.3-2021.01.12-0",
       "freeform_tags": {},
-      "id": "ocid1.image.oc1.phx.aaaaaaaatgj6aodlwvyrwlmd6pjrfk3ccr4fv23mw56l3gwsy6cnze56d4ja",
+      "id": "ocid1.image.oc1.iad.aaaaaaaaffp3cnkpfxibzrdkfnxbitkgxk7al33rrhpzhfnrhfv7ml2xdpyq",
       "launch_mode": "NATIVE",
       "launch_options": {
         "boot_volume_type": "PARAVIRTUALIZED",
@@ -4378,6 +4918,7 @@
         "VM.Standard.E2.4",
         "VM.Standard.E2.8",
         "VM.Standard.E3.Flex",
+        "VM.Standard.E4.Flex",
         "VM.Standard1.1",
         "VM.Standard1.16",
         "VM.Standard1.2",
@@ -4391,6 +4932,7 @@
         "VM.Standard2.8",
         "BM.Standard.E2.64",
         "BM.Standard.E3.128",
+        "BM.Standard.E4.128",
         "BM.Standard1.36",
         "BM.HighIO1.36",
         "BM.DenseIO1.36",
@@ -4404,7 +4946,7 @@
       ],
       "size_in_mbs": 47694,
       "sort_key": "Oracle Linux 8",
-      "time_created": "2021-01-11T19:05:56.733000+00:00"
+      "time_created": "2021-01-11T18:59:36.695000+00:00"
     },
     {
       "agent_features": null,
@@ -4414,7 +4956,7 @@
       "defined_tags": {},
       "display_name": "Oracle-Linux-8.3-2020.12.17-0",
       "freeform_tags": {},
-      "id": "ocid1.image.oc1.phx.aaaaaaaachy5qla6fy7pmkxf44r7ixoz6qybnkv7zsd3psxahihvbc54ahea",
+      "id": "ocid1.image.oc1.iad.aaaaaaaaxnihckyl7dku6uckrbkequg6dc5vbvdld44wzkqzv7i7g6zlv3ja",
       "launch_mode": "NATIVE",
       "launch_options": {
         "boot_volume_type": "PARAVIRTUALIZED",
@@ -4475,7 +5017,7 @@
       ],
       "size_in_mbs": 47694,
       "sort_key": "Oracle Linux 8",
-      "time_created": "2020-12-20T20:30:36.361000+00:00"
+      "time_created": "2020-12-20T20:23:51.158000+00:00"
     },
     {
       "agent_features": null,
@@ -4485,7 +5027,7 @@
       "defined_tags": {},
       "display_name": "Oracle-Linux-8.2-Gen2-GPU-2020.11.10-0",
       "freeform_tags": {},
-      "id": "ocid1.image.oc1.phx.aaaaaaaaw4hw4fcu42gyfvkn2kshuu255wgssyrfpxohe6gncsimk3ocjwla",
+      "id": "ocid1.image.oc1.iad.aaaaaaaapkadzgwatk34wrzumbgz3tdfaahdq3i5dqfwhefnes6zm65zwp3q",
       "launch_mode": "NATIVE",
       "launch_options": {
         "boot_volume_type": "PARAVIRTUALIZED",
@@ -4546,7 +5088,7 @@
       ],
       "size_in_mbs": 47694,
       "sort_key": "Oracle Linux 8",
-      "time_created": "2020-11-07T05:57:50.304000+00:00"
+      "time_created": "2020-11-07T05:59:22.097000+00:00"
     },
     {
       "agent_features": null,
@@ -4556,7 +5098,7 @@
       "defined_tags": {},
       "display_name": "Oracle-Linux-8.2-Gen2-GPU-2020.11.04-0",
       "freeform_tags": {},
-      "id": "ocid1.image.oc1.phx.aaaaaaaarjwsomurxwlhj23a34jkai7pg2aaeetobwyaggk5jajqntzoi6wa",
+      "id": "ocid1.image.oc1.iad.aaaaaaaalwumzzyjhw5a25p6qy6iyclfrnhsjmmmhojlje52ntzdkmphvlra",
       "launch_mode": "NATIVE",
       "launch_options": {
         "boot_volume_type": "PARAVIRTUALIZED",
@@ -4617,7 +5159,7 @@
       ],
       "size_in_mbs": 47694,
       "sort_key": "Oracle Linux 8",
-      "time_created": "2020-11-04T22:48:59.759000+00:00"
+      "time_created": "2020-11-04T22:36:50.994000+00:00"
     },
     {
       "agent_features": null,
@@ -4627,7 +5169,7 @@
       "defined_tags": {},
       "display_name": "Oracle-Linux-8.2-2020.11.10-0",
       "freeform_tags": {},
-      "id": "ocid1.image.oc1.phx.aaaaaaaacoipckanba22joksjifv5g7mvj72wp4yh7epvxjvsfmfcrty5j4a",
+      "id": "ocid1.image.oc1.iad.aaaaaaaak6gcgvlv3rgnrtztshfybjhbnarc5yakiunl2uu4bdadbmkqsf7q",
       "launch_mode": "NATIVE",
       "launch_options": {
         "boot_volume_type": "PARAVIRTUALIZED",
@@ -4688,7 +5230,7 @@
       ],
       "size_in_mbs": 47694,
       "sort_key": "Oracle Linux 8",
-      "time_created": "2020-11-07T04:58:29.255000+00:00"
+      "time_created": "2020-11-07T04:52:54.500000+00:00"
     },
     {
       "agent_features": null,
@@ -4698,7 +5240,7 @@
       "defined_tags": {},
       "display_name": "Oracle-Linux-8.2-2020.09.23-0",
       "freeform_tags": {},
-      "id": "ocid1.image.oc1.phx.aaaaaaaac6f7x3lvmsweish5gkqbvpnst3ucluzjygjjszjtlfhb3pt2kgbq",
+      "id": "ocid1.image.oc1.iad.aaaaaaaacpxlnoo3kysomtkcvypzzsa2m2ywyctnv4yicau2tdy3cucahf5q",
       "launch_mode": "NATIVE",
       "launch_options": {
         "boot_volume_type": "PARAVIRTUALIZED",
@@ -4759,7 +5301,78 @@
       ],
       "size_in_mbs": 47694,
       "sort_key": "Oracle Linux 8",
-      "time_created": "2020-09-23T22:49:50.507000+00:00"
+      "time_created": "2020-09-23T22:49:17.180000+00:00"
+    },
+    {
+      "agent_features": null,
+      "base_image_id": null,
+      "compartment_id": null,
+      "create_image_allowed": true,
+      "defined_tags": {},
+      "display_name": "Windows-Server-2012-R2-Datacenter-Edition-BM-Gen2-E2-2021.02.19-0",
+      "freeform_tags": {},
+      "id": "ocid1.image.oc1.iad.aaaaaaaaxcay3jdqw6osadinpwlc4s24mo42sukor62wiyvgqcbgtro76apa",
+      "launch_mode": "NATIVE",
+      "launch_options": {
+        "boot_volume_type": "PARAVIRTUALIZED",
+        "firmware": "UEFI_64",
+        "is_consistent_volume_naming_enabled": false,
+        "is_pv_encryption_in_transit_enabled": true,
+        "network_type": "VFIO",
+        "remote_data_volume_type": "PARAVIRTUALIZED"
+      },
+      "lifecycle_state": "AVAILABLE",
+      "operating_system": "Windows",
+      "operating_system_version": "Server 2012 R2 Datacenter",
+      "shapes": [
+        "BM.Standard.E2.64",
+        "VM.DenseIO1.4",
+        "VM.DenseIO1.8",
+        "VM.DenseIO2.16",
+        "VM.DenseIO2.24",
+        "VM.DenseIO2.8",
+        "VM.GPU2.1",
+        "VM.GPU3.1",
+        "VM.GPU3.2",
+        "VM.GPU3.4",
+        "VM.Standard.B1.1",
+        "VM.Standard.B1.16",
+        "VM.Standard.B1.2",
+        "VM.Standard.B1.4",
+        "VM.Standard.B1.8",
+        "VM.Standard.E2.1",
+        "VM.Standard.E2.1.Micro",
+        "VM.Standard.E2.2",
+        "VM.Standard.E2.4",
+        "VM.Standard.E2.8",
+        "VM.Standard.E3.Flex",
+        "VM.Standard1.1",
+        "VM.Standard1.16",
+        "VM.Standard1.2",
+        "VM.Standard1.4",
+        "VM.Standard1.8",
+        "VM.Standard2.1",
+        "VM.Standard2.16",
+        "VM.Standard2.2",
+        "VM.Standard2.24",
+        "VM.Standard2.4",
+        "VM.Standard2.8",
+        "BM.Standard.E2.64",
+        "BM.Standard.E3.128",
+        "BM.Standard1.36",
+        "BM.HighIO1.36",
+        "BM.DenseIO1.36",
+        "x5-2.36.512.nvme-6.4-Internal",
+        "BM.Standard.B1.44",
+        "BM.GPU2.2",
+        "BM.HPC2.36",
+        "BM.Standard2.52",
+        "BM.GPU3.8",
+        "BM.DenseIO2.52"
+      ],
+      "size_in_mbs": 262144,
+      "sort_key": "Windows Server 2012 R2 Datacenter",
+      "time_created": "2021-02-19T04:10:50.536000+00:00"
     },
     {
       "agent_features": null,
@@ -4769,7 +5382,7 @@
       "defined_tags": {},
       "display_name": "Windows-Server-2012-R2-Datacenter-Edition-BM-Gen2-E2-2020.11.30-0",
       "freeform_tags": {},
-      "id": "ocid1.image.oc1.phx.aaaaaaaara6hg4t5i34c6ro4hhm5kwyyh3knwsyssdqnl5n6zniso4vup3uq",
+      "id": "ocid1.image.oc1.iad.aaaaaaaaut2aibl4bdbvvlc5ihdt5jcabvlyutxfcykwu5l6q3wyrrxld2yq",
       "launch_mode": "NATIVE",
       "launch_options": {
         "boot_volume_type": "PARAVIRTUALIZED",
@@ -4783,15 +5396,14 @@
       "operating_system": "Windows",
       "operating_system_version": "Server 2012 R2 Datacenter",
       "shapes": [
-        "VM.Standard.A1.Flex",
         "BM.Standard.E2.64",
-        "BM.Standard2.52",
-        "BM.GPU3.8",
+        "BM.HighIO1.36",
+        "BM.DenseIO1.36",
         "BM.GPU3.8"
       ],
       "size_in_mbs": 262144,
       "sort_key": "Windows Server 2012 R2 Datacenter",
-      "time_created": "2020-12-02T07:59:35.169000+00:00"
+      "time_created": "2020-12-01T09:12:52.907000+00:00"
     },
     {
       "agent_features": null,
@@ -4801,7 +5413,7 @@
       "defined_tags": {},
       "display_name": "Windows-Server-2012-R2-Datacenter-Edition-BM-Gen2-E2-2020.10.20-0",
       "freeform_tags": {},
-      "id": "ocid1.image.oc1.phx.aaaaaaaaiemyqn772e6jjrw245uuxvfttbybuuruz3dzd3uhbvsree6p65xa",
+      "id": "ocid1.image.oc1.iad.aaaaaaaagm6r4btluabxluj7ykwheiaeadmi3dyol7fjvufio45igr4hqmja",
       "launch_mode": "NATIVE",
       "launch_options": {
         "boot_volume_type": "PARAVIRTUALIZED",
@@ -4819,11 +5431,43 @@
         "BM.DenseIO2.52",
         "BM.Standard2.52",
         "BM.GPU3.8",
+        "VM.Standard.E3.Flex"
+      ],
+      "size_in_mbs": 262144,
+      "sort_key": "Windows Server 2012 R2 Datacenter",
+      "time_created": "2020-10-21T00:12:49.809000+00:00"
+    },
+    {
+      "agent_features": null,
+      "base_image_id": null,
+      "compartment_id": null,
+      "create_image_allowed": true,
+      "defined_tags": {},
+      "display_name": "Windows-Server-2012-R2-Datacenter-Edition-BM-Gen2-DenseIO-2021.02.19-0",
+      "freeform_tags": {},
+      "id": "ocid1.image.oc1.iad.aaaaaaaa4j2tqmehbsdprxlwopuhkcitciuauq7imxnw5j4euill62qhvlna",
+      "launch_mode": "NATIVE",
+      "launch_options": {
+        "boot_volume_type": "PARAVIRTUALIZED",
+        "firmware": "UEFI_64",
+        "is_consistent_volume_naming_enabled": false,
+        "is_pv_encryption_in_transit_enabled": true,
+        "network_type": "VFIO",
+        "remote_data_volume_type": "PARAVIRTUALIZED"
+      },
+      "lifecycle_state": "AVAILABLE",
+      "operating_system": "Windows",
+      "operating_system_version": "Server 2012 R2 Datacenter",
+      "shapes": [
+        "BM.DenseIO2.52",
+        "BM.GPU2.2",
+        "BM.HPC2.36",
+        "BM.Standard2.52",
         "BM.GPU3.8"
       ],
       "size_in_mbs": 262144,
       "sort_key": "Windows Server 2012 R2 Datacenter",
-      "time_created": "2020-10-23T02:28:06.104000+00:00"
+      "time_created": "2021-02-19T04:28:35.973000+00:00"
     },
     {
       "agent_features": null,
@@ -4833,7 +5477,7 @@
       "defined_tags": {},
       "display_name": "Windows-Server-2012-R2-Datacenter-Edition-BM-Gen2-DenseIO-2020.12.12-0",
       "freeform_tags": {},
-      "id": "ocid1.image.oc1.phx.aaaaaaaamvnbvl57hqo3avbn6mgt25ttxhhdh6zz75vdekf7tffng3eejo4a",
+      "id": "ocid1.image.oc1.iad.aaaaaaaahaehlhprcpm5glkezgafc4p3zs3kjtolpvo5ggq5zn7qq7rccv3a",
       "launch_mode": "NATIVE",
       "launch_options": {
         "boot_volume_type": "PARAVIRTUALIZED",
@@ -4848,13 +5492,14 @@
       "operating_system_version": "Server 2012 R2 Datacenter",
       "shapes": [
         "BM.DenseIO2.52",
-        "BM.HighIO1.36",
-        "BM.DenseIO1.36",
-        "BM.GPU3.8"
+        "BM.HPC2.36",
+        "BM.Standard2.52",
+        "BM.GPU3.8",
+        "VM.Standard.E3.Flex"
       ],
       "size_in_mbs": 262144,
       "sort_key": "Windows Server 2012 R2 Datacenter",
-      "time_created": "2020-12-19T04:04:37.840000+00:00"
+      "time_created": "2020-12-12T09:09:51.027000+00:00"
     },
     {
       "agent_features": null,
@@ -4864,7 +5509,7 @@
       "defined_tags": {},
       "display_name": "Windows-Server-2012-R2-Datacenter-Edition-BM-Gen2-DenseIO-2020.11.14-0",
       "freeform_tags": {},
-      "id": "ocid1.image.oc1.phx.aaaaaaaav2g4b3uyua36twpyqqm6ks2ixwirhn2wqwj6syo3wdpauvjclw3q",
+      "id": "ocid1.image.oc1.iad.aaaaaaaaffpd4ppcrj7qw45iwneeyoytls5d37keuz3oqmu6gxrbagqygrqq",
       "launch_mode": "NATIVE",
       "launch_options": {
         "boot_volume_type": "PARAVIRTUALIZED",
@@ -4878,15 +5523,23 @@
       "operating_system": "Windows",
       "operating_system_version": "Server 2012 R2 Datacenter",
       "shapes": [
-        "VM.Standard.A1.Flex",
         "BM.DenseIO2.52",
+        "BM.HPC2.36",
         "BM.Standard2.52",
         "BM.GPU3.8",
-        "VM.Standard.E3.Flex"
+        "BM.GPU3.8",
+        "VM.GPU3.2",
+        "VM.GPU3.4",
+        "VM.Standard2.1",
+        "VM.Standard2.16",
+        "VM.Standard2.2",
+        "VM.Standard2.24",
+        "VM.Standard2.4",
+        "VM.Standard2.8"
       ],
       "size_in_mbs": 262144,
       "sort_key": "Windows Server 2012 R2 Datacenter",
-      "time_created": "2020-11-29T11:20:07.305000+00:00"
+      "time_created": "2020-11-15T00:49:03.825000+00:00"
     },
     {
       "agent_features": null,
@@ -4894,9 +5547,9 @@
       "compartment_id": null,
       "create_image_allowed": true,
       "defined_tags": {},
-      "display_name": "Windows-Server-2012-R2-Datacenter-Edition-BM-Gen2-DenseIO-2020.10.23-0",
+      "display_name": "Windows-Server-2012-R2-Datacenter-Edition-BM-Gen2-2021.02.19-0",
       "freeform_tags": {},
-      "id": "ocid1.image.oc1.phx.aaaaaaaaxox3cqannigtwtg6tujjjuxbqdtjomydj5svmfhjktr7dpdl2qqa",
+      "id": "ocid1.image.oc1.iad.aaaaaaaa7ebiwhefatyr6sior225nlqsmz7sw2zxsylxiitmdgcwnhjzjsfq",
       "launch_mode": "NATIVE",
       "launch_options": {
         "boot_volume_type": "PARAVIRTUALIZED",
@@ -4910,15 +5563,24 @@
       "operating_system": "Windows",
       "operating_system_version": "Server 2012 R2 Datacenter",
       "shapes": [
-        "BM.DenseIO2.52",
         "BM.GPU2.2",
         "BM.HPC2.36",
         "BM.Standard2.52",
-        "BM.GPU3.8"
+        "BM.GPU3.8",
+        "VM.Standard.E3.Flex",
+        "VM.GPU3.2",
+        "VM.GPU3.4",
+        "VM.Standard2.1",
+        "VM.Standard2.16",
+        "VM.Standard2.2",
+        "VM.Standard2.24",
+        "VM.Standard2.4",
+        "VM.Standard2.8",
+        "BM.GPU4.8"
       ],
       "size_in_mbs": 262144,
       "sort_key": "Windows Server 2012 R2 Datacenter",
-      "time_created": "2020-10-30T22:01:38.410000+00:00"
+      "time_created": "2021-02-19T03:56:12.411000+00:00"
     },
     {
       "agent_features": null,
@@ -4928,7 +5590,7 @@
       "defined_tags": {},
       "display_name": "Windows-Server-2012-R2-Datacenter-Edition-BM-Gen2-2020.12.12-0",
       "freeform_tags": {},
-      "id": "ocid1.image.oc1.phx.aaaaaaaaqjzn5hlg2xyr67c72j6lt62qm73lhft5d2y57lo5yfu64b6lthba",
+      "id": "ocid1.image.oc1.iad.aaaaaaaasphhqjuxzx5lz5drpbouirfsjru546avnnvh2b7o7cjtw7jphf2a",
       "launch_mode": "NATIVE",
       "launch_options": {
         "boot_volume_type": "PARAVIRTUALIZED",
@@ -4946,11 +5608,19 @@
         "BM.HPC2.36",
         "BM.Standard2.52",
         "BM.GPU3.8",
-        "VM.Standard.E3.Flex"
+        "VM.GPU3.1",
+        "VM.GPU3.2",
+        "VM.GPU3.4",
+        "VM.Standard2.1",
+        "VM.Standard2.16",
+        "VM.Standard2.2",
+        "VM.Standard2.24",
+        "VM.Standard2.4",
+        "VM.Standard2.8"
       ],
       "size_in_mbs": 262144,
       "sort_key": "Windows Server 2012 R2 Datacenter",
-      "time_created": "2020-12-19T04:07:16.100000+00:00"
+      "time_created": "2020-12-12T09:00:57.833000+00:00"
     },
     {
       "agent_features": null,
@@ -4960,47 +5630,7 @@
       "defined_tags": {},
       "display_name": "Windows-Server-2012-R2-Datacenter-Edition-BM-Gen2-2020.11.14-0",
       "freeform_tags": {},
-      "id": "ocid1.image.oc1.phx.aaaaaaaa2prmxkchyqol3wplfcwnxnybkdxyedqcrbmpgloukh25wnfxrrdq",
-      "launch_mode": "NATIVE",
-      "launch_options": {
-        "boot_volume_type": "PARAVIRTUALIZED",
-        "firmware": "UEFI_64",
-        "is_consistent_volume_naming_enabled": false,
-        "is_pv_encryption_in_transit_enabled": true,
-        "network_type": "VFIO",
-        "remote_data_volume_type": "PARAVIRTUALIZED"
-      },
-      "lifecycle_state": "AVAILABLE",
-      "operating_system": "Windows",
-      "operating_system_version": "Server 2012 R2 Datacenter",
-      "shapes": [
-        "VM.Standard.A1.Flex",
-        "BM.GPU2.2",
-        "BM.HPC2.36",
-        "BM.Standard2.52",
-        "BM.GPU3.8",
-        "VM.GPU3.2",
-        "VM.GPU3.4",
-        "VM.Standard2.1",
-        "VM.Standard2.16",
-        "VM.Standard2.2",
-        "VM.Standard2.24",
-        "VM.Standard2.4",
-        "VM.Standard2.8"
-      ],
-      "size_in_mbs": 262144,
-      "sort_key": "Windows Server 2012 R2 Datacenter",
-      "time_created": "2020-11-29T11:18:03.055000+00:00"
-    },
-    {
-      "agent_features": null,
-      "base_image_id": null,
-      "compartment_id": null,
-      "create_image_allowed": true,
-      "defined_tags": {},
-      "display_name": "Windows-Server-2012-R2-Datacenter-Edition-BM-Gen2-2020.10.20-0",
-      "freeform_tags": {},
-      "id": "ocid1.image.oc1.phx.aaaaaaaaohduc7tppcaz6lseyr53h3flaya7lg7irpvkbs5pivfx4bsxkqba",
+      "id": "ocid1.image.oc1.iad.aaaaaaaawjo67bpj5qsvi65ynyb6g7gar5mhrwquztxep74wetgrj4f3ogcq",
       "launch_mode": "NATIVE",
       "launch_options": {
         "boot_volume_type": "PARAVIRTUALIZED",
@@ -5031,7 +5661,48 @@
       ],
       "size_in_mbs": 262144,
       "sort_key": "Windows Server 2012 R2 Datacenter",
-      "time_created": "2020-10-23T16:48:01.060000+00:00"
+      "time_created": "2020-11-15T00:28:24.893000+00:00"
+    },
+    {
+      "agent_features": null,
+      "base_image_id": null,
+      "compartment_id": null,
+      "create_image_allowed": true,
+      "defined_tags": {},
+      "display_name": "Windows-Server-2012-R2-Datacenter-Edition-BM-2021.02.19-0",
+      "freeform_tags": {},
+      "id": "ocid1.image.oc1.iad.aaaaaaaau62rx7rs2z3jy43yegypyin3su6nlqzdwhj6uqcefupkjkjyfjta",
+      "launch_mode": "NATIVE",
+      "launch_options": {
+        "boot_volume_type": "PARAVIRTUALIZED",
+        "firmware": "UEFI_64",
+        "is_consistent_volume_naming_enabled": false,
+        "is_pv_encryption_in_transit_enabled": true,
+        "network_type": "VFIO",
+        "remote_data_volume_type": "PARAVIRTUALIZED"
+      },
+      "lifecycle_state": "AVAILABLE",
+      "operating_system": "Windows",
+      "operating_system_version": "Server 2012 R2 Datacenter",
+      "shapes": [
+        "BM.Standard1.36",
+        "BM.HighIO1.36",
+        "BM.DenseIO1.36",
+        "VM.Standard.E2.8",
+        "VM.Standard.E3.Flex",
+        "VM.Standard1.2",
+        "VM.Standard1.4",
+        "VM.Standard1.8",
+        "VM.Standard2.16",
+        "VM.Standard2.2",
+        "VM.Standard2.24",
+        "VM.Standard2.4",
+        "VM.Standard2.8",
+        "BM.GPU4.8"
+      ],
+      "size_in_mbs": 262144,
+      "sort_key": "Windows Server 2012 R2 Datacenter",
+      "time_created": "2021-02-19T04:01:39.236000+00:00"
     },
     {
       "agent_features": null,
@@ -5041,7 +5712,7 @@
       "defined_tags": {},
       "display_name": "Windows-Server-2012-R2-Datacenter-Edition-BM-2020.12.15-0",
       "freeform_tags": {},
-      "id": "ocid1.image.oc1.phx.aaaaaaaabwflvmvgtggtde7g2ulebo54efvg3sp6ttxrnqrdkx6e3sbubrva",
+      "id": "ocid1.image.oc1.iad.aaaaaaaap36uuvvhzdgy4ucuolsu46td7eev25eyvjc4vp2tydtgon6cfz6a",
       "launch_mode": "NATIVE",
       "launch_options": {
         "boot_volume_type": "PARAVIRTUALIZED",
@@ -5058,11 +5729,11 @@
         "BM.Standard1.36",
         "BM.HighIO1.36",
         "BM.DenseIO1.36",
-        "VM.GPU2.1",
-        "VM.GPU3.1",
-        "VM.GPU3.2",
-        "VM.GPU3.4",
-        "VM.Standard2.1",
+        "VM.Standard.E2.8",
+        "VM.Standard.E3.Flex",
+        "VM.Standard1.2",
+        "VM.Standard1.4",
+        "VM.Standard1.8",
         "VM.Standard2.16",
         "VM.Standard2.2",
         "VM.Standard2.24",
@@ -5071,7 +5742,7 @@
       ],
       "size_in_mbs": 262144,
       "sort_key": "Windows Server 2012 R2 Datacenter",
-      "time_created": "2020-12-19T04:06:01.885000+00:00"
+      "time_created": "2020-12-15T21:08:24.054000+00:00"
     },
     {
       "agent_features": null,
@@ -5081,48 +5752,7 @@
       "defined_tags": {},
       "display_name": "Windows-Server-2012-R2-Datacenter-Edition-BM-2020.11.14-0",
       "freeform_tags": {},
-      "id": "ocid1.image.oc1.phx.aaaaaaaahg6sdlbzxfa5cpznzfm6ofclom3iob4oh2v3konaw4u7qlbhm3tq",
-      "launch_mode": "NATIVE",
-      "launch_options": {
-        "boot_volume_type": "PARAVIRTUALIZED",
-        "firmware": "UEFI_64",
-        "is_consistent_volume_naming_enabled": false,
-        "is_pv_encryption_in_transit_enabled": true,
-        "network_type": "VFIO",
-        "remote_data_volume_type": "PARAVIRTUALIZED"
-      },
-      "lifecycle_state": "AVAILABLE",
-      "operating_system": "Windows",
-      "operating_system_version": "Server 2012 R2 Datacenter",
-      "shapes": [
-        "VM.Standard.A1.Flex",
-        "BM.Standard1.36",
-        "BM.HighIO1.36",
-        "BM.DenseIO1.36",
-        "VM.Standard.E3.Flex",
-        "VM.GPU3.2",
-        "VM.GPU3.4",
-        "VM.Standard2.1",
-        "VM.Standard2.16",
-        "VM.Standard2.2",
-        "VM.Standard2.24",
-        "VM.Standard2.4",
-        "VM.Standard2.8",
-        "BM.GPU4.8"
-      ],
-      "size_in_mbs": 262144,
-      "sort_key": "Windows Server 2012 R2 Datacenter",
-      "time_created": "2020-11-29T09:23:16.015000+00:00"
-    },
-    {
-      "agent_features": null,
-      "base_image_id": null,
-      "compartment_id": null,
-      "create_image_allowed": true,
-      "defined_tags": {},
-      "display_name": "Windows-Server-2012-R2-Datacenter-Edition-BM-2020.10.20-0",
-      "freeform_tags": {},
-      "id": "ocid1.image.oc1.phx.aaaaaaaaj737bs2zjjcmf35yxuwbyfx7irkvvubpnqe7p2u4ge6uq3ji5hoa",
+      "id": "ocid1.image.oc1.iad.aaaaaaaaejbf2kszu2fe3z3sfwsf5b7vmo2rfjerch63gzzxcxlmqy5lwubq",
       "launch_mode": "NATIVE",
       "launch_options": {
         "boot_volume_type": "PARAVIRTUALIZED",
@@ -5141,9 +5771,49 @@
         "BM.DenseIO1.36",
         "VM.Standard.E2.8",
         "VM.Standard.E3.Flex",
-        "VM.Standard1.2",
-        "VM.Standard1.4",
-        "VM.Standard1.8",
+        "VM.GPU3.2",
+        "VM.GPU3.4",
+        "VM.Standard2.1",
+        "VM.Standard2.16",
+        "VM.Standard2.2",
+        "VM.Standard2.24",
+        "VM.Standard2.4",
+        "VM.Standard2.8"
+      ],
+      "size_in_mbs": 262144,
+      "sort_key": "Windows Server 2012 R2 Datacenter",
+      "time_created": "2020-11-14T03:30:35.751000+00:00"
+    },
+    {
+      "agent_features": null,
+      "base_image_id": null,
+      "compartment_id": null,
+      "create_image_allowed": true,
+      "defined_tags": {},
+      "display_name": "Windows-Server-2012-R2-Standard-Edition-VM-Gen2-E2-2021.02.13-0",
+      "freeform_tags": {},
+      "id": "ocid1.image.oc1.iad.aaaaaaaa4nf5oe4rn2x6z6xsfohikptbydpwg6vohkjmrynodqedbg66qj7a",
+      "launch_mode": "CUSTOM",
+      "launch_options": {
+        "boot_volume_type": "PARAVIRTUALIZED",
+        "firmware": "UEFI_64",
+        "is_consistent_volume_naming_enabled": false,
+        "is_pv_encryption_in_transit_enabled": true,
+        "network_type": "PARAVIRTUALIZED",
+        "remote_data_volume_type": "PARAVIRTUALIZED"
+      },
+      "lifecycle_state": "AVAILABLE",
+      "operating_system": "Windows",
+      "operating_system_version": "Server 2012 R2 Standard",
+      "shapes": [
+        "VM.Standard.E2.1",
+        "VM.Standard.E2.2",
+        "VM.Standard.E2.4",
+        "VM.Standard.E2.8",
+        "VM.Standard.E3.Flex",
+        "VM.GPU3.2",
+        "VM.GPU3.4",
+        "VM.Standard2.1",
         "VM.Standard2.16",
         "VM.Standard2.2",
         "VM.Standard2.24",
@@ -5152,8 +5822,8 @@
         "BM.GPU4.8"
       ],
       "size_in_mbs": 262144,
-      "sort_key": "Windows Server 2012 R2 Datacenter",
-      "time_created": "2020-10-23T02:23:21.748000+00:00"
+      "sort_key": "Windows Server 2012 R2 Standard",
+      "time_created": "2021-02-19T01:27:09.265000+00:00"
     },
     {
       "agent_features": null,
@@ -5163,7 +5833,7 @@
       "defined_tags": {},
       "display_name": "Windows-Server-2012-R2-Standard-Edition-VM-Gen2-E2-2020.12.12-0",
       "freeform_tags": {},
-      "id": "ocid1.image.oc1.phx.aaaaaaaatb22ilmiwayjled2k35jbj3fztu4kmvemaw4wpt2os2o6lfpctua",
+      "id": "ocid1.image.oc1.iad.aaaaaaaa6iy2hqy5irnunzyikowzlwuul3fwlmukoc6576mu4idzdzmjs7ga",
       "launch_mode": "PARAVIRTUALIZED",
       "launch_options": {
         "boot_volume_type": "PARAVIRTUALIZED",
@@ -5182,9 +5852,9 @@
         "VM.Standard.E2.4",
         "VM.Standard.E2.8",
         "VM.Standard.E3.Flex",
-        "VM.Standard1.2",
-        "VM.Standard1.4",
-        "VM.Standard1.8",
+        "VM.GPU3.2",
+        "VM.GPU3.4",
+        "VM.Standard2.1",
         "VM.Standard2.16",
         "VM.Standard2.2",
         "VM.Standard2.24",
@@ -5193,7 +5863,7 @@
       ],
       "size_in_mbs": 262144,
       "sort_key": "Windows Server 2012 R2 Standard",
-      "time_created": "2020-12-19T04:06:37.496000+00:00"
+      "time_created": "2020-12-12T07:58:34.783000+00:00"
     },
     {
       "agent_features": null,
@@ -5203,7 +5873,7 @@
       "defined_tags": {},
       "display_name": "Windows-Server-2012-R2-Standard-Edition-VM-Gen2-E2-2020.11.14-0",
       "freeform_tags": {},
-      "id": "ocid1.image.oc1.phx.aaaaaaaazpbj5u24le6jfzwkeqzr3nqogfa7kspi4o3h2652fywql6tjrxtq",
+      "id": "ocid1.image.oc1.iad.aaaaaaaaimsdea3qnqbvlacjbefkzolnkoblvvz3w6edrtgemz5hckhkzw2a",
       "launch_mode": "PARAVIRTUALIZED",
       "launch_options": {
         "boot_volume_type": "PARAVIRTUALIZED",
@@ -5233,7 +5903,7 @@
       ],
       "size_in_mbs": 262144,
       "sort_key": "Windows Server 2012 R2 Standard",
-      "time_created": "2020-11-30T00:52:59.910000+00:00"
+      "time_created": "2020-11-14T23:41:47.390000+00:00"
     },
     {
       "agent_features": null,
@@ -5241,27 +5911,27 @@
       "compartment_id": null,
       "create_image_allowed": true,
       "defined_tags": {},
-      "display_name": "Windows-Server-2012-R2-Standard-Edition-VM-Gen2-E2-2020.10.21-0",
+      "display_name": "Windows-Server-2012-R2-Standard-Edition-VM-Gen2-2021.02.13-0",
       "freeform_tags": {},
-      "id": "ocid1.image.oc1.phx.aaaaaaaam6rkodi5qc4sgmnuasyoahqzb6zstwg7htosrgsyjeqqzzzpwc7q",
-      "launch_mode": "PARAVIRTUALIZED",
+      "id": "ocid1.image.oc1.iad.aaaaaaaatjdcz64qusz7i4j4bul4hb72mcr7gwnmf3fl6ku3wu2mrldjxcda",
+      "launch_mode": "CUSTOM",
       "launch_options": {
         "boot_volume_type": "PARAVIRTUALIZED",
         "firmware": "UEFI_64",
         "is_consistent_volume_naming_enabled": false,
         "is_pv_encryption_in_transit_enabled": true,
-        "network_type": "PARAVIRTUALIZED",
+        "network_type": "VFIO",
         "remote_data_volume_type": "PARAVIRTUALIZED"
       },
       "lifecycle_state": "AVAILABLE",
       "operating_system": "Windows",
       "operating_system_version": "Server 2012 R2 Standard",
       "shapes": [
-        "VM.Standard.E2.1",
-        "VM.Standard.E2.2",
-        "VM.Standard.E2.4",
-        "VM.Standard.E2.8",
-        "VM.Standard.E3.Flex",
+        "VM.DenseIO2.16",
+        "VM.DenseIO2.24",
+        "VM.DenseIO2.8",
+        "VM.GPU2.1",
+        "VM.GPU3.1",
         "VM.GPU3.2",
         "VM.GPU3.4",
         "VM.Standard2.1",
@@ -5269,12 +5939,11 @@
         "VM.Standard2.2",
         "VM.Standard2.24",
         "VM.Standard2.4",
-        "VM.Standard2.8",
-        "BM.GPU4.8"
+        "VM.Standard2.8"
       ],
       "size_in_mbs": 262144,
       "sort_key": "Windows Server 2012 R2 Standard",
-      "time_created": "2020-10-23T02:20:47.595000+00:00"
+      "time_created": "2021-02-13T22:56:54.730000+00:00"
     },
     {
       "agent_features": null,
@@ -5284,7 +5953,7 @@
       "defined_tags": {},
       "display_name": "Windows-Server-2012-R2-Standard-Edition-VM-Gen2-2020.12.17-0",
       "freeform_tags": {},
-      "id": "ocid1.image.oc1.phx.aaaaaaaacihuos4eplcokupp2jvcnoffuoby2lyq2wrqb722tawxxz5l64wq",
+      "id": "ocid1.image.oc1.iad.aaaaaaaavfaipokndnv437jem2p2ghfvk2xe2cmucq2kyvxgsuuisnpntxfq",
       "launch_mode": "NATIVE",
       "launch_options": {
         "boot_volume_type": "PARAVIRTUALIZED",
@@ -5314,7 +5983,7 @@
       ],
       "size_in_mbs": 262144,
       "sort_key": "Windows Server 2012 R2 Standard",
-      "time_created": "2020-12-20T06:00:48.004000+00:00"
+      "time_created": "2020-12-18T01:12:56.219000+00:00"
     },
     {
       "agent_features": null,
@@ -5324,7 +5993,7 @@
       "defined_tags": {},
       "display_name": "Windows-Server-2012-R2-Standard-Edition-VM-Gen2-2020.10.20-0",
       "freeform_tags": {},
-      "id": "ocid1.image.oc1.phx.aaaaaaaafwue6fusa64te2fr7ktcyzxw3wcaj3xi4ryx77doikf535eato6a",
+      "id": "ocid1.image.oc1.iad.aaaaaaaayctqoiz3bglneufi6tks7kn4aac6atd7hiy454d5olq6ywezrbmq",
       "launch_mode": "NATIVE",
       "launch_options": {
         "boot_volume_type": "PARAVIRTUALIZED",
@@ -5354,7 +6023,42 @@
       ],
       "size_in_mbs": 262144,
       "sort_key": "Windows Server 2012 R2 Standard",
-      "time_created": "2020-10-23T16:48:58.803000+00:00"
+      "time_created": "2020-10-20T19:34:32.607000+00:00"
+    },
+    {
+      "agent_features": null,
+      "base_image_id": null,
+      "compartment_id": null,
+      "create_image_allowed": true,
+      "defined_tags": {},
+      "display_name": "Windows-Server-2012-R2-Standard-Edition-VM-2021.02.13-0",
+      "freeform_tags": {},
+      "id": "ocid1.image.oc1.iad.aaaaaaaabh7amhupchjinernyhrzrqr6ykhof3dvi6ynehalfs6oihemvfpa",
+      "launch_mode": "CUSTOM",
+      "launch_options": {
+        "boot_volume_type": "PARAVIRTUALIZED",
+        "firmware": "UEFI_64",
+        "is_consistent_volume_naming_enabled": false,
+        "is_pv_encryption_in_transit_enabled": true,
+        "network_type": "VFIO",
+        "remote_data_volume_type": "PARAVIRTUALIZED"
+      },
+      "lifecycle_state": "AVAILABLE",
+      "operating_system": "Windows",
+      "operating_system_version": "Server 2012 R2 Standard",
+      "shapes": [
+        "VM.DenseIO1.16",
+        "VM.DenseIO1.4",
+        "VM.DenseIO1.8",
+        "VM.Standard1.1",
+        "VM.Standard1.16",
+        "VM.Standard1.2",
+        "VM.Standard1.4",
+        "VM.Standard1.8"
+      ],
+      "size_in_mbs": 262144,
+      "sort_key": "Windows Server 2012 R2 Standard",
+      "time_created": "2021-02-13T22:51:41.631000+00:00"
     },
     {
       "agent_features": null,
@@ -5364,7 +6068,7 @@
       "defined_tags": {},
       "display_name": "Windows-Server-2012-R2-Standard-Edition-VM-2020.12.12-0",
       "freeform_tags": {},
-      "id": "ocid1.image.oc1.phx.aaaaaaaazoumyplrtdpnev3toycjpyjmwm4hzp5rijvf2z7mt6anpbpewpoq",
+      "id": "ocid1.image.oc1.iad.aaaaaaaaubjkc3klfqb2sxh3rvbc44vqgf3iezlmjlxdnn6p36btzvefelaq",
       "launch_mode": "NATIVE",
       "launch_options": {
         "boot_volume_type": "PARAVIRTUALIZED",
@@ -5385,11 +6089,20 @@
         "VM.Standard1.16",
         "VM.Standard1.2",
         "VM.Standard1.4",
-        "VM.Standard1.8"
+        "VM.Standard1.8",
+        "VM.Standard.E2.2",
+        "VM.Standard.E2.4",
+        "VM.Standard.E2.8",
+        "VM.Standard2.1",
+        "VM.Standard2.16",
+        "VM.Standard2.2",
+        "VM.Standard2.24",
+        "VM.Standard2.4",
+        "VM.Standard2.8"
       ],
       "size_in_mbs": 262144,
       "sort_key": "Windows Server 2012 R2 Standard",
-      "time_created": "2020-12-19T04:05:40.672000+00:00"
+      "time_created": "2020-12-12T07:51:33.074000+00:00"
     },
     {
       "agent_features": null,
@@ -5399,43 +6112,7 @@
       "defined_tags": {},
       "display_name": "Windows-Server-2012-R2-Standard-Edition-VM-2020.11.14-0",
       "freeform_tags": {},
-      "id": "ocid1.image.oc1.phx.aaaaaaaa3swhzeq72wjgioohaje55oooyvhjmzn4vxhmptbc3nbcvy6mu5bq",
-      "launch_mode": "NATIVE",
-      "launch_options": {
-        "boot_volume_type": "PARAVIRTUALIZED",
-        "firmware": "UEFI_64",
-        "is_consistent_volume_naming_enabled": false,
-        "is_pv_encryption_in_transit_enabled": true,
-        "network_type": "VFIO",
-        "remote_data_volume_type": "PARAVIRTUALIZED"
-      },
-      "lifecycle_state": "AVAILABLE",
-      "operating_system": "Windows",
-      "operating_system_version": "Server 2012 R2 Standard",
-      "shapes": [
-        "VM.DenseIO1.16",
-        "VM.DenseIO1.4",
-        "VM.DenseIO1.8",
-        "VM.Standard.A1.Flex",
-        "VM.Standard1.1",
-        "VM.Standard1.16",
-        "VM.Standard1.2",
-        "VM.Standard1.4",
-        "VM.Standard1.8"
-      ],
-      "size_in_mbs": 262144,
-      "sort_key": "Windows Server 2012 R2 Standard",
-      "time_created": "2020-11-30T00:52:32.327000+00:00"
-    },
-    {
-      "agent_features": null,
-      "base_image_id": null,
-      "compartment_id": null,
-      "create_image_allowed": true,
-      "defined_tags": {},
-      "display_name": "Windows-Server-2012-R2-Standard-Edition-VM-2020.10.21-0",
-      "freeform_tags": {},
-      "id": "ocid1.image.oc1.phx.aaaaaaaa3hlzzkxq7skt5ey4nj3lbqpbp4dhlhadmro2lsc553xdmza6tyea",
+      "id": "ocid1.image.oc1.iad.aaaaaaaa2f7n2vikguihovi2eyj22yeuyeyxvfxcgsteadx52p6bubynehoa",
       "launch_mode": "NATIVE",
       "launch_options": {
         "boot_volume_type": "PARAVIRTUALIZED",
@@ -5456,11 +6133,20 @@
         "VM.Standard1.16",
         "VM.Standard1.2",
         "VM.Standard1.4",
-        "VM.Standard1.8"
+        "VM.Standard1.8",
+        "VM.Standard.E2.2",
+        "VM.Standard.E2.4",
+        "VM.Standard.E2.8",
+        "VM.Standard2.1",
+        "VM.Standard2.16",
+        "VM.Standard2.2",
+        "VM.Standard2.24",
+        "VM.Standard2.4",
+        "VM.Standard2.8"
       ],
       "size_in_mbs": 262144,
       "sort_key": "Windows Server 2012 R2 Standard",
-      "time_created": "2020-10-23T16:53:47.572000+00:00"
+      "time_created": "2020-11-14T23:48:13.023000+00:00"
     },
     {
       "agent_features": null,
@@ -5470,7 +6156,7 @@
       "defined_tags": {},
       "display_name": "Windows-Server-2016-Datacenter-Edition-BM-Gen2-E2-2020.10.23-0",
       "freeform_tags": {},
-      "id": "ocid1.image.oc1.phx.aaaaaaaakjs3uds33pkqixeqynzvt3m4yccl3xlstdra33tmhbg5x3iz5qnq",
+      "id": "ocid1.image.oc1.iad.aaaaaaaa27ar5np4jufohej777mm7xqyzvgd6t6fpqcy6vptsfhmkrjrtiva",
       "launch_mode": "NATIVE",
       "launch_options": {
         "boot_volume_type": "PARAVIRTUALIZED",
@@ -5485,13 +6171,26 @@
       "operating_system_version": "Server 2016 Datacenter",
       "shapes": [
         "BM.Standard.E2.64",
-        "BM.DenseIO2.52",
+        "BM.GPU2.2",
+        "BM.HPC2.36",
         "BM.Standard2.52",
-        "BM.GPU3.8"
+        "BM.GPU3.8",
+        "VM.GPU3.2",
+        "VM.GPU3.4",
+        "VM.Standard.E2.1",
+        "VM.Standard.E2.2",
+        "VM.Standard.E2.4",
+        "VM.Standard.E2.8",
+        "VM.Standard2.1",
+        "VM.Standard2.16",
+        "VM.Standard2.2",
+        "VM.Standard2.24",
+        "VM.Standard2.4",
+        "VM.Standard2.8"
       ],
       "size_in_mbs": 262144,
       "sort_key": "Windows Server 2016 Datacenter",
-      "time_created": "2020-11-02T21:31:39.615000+00:00"
+      "time_created": "2020-10-23T07:34:02.521000+00:00"
     },
     {
       "agent_features": null,
@@ -5501,7 +6200,7 @@
       "defined_tags": {},
       "display_name": "Windows-Server-2016-Datacenter-Edition-BM-Gen2-DenseIO-2020.12.15-0",
       "freeform_tags": {},
-      "id": "ocid1.image.oc1.phx.aaaaaaaaumdctmi5qffzzhkxcmn5myr7c4ck6eyxhyrxycu4i7z7rsusbo7q",
+      "id": "ocid1.image.oc1.iad.aaaaaaaag5rojznwmoovbarwfgo3ekmacntg4q7gqwhuwwk5a5zc4grkv5fq",
       "launch_mode": "NATIVE",
       "launch_options": {
         "boot_volume_type": "PARAVIRTUALIZED",
@@ -5535,7 +6234,7 @@
       ],
       "size_in_mbs": 262144,
       "sort_key": "Windows Server 2016 Datacenter",
-      "time_created": "2020-12-19T04:05:39.817000+00:00"
+      "time_created": "2020-12-15T22:44:09.318000+00:00"
     },
     {
       "agent_features": null,
@@ -5545,7 +6244,7 @@
       "defined_tags": {},
       "display_name": "Windows-Server-2016-Datacenter-Edition-BM-Gen2-DenseIO-2020.11.15-0",
       "freeform_tags": {},
-      "id": "ocid1.image.oc1.phx.aaaaaaaabmdxkw6figb37fk4kjdqkm2ombyd57duhffkjykxdf5e6yra2ejq",
+      "id": "ocid1.image.oc1.iad.aaaaaaaa7izzdjt3kblz6ymwatuvrgmcj5kwtmlwoo7x6lirbbnobxjl7kla",
       "launch_mode": "NATIVE",
       "launch_options": {
         "boot_volume_type": "PARAVIRTUALIZED",
@@ -5559,11 +6258,11 @@
       "operating_system": "Windows",
       "operating_system_version": "Server 2016 Datacenter",
       "shapes": [
-        "VM.Standard.A1.Flex",
         "BM.DenseIO2.52",
+        "BM.HPC2.36",
         "BM.Standard2.52",
         "BM.GPU3.8",
-        "VM.GPU3.1",
+        "BM.GPU3.8",
         "VM.GPU3.2",
         "VM.GPU3.4",
         "VM.Standard.E2.1",
@@ -5579,7 +6278,7 @@
       ],
       "size_in_mbs": 262144,
       "sort_key": "Windows Server 2016 Datacenter",
-      "time_created": "2020-11-30T01:16:36.813000+00:00"
+      "time_created": "2020-11-15T01:56:13.381000+00:00"
     },
     {
       "agent_features": null,
@@ -5589,7 +6288,7 @@
       "defined_tags": {},
       "display_name": "Windows-Server-2016-Datacenter-Edition-BM-Gen2-DenseIO-2020.10.22-0",
       "freeform_tags": {},
-      "id": "ocid1.image.oc1.phx.aaaaaaaadsyzgx4ucxps5n274i7ijplzgbxbfjjk472foy5azfkzf3iveana",
+      "id": "ocid1.image.oc1.iad.aaaaaaaazwae2sfjc3t5a54tjjvn6msvhzuocn7uvn2wkknota2kvtysbysq",
       "launch_mode": "NATIVE",
       "launch_options": {
         "boot_volume_type": "PARAVIRTUALIZED",
@@ -5604,12 +6303,13 @@
       "operating_system_version": "Server 2016 Datacenter",
       "shapes": [
         "BM.DenseIO2.52",
-        "BM.GPU2.2",
         "BM.HPC2.36",
         "BM.Standard2.52",
         "BM.GPU3.8",
+        "VM.GPU3.1",
         "VM.GPU3.2",
         "VM.GPU3.4",
+        "VM.Standard.A1.Flex",
         "VM.Standard.E2.1",
         "VM.Standard.E2.2",
         "VM.Standard.E2.4",
@@ -5623,7 +6323,7 @@
       ],
       "size_in_mbs": 262144,
       "sort_key": "Windows Server 2016 Datacenter",
-      "time_created": "2020-10-23T18:10:29.126000+00:00"
+      "time_created": "2020-10-22T23:22:26.523000+00:00"
     },
     {
       "agent_features": null,
@@ -5633,7 +6333,7 @@
       "defined_tags": {},
       "display_name": "Windows-Server-2016-Datacenter-Edition-BM-Gen2-2020.12.15-0",
       "freeform_tags": {},
-      "id": "ocid1.image.oc1.phx.aaaaaaaa3fcaoqrtsfuqn4rni6set6ebtc3rqqtj3w6gbcuoqzd6kiqfqzfq",
+      "id": "ocid1.image.oc1.iad.aaaaaaaapu2ml56usrfwnmom5vvzfdv67sdr2z6q2tl3e7f5yhzq46npzgqa",
       "launch_mode": "NATIVE",
       "launch_options": {
         "boot_volume_type": "PARAVIRTUALIZED",
@@ -5667,7 +6367,7 @@
       ],
       "size_in_mbs": 262144,
       "sort_key": "Windows Server 2016 Datacenter",
-      "time_created": "2020-12-20T06:01:53.306000+00:00"
+      "time_created": "2020-12-15T05:58:33.492000+00:00"
     },
     {
       "agent_features": null,
@@ -5677,7 +6377,7 @@
       "defined_tags": {},
       "display_name": "Windows-Server-2016-Datacenter-Edition-BM-Gen2-2020.11.15-0",
       "freeform_tags": {},
-      "id": "ocid1.image.oc1.phx.aaaaaaaa6ijgnwlh2c6x4kqt7ktfe4a4sgnft6d72v2ugaofykxyey7oqqba",
+      "id": "ocid1.image.oc1.iad.aaaaaaaaiu3bvlxo2vvl4ob5u5qpvigg3xwmekwj3cucnb6w2zy2wzvhousq",
       "launch_mode": "NATIVE",
       "launch_options": {
         "boot_volume_type": "PARAVIRTUALIZED",
@@ -5691,11 +6391,11 @@
       "operating_system": "Windows",
       "operating_system_version": "Server 2016 Datacenter",
       "shapes": [
-        "VM.Standard.A1.Flex",
         "BM.GPU2.2",
         "BM.HPC2.36",
         "BM.Standard2.52",
         "BM.GPU3.8",
+        "VM.GPU3.1",
         "VM.GPU3.2",
         "VM.GPU3.4",
         "VM.Standard.E2.1",
@@ -5707,11 +6407,12 @@
         "VM.Standard2.2",
         "VM.Standard2.24",
         "VM.Standard2.4",
+        "VM.Standard2.8",
         "VM.Standard2.8"
       ],
       "size_in_mbs": 262144,
       "sort_key": "Windows Server 2016 Datacenter",
-      "time_created": "2020-11-30T00:53:28.495000+00:00"
+      "time_created": "2020-11-15T01:41:58.454000+00:00"
     },
     {
       "agent_features": null,
@@ -5721,7 +6422,7 @@
       "defined_tags": {},
       "display_name": "Windows-Server-2016-Datacenter-Edition-BM-Gen2-2020.10.23-0",
       "freeform_tags": {},
-      "id": "ocid1.image.oc1.phx.aaaaaaaaocrd4kiivdv53t4lsadbcoahy5u2vuwvwalkb7tcr275ujlng7pa",
+      "id": "ocid1.image.oc1.iad.aaaaaaaaldsm3vdv2gdhq3pex5p2hpb7zx2rvhyzlodmyjaqujwbreobuwhq",
       "launch_mode": "NATIVE",
       "launch_options": {
         "boot_volume_type": "PARAVIRTUALIZED",
@@ -5742,7 +6443,6 @@
         "VM.GPU3.1",
         "VM.GPU3.2",
         "VM.GPU3.4",
-        "VM.Standard.A1.Flex",
         "VM.Standard.E2.1",
         "VM.Standard.E2.2",
         "VM.Standard.E2.4",
@@ -5756,7 +6456,51 @@
       ],
       "size_in_mbs": 262144,
       "sort_key": "Windows Server 2016 Datacenter",
-      "time_created": "2020-10-23T18:16:06.593000+00:00"
+      "time_created": "2020-10-23T02:39:09.883000+00:00"
+    },
+    {
+      "agent_features": null,
+      "base_image_id": null,
+      "compartment_id": null,
+      "create_image_allowed": true,
+      "defined_tags": {},
+      "display_name": "Windows-Server-2016-Standard-Edition-VM-Gen2-2021.02.13-0",
+      "freeform_tags": {},
+      "id": "ocid1.image.oc1.iad.aaaaaaaadqxog5znu777slp2x2zkuv6ygfut57tzzooqyqmigl5f5qlsvzfa",
+      "launch_mode": "CUSTOM",
+      "launch_options": {
+        "boot_volume_type": "PARAVIRTUALIZED",
+        "firmware": "UEFI_64",
+        "is_consistent_volume_naming_enabled": false,
+        "is_pv_encryption_in_transit_enabled": true,
+        "network_type": "VFIO",
+        "remote_data_volume_type": "PARAVIRTUALIZED"
+      },
+      "lifecycle_state": "AVAILABLE",
+      "operating_system": "Windows",
+      "operating_system_version": "Server 2016 Standard",
+      "shapes": [
+        "VM.DenseIO2.16",
+        "VM.DenseIO2.24",
+        "VM.DenseIO2.8",
+        "VM.GPU2.1",
+        "VM.GPU3.1",
+        "VM.GPU3.2",
+        "VM.GPU3.4",
+        "VM.Standard.E2.1",
+        "VM.Standard.E2.2",
+        "VM.Standard.E2.4",
+        "VM.Standard.E2.8",
+        "VM.Standard2.1",
+        "VM.Standard2.16",
+        "VM.Standard2.2",
+        "VM.Standard2.24",
+        "VM.Standard2.4",
+        "VM.Standard2.8"
+      ],
+      "size_in_mbs": 262144,
+      "sort_key": "Windows Server 2016 Standard",
+      "time_created": "2021-02-13T23:05:58.426000+00:00"
     },
     {
       "agent_features": null,
@@ -5766,7 +6510,7 @@
       "defined_tags": {},
       "display_name": "Windows-Server-2016-Standard-Edition-VM-Gen2-2020.12.16-0",
       "freeform_tags": {},
-      "id": "ocid1.image.oc1.phx.aaaaaaaacdckmreezp2w46xyhtprtfstykgcjfaieoxkapejnxrjwzpsb4zq",
+      "id": "ocid1.image.oc1.iad.aaaaaaaajjoyvx7dga3rucmtuno3l34evc3jp4armk5srjfwx6bvaeiomibq",
       "launch_mode": "NATIVE",
       "launch_options": {
         "boot_volume_type": "PARAVIRTUALIZED",
@@ -5800,7 +6544,7 @@
       ],
       "size_in_mbs": 262144,
       "sort_key": "Windows Server 2016 Standard",
-      "time_created": "2020-12-20T06:02:14.403000+00:00"
+      "time_created": "2020-12-16T12:40:27.636000+00:00"
     },
     {
       "agent_features": null,
@@ -5810,52 +6554,7 @@
       "defined_tags": {},
       "display_name": "Windows-Server-2016-Standard-Edition-VM-Gen2-2020.11.23-0",
       "freeform_tags": {},
-      "id": "ocid1.image.oc1.phx.aaaaaaaapladdljscsazatpmytjdhjdhu2z74rgmdqdbfol5t44oeql42qzq",
-      "launch_mode": "NATIVE",
-      "launch_options": {
-        "boot_volume_type": "PARAVIRTUALIZED",
-        "firmware": "UEFI_64",
-        "is_consistent_volume_naming_enabled": false,
-        "is_pv_encryption_in_transit_enabled": true,
-        "network_type": "VFIO",
-        "remote_data_volume_type": "PARAVIRTUALIZED"
-      },
-      "lifecycle_state": "AVAILABLE",
-      "operating_system": "Windows",
-      "operating_system_version": "Server 2016 Standard",
-      "shapes": [
-        "VM.DenseIO2.16",
-        "VM.DenseIO2.24",
-        "VM.DenseIO2.8",
-        "VM.GPU2.1",
-        "VM.GPU3.1",
-        "VM.GPU3.2",
-        "VM.GPU3.4",
-        "VM.Standard.A1.Flex",
-        "VM.Standard.E2.1",
-        "VM.Standard.E2.2",
-        "VM.Standard.E2.4",
-        "VM.Standard.E2.8",
-        "VM.Standard2.1",
-        "VM.Standard2.16",
-        "VM.Standard2.2",
-        "VM.Standard2.24",
-        "VM.Standard2.4",
-        "VM.Standard2.8"
-      ],
-      "size_in_mbs": 262144,
-      "sort_key": "Windows Server 2016 Standard",
-      "time_created": "2020-12-01T08:55:16.848000+00:00"
-    },
-    {
-      "agent_features": null,
-      "base_image_id": null,
-      "compartment_id": null,
-      "create_image_allowed": true,
-      "defined_tags": {},
-      "display_name": "Windows-Server-2016-Standard-Edition-VM-Gen2-2020.10.20-0",
-      "freeform_tags": {},
-      "id": "ocid1.image.oc1.phx.aaaaaaaapctdmxecnpf2wroha66eaftl6gnmoxq5xmzwr4p5ya6mtmmxzpma",
+      "id": "ocid1.image.oc1.iad.aaaaaaaab4jroavicyalhb3wihbw2knk2ms6jqmqpitwzuctrvkhsb4ygh7q",
       "launch_mode": "NATIVE",
       "launch_options": {
         "boot_volume_type": "PARAVIRTUALIZED",
@@ -5889,7 +6588,7 @@
       ],
       "size_in_mbs": 262144,
       "sort_key": "Windows Server 2016 Standard",
-      "time_created": "2020-10-23T18:16:05.600000+00:00"
+      "time_created": "2020-11-25T19:00:19.849000+00:00"
     },
     {
       "agent_features": null,
@@ -5897,10 +6596,10 @@
       "compartment_id": null,
       "create_image_allowed": true,
       "defined_tags": {},
-      "display_name": "Windows-Server-2016-Standard-Edition-VM-E3-2020.12.15-0",
+      "display_name": "Windows-Server-2016-Standard-Edition-VM-E3-2021.02.13-0",
       "freeform_tags": {},
-      "id": "ocid1.image.oc1.phx.aaaaaaaavwdltrulsvdzp2cnspycgqq3y3t752deqo6l33l4wnz5gfocg5pq",
-      "launch_mode": "PARAVIRTUALIZED",
+      "id": "ocid1.image.oc1.iad.aaaaaaaavkrcmneroec5ix3ceqn5jdns5hjfubktlhd6yccvgzmv4ogle3la",
+      "launch_mode": "CUSTOM",
       "launch_options": {
         "boot_volume_type": "PARAVIRTUALIZED",
         "firmware": "UEFI_64",
@@ -5914,129 +6613,6 @@
       "operating_system_version": "Server 2016 Standard",
       "shapes": [
         "VM.Standard.E3.Flex",
-        "VM.Standard.B1.16",
-        "VM.Standard.B1.2",
-        "VM.Standard.B1.4",
-        "VM.Standard.B1.8",
-        "VM.Standard1.2",
-        "VM.Standard1.4",
-        "VM.Standard1.8"
-      ],
-      "size_in_mbs": 262144,
-      "sort_key": "Windows Server 2016 Standard",
-      "time_created": "2020-12-20T06:01:58.428000+00:00"
-    },
-    {
-      "agent_features": null,
-      "base_image_id": null,
-      "compartment_id": null,
-      "create_image_allowed": true,
-      "defined_tags": {},
-      "display_name": "Windows-Server-2016-Standard-Edition-VM-E3-2020.11.24-0",
-      "freeform_tags": {},
-      "id": "ocid1.image.oc1.phx.aaaaaaaa35i5dbtnaquf42wis2edxzfzaxk35plvmuebgblwn2li6e3x3w6a",
-      "launch_mode": "PARAVIRTUALIZED",
-      "launch_options": {
-        "boot_volume_type": "PARAVIRTUALIZED",
-        "firmware": "UEFI_64",
-        "is_consistent_volume_naming_enabled": false,
-        "is_pv_encryption_in_transit_enabled": true,
-        "network_type": "VFIO",
-        "remote_data_volume_type": "PARAVIRTUALIZED"
-      },
-      "lifecycle_state": "AVAILABLE",
-      "operating_system": "Windows",
-      "operating_system_version": "Server 2016 Standard",
-      "shapes": [
-        "VM.Standard.E3.Flex",
-        "VM.DenseIO1.4",
-        "VM.DenseIO1.8",
-        "VM.Standard1.1",
-        "VM.Standard1.16",
-        "VM.Standard1.2",
-        "VM.Standard1.4",
-        "VM.Standard1.8",
-        "VM.Standard.E2.2",
-        "VM.Standard.E2.4",
-        "VM.Standard.E2.8",
-        "VM.Standard2.1",
-        "VM.Standard2.16",
-        "VM.Standard2.2",
-        "VM.Standard2.24",
-        "VM.Standard2.4",
-        "VM.Standard2.8"
-      ],
-      "size_in_mbs": 262144,
-      "sort_key": "Windows Server 2016 Standard",
-      "time_created": "2020-12-01T23:03:22.299000+00:00"
-    },
-    {
-      "agent_features": null,
-      "base_image_id": null,
-      "compartment_id": null,
-      "create_image_allowed": true,
-      "defined_tags": {},
-      "display_name": "Windows-Server-2016-Standard-Edition-VM-B1-2020.10.22-0",
-      "freeform_tags": {},
-      "id": "ocid1.image.oc1.phx.aaaaaaaabvqihbpoe65hk5oqrryt23gn7rpfvzn4jn5v7gcapkyowajvaypq",
-      "launch_mode": "PARAVIRTUALIZED",
-      "launch_options": {
-        "boot_volume_type": "PARAVIRTUALIZED",
-        "firmware": "UEFI_64",
-        "is_consistent_volume_naming_enabled": false,
-        "is_pv_encryption_in_transit_enabled": true,
-        "network_type": "VFIO",
-        "remote_data_volume_type": "PARAVIRTUALIZED"
-      },
-      "lifecycle_state": "AVAILABLE",
-      "operating_system": "Windows",
-      "operating_system_version": "Server 2016 Standard",
-      "shapes": [
-        "VM.Standard.B1.1",
-        "VM.Standard.B1.16",
-        "VM.Standard.B1.2",
-        "VM.Standard.B1.4",
-        "VM.Standard.B1.8",
-        "VM.Standard1.16",
-        "VM.Standard1.2",
-        "VM.Standard1.4",
-        "VM.Standard1.8",
-        "VM.Standard.E2.4",
-        "VM.Standard.E2.8",
-        "VM.Standard2.1",
-        "VM.Standard2.16",
-        "VM.Standard2.2",
-        "VM.Standard2.24",
-        "VM.Standard2.4",
-        "VM.Standard2.8"
-      ],
-      "size_in_mbs": 262144,
-      "sort_key": "Windows Server 2016 Standard",
-      "time_created": "2020-10-27T23:02:06.060000+00:00"
-    },
-    {
-      "agent_features": null,
-      "base_image_id": null,
-      "compartment_id": null,
-      "create_image_allowed": true,
-      "defined_tags": {},
-      "display_name": "Windows-Server-2016-Standard-Edition-VM-2020.12.14-0",
-      "freeform_tags": {},
-      "id": "ocid1.image.oc1.phx.aaaaaaaa6enbao6bqyqe7mmwsaepuks5te6zn2yoqnxpfnqk636dmdw6praa",
-      "launch_mode": "NATIVE",
-      "launch_options": {
-        "boot_volume_type": "PARAVIRTUALIZED",
-        "firmware": "UEFI_64",
-        "is_consistent_volume_naming_enabled": false,
-        "is_pv_encryption_in_transit_enabled": true,
-        "network_type": "VFIO",
-        "remote_data_volume_type": "PARAVIRTUALIZED"
-      },
-      "lifecycle_state": "AVAILABLE",
-      "operating_system": "Windows",
-      "operating_system_version": "Server 2016 Standard",
-      "shapes": [
-        "VM.DenseIO1.16",
         "VM.DenseIO1.4",
         "VM.DenseIO1.8",
         "VM.Standard1.1",
@@ -6066,7 +6642,331 @@
       ],
       "size_in_mbs": 262144,
       "sort_key": "Windows Server 2016 Standard",
-      "time_created": "2020-12-20T06:03:41.030000+00:00"
+      "time_created": "2021-02-13T23:03:25.730000+00:00"
+    },
+    {
+      "agent_features": null,
+      "base_image_id": null,
+      "compartment_id": null,
+      "create_image_allowed": true,
+      "defined_tags": {},
+      "display_name": "Windows-Server-2016-Standard-Edition-VM-E3-2020.12.15-0",
+      "freeform_tags": {},
+      "id": "ocid1.image.oc1.iad.aaaaaaaao4s6qzkswgo2ujfjikf3j2wkddpvq42x3pm7bbwjddtwrl6xxcxq",
+      "launch_mode": "PARAVIRTUALIZED",
+      "launch_options": {
+        "boot_volume_type": "PARAVIRTUALIZED",
+        "firmware": "UEFI_64",
+        "is_consistent_volume_naming_enabled": false,
+        "is_pv_encryption_in_transit_enabled": true,
+        "network_type": "VFIO",
+        "remote_data_volume_type": "PARAVIRTUALIZED"
+      },
+      "lifecycle_state": "AVAILABLE",
+      "operating_system": "Windows",
+      "operating_system_version": "Server 2016 Standard",
+      "shapes": [
+        "VM.Standard.E3.Flex",
+        "VM.Standard.B1.16",
+        "VM.Standard.B1.2",
+        "VM.Standard.B1.4",
+        "VM.Standard.B1.8",
+        "VM.Standard1.2",
+        "VM.Standard1.4",
+        "VM.Standard1.8",
+        "VM.Standard1.8",
+        "VM.Standard.B1.2",
+        "VM.Standard.B1.4",
+        "VM.Standard.B1.8",
+        "VM.Standard.E2.1",
+        "VM.Standard.E2.2",
+        "VM.Standard.E2.4",
+        "VM.Standard.E2.8",
+        "VM.Standard1.1",
+        "VM.Standard1.16",
+        "VM.Standard1.2",
+        "VM.Standard1.4",
+        "VM.Standard1.8",
+        "VM.Standard2.1",
+        "VM.Standard2.16",
+        "VM.Standard2.2",
+        "VM.Standard2.24",
+        "VM.Standard2.4",
+        "VM.Standard2.8"
+      ],
+      "size_in_mbs": 262144,
+      "sort_key": "Windows Server 2016 Standard",
+      "time_created": "2020-12-15T03:22:15.644000+00:00"
+    },
+    {
+      "agent_features": null,
+      "base_image_id": null,
+      "compartment_id": null,
+      "create_image_allowed": true,
+      "defined_tags": {},
+      "display_name": "Windows-Server-2016-Standard-Edition-VM-E3-2020.11.24-0",
+      "freeform_tags": {},
+      "id": "ocid1.image.oc1.iad.aaaaaaaawpg5wrrxyyvpu4ftb7srat5v7wzhaw6vun3mlu722h2s53lpoija",
+      "launch_mode": "PARAVIRTUALIZED",
+      "launch_options": {
+        "boot_volume_type": "PARAVIRTUALIZED",
+        "firmware": "UEFI_64",
+        "is_consistent_volume_naming_enabled": false,
+        "is_pv_encryption_in_transit_enabled": true,
+        "network_type": "VFIO",
+        "remote_data_volume_type": "PARAVIRTUALIZED"
+      },
+      "lifecycle_state": "AVAILABLE",
+      "operating_system": "Windows",
+      "operating_system_version": "Server 2016 Standard",
+      "shapes": [
+        "VM.Standard.E3.Flex",
+        "VM.Standard.B1.16",
+        "VM.Standard.B1.2",
+        "VM.Standard.B1.4",
+        "VM.Standard.B1.8",
+        "VM.Standard1.2",
+        "VM.Standard1.4",
+        "VM.Standard1.8",
+        "VM.Standard.B1.16",
+        "VM.Standard.B1.2",
+        "VM.Standard.B1.4",
+        "VM.Standard.B1.8",
+        "VM.Standard.E2.1",
+        "VM.Standard.E2.2",
+        "VM.Standard.E2.4",
+        "VM.Standard.E2.8",
+        "VM.Standard1.1",
+        "VM.Standard1.16",
+        "VM.Standard1.2",
+        "VM.Standard1.4",
+        "VM.Standard1.8",
+        "VM.Standard2.1",
+        "VM.Standard2.16",
+        "VM.Standard2.2",
+        "VM.Standard2.24",
+        "VM.Standard2.4",
+        "VM.Standard2.8"
+      ],
+      "size_in_mbs": 262144,
+      "sort_key": "Windows Server 2016 Standard",
+      "time_created": "2020-11-24T22:28:54.356000+00:00"
+    },
+    {
+      "agent_features": null,
+      "base_image_id": null,
+      "compartment_id": null,
+      "create_image_allowed": true,
+      "defined_tags": {},
+      "display_name": "Windows-Server-2016-Standard-Edition-VM-B1-2021.02.13-0",
+      "freeform_tags": {},
+      "id": "ocid1.image.oc1.iad.aaaaaaaatoliir4e5je72s62jcv5xb6muzutuzzphyza6latuaalfoerzp7q",
+      "launch_mode": "CUSTOM",
+      "launch_options": {
+        "boot_volume_type": "PARAVIRTUALIZED",
+        "firmware": "UEFI_64",
+        "is_consistent_volume_naming_enabled": false,
+        "is_pv_encryption_in_transit_enabled": true,
+        "network_type": "VFIO",
+        "remote_data_volume_type": "PARAVIRTUALIZED"
+      },
+      "lifecycle_state": "AVAILABLE",
+      "operating_system": "Windows",
+      "operating_system_version": "Server 2016 Standard",
+      "shapes": [
+        "VM.Standard.B1.1",
+        "VM.Standard.B1.16",
+        "VM.Standard.B1.2",
+        "VM.Standard.B1.4",
+        "VM.Standard.B1.8",
+        "VM.Standard1.2",
+        "VM.Standard1.4",
+        "VM.Standard1.8",
+        "VM.Standard.B1.16",
+        "VM.Standard.B1.2",
+        "VM.Standard.B1.4",
+        "VM.Standard.B1.8",
+        "VM.Standard.E2.1",
+        "VM.Standard.E2.2",
+        "VM.Standard.E2.4",
+        "VM.Standard.E2.8",
+        "VM.Standard1.1",
+        "VM.Standard1.16",
+        "VM.Standard1.2",
+        "VM.Standard1.4",
+        "VM.Standard1.8",
+        "VM.Standard2.1",
+        "VM.Standard2.16",
+        "VM.Standard2.2",
+        "VM.Standard2.24",
+        "VM.Standard2.4",
+        "VM.Standard2.8"
+      ],
+      "size_in_mbs": 262144,
+      "sort_key": "Windows Server 2016 Standard",
+      "time_created": "2021-02-13T23:02:41.731000+00:00"
+    },
+    {
+      "agent_features": null,
+      "base_image_id": null,
+      "compartment_id": null,
+      "create_image_allowed": true,
+      "defined_tags": {},
+      "display_name": "Windows-Server-2016-Standard-Edition-VM-B1-2020.10.22-0",
+      "freeform_tags": {},
+      "id": "ocid1.image.oc1.iad.aaaaaaaadno4yn7o3j4l6vzu6ecqy74525obja47nj2q7rnnuplgqlqlr2aa",
+      "launch_mode": "PARAVIRTUALIZED",
+      "launch_options": {
+        "boot_volume_type": "PARAVIRTUALIZED",
+        "firmware": "UEFI_64",
+        "is_consistent_volume_naming_enabled": false,
+        "is_pv_encryption_in_transit_enabled": true,
+        "network_type": "VFIO",
+        "remote_data_volume_type": "PARAVIRTUALIZED"
+      },
+      "lifecycle_state": "AVAILABLE",
+      "operating_system": "Windows",
+      "operating_system_version": "Server 2016 Standard",
+      "shapes": [
+        "VM.Standard.B1.1",
+        "VM.Standard.B1.16",
+        "VM.Standard.B1.2",
+        "VM.Standard.B1.4",
+        "VM.Standard.B1.8",
+        "VM.Standard1.2",
+        "VM.Standard1.4",
+        "VM.Standard1.8",
+        "VM.Standard.B1.16",
+        "VM.Standard.B1.2",
+        "VM.Standard.B1.4",
+        "VM.Standard.B1.8",
+        "VM.Standard.E2.1",
+        "VM.Standard.E2.2",
+        "VM.Standard.E2.4",
+        "VM.Standard.E2.8",
+        "VM.Standard1.1",
+        "VM.Standard1.16",
+        "VM.Standard1.2",
+        "VM.Standard1.4",
+        "VM.Standard1.8",
+        "VM.Standard2.1",
+        "VM.Standard2.16",
+        "VM.Standard2.2",
+        "VM.Standard2.24",
+        "VM.Standard2.4",
+        "VM.Standard2.8"
+      ],
+      "size_in_mbs": 262144,
+      "sort_key": "Windows Server 2016 Standard",
+      "time_created": "2020-10-23T01:22:06.332000+00:00"
+    },
+    {
+      "agent_features": null,
+      "base_image_id": null,
+      "compartment_id": null,
+      "create_image_allowed": true,
+      "defined_tags": {},
+      "display_name": "Windows-Server-2016-Standard-Edition-VM-2021.02.13-0",
+      "freeform_tags": {},
+      "id": "ocid1.image.oc1.iad.aaaaaaaao3nbel3ybzvs2y4wgl5oknuwzvmn7k3phockcq2vcuy46ayiqk4a",
+      "launch_mode": "CUSTOM",
+      "launch_options": {
+        "boot_volume_type": "PARAVIRTUALIZED",
+        "firmware": "UEFI_64",
+        "is_consistent_volume_naming_enabled": false,
+        "is_pv_encryption_in_transit_enabled": true,
+        "network_type": "VFIO",
+        "remote_data_volume_type": "PARAVIRTUALIZED"
+      },
+      "lifecycle_state": "AVAILABLE",
+      "operating_system": "Windows",
+      "operating_system_version": "Server 2016 Standard",
+      "shapes": [
+        "VM.DenseIO1.16",
+        "VM.DenseIO1.4",
+        "VM.DenseIO1.8",
+        "VM.Standard1.1",
+        "VM.Standard1.16",
+        "VM.Standard1.2",
+        "VM.Standard1.4",
+        "VM.Standard1.8",
+        "VM.Standard.B1.16",
+        "VM.Standard.B1.2",
+        "VM.Standard.B1.4",
+        "VM.Standard.B1.8",
+        "VM.Standard.E2.1",
+        "VM.Standard.E2.2",
+        "VM.Standard.E2.4",
+        "VM.Standard.E2.8",
+        "VM.Standard1.1",
+        "VM.Standard1.16",
+        "VM.Standard1.2",
+        "VM.Standard1.4",
+        "VM.Standard1.8",
+        "VM.Standard2.1",
+        "VM.Standard2.16",
+        "VM.Standard2.2",
+        "VM.Standard2.24",
+        "VM.Standard2.4",
+        "VM.Standard2.8"
+      ],
+      "size_in_mbs": 262144,
+      "sort_key": "Windows Server 2016 Standard",
+      "time_created": "2021-02-13T23:01:04.008000+00:00"
+    },
+    {
+      "agent_features": null,
+      "base_image_id": null,
+      "compartment_id": null,
+      "create_image_allowed": true,
+      "defined_tags": {},
+      "display_name": "Windows-Server-2016-Standard-Edition-VM-2020.12.14-0",
+      "freeform_tags": {},
+      "id": "ocid1.image.oc1.iad.aaaaaaaa7urmvhhuhlh2hurshnp2ckqg5gzjqlavhigtqwaa7n4jrv4ilnyq",
+      "launch_mode": "NATIVE",
+      "launch_options": {
+        "boot_volume_type": "PARAVIRTUALIZED",
+        "firmware": "UEFI_64",
+        "is_consistent_volume_naming_enabled": false,
+        "is_pv_encryption_in_transit_enabled": true,
+        "network_type": "VFIO",
+        "remote_data_volume_type": "PARAVIRTUALIZED"
+      },
+      "lifecycle_state": "AVAILABLE",
+      "operating_system": "Windows",
+      "operating_system_version": "Server 2016 Standard",
+      "shapes": [
+        "VM.DenseIO1.16",
+        "VM.DenseIO1.4",
+        "VM.DenseIO1.8",
+        "VM.Standard1.1",
+        "VM.Standard1.16",
+        "VM.Standard1.2",
+        "VM.Standard1.4",
+        "VM.Standard1.8",
+        "VM.Standard.B1.16",
+        "VM.Standard.B1.2",
+        "VM.Standard.B1.4",
+        "VM.Standard.B1.8",
+        "VM.Standard.E2.1",
+        "VM.Standard.E2.2",
+        "VM.Standard.E2.4",
+        "VM.Standard.E2.8",
+        "VM.Standard1.1",
+        "VM.Standard1.16",
+        "VM.Standard1.2",
+        "VM.Standard1.4",
+        "VM.Standard1.8",
+        "VM.Standard2.1",
+        "VM.Standard2.16",
+        "VM.Standard2.2",
+        "VM.Standard2.24",
+        "VM.Standard2.4",
+        "VM.Standard2.8"
+      ],
+      "size_in_mbs": 262144,
+      "sort_key": "Windows Server 2016 Standard",
+      "time_created": "2020-12-14T13:55:33.092000+00:00"
     },
     {
       "agent_features": null,
@@ -6076,61 +6976,7 @@
       "defined_tags": {},
       "display_name": "Windows-Server-2016-Standard-Edition-VM-2020.11.14-0",
       "freeform_tags": {},
-      "id": "ocid1.image.oc1.phx.aaaaaaaabgqqyvumr6oqopg2oph6jsft3uy3hnr5jeajcm7fpzlpgqbt26ea",
-      "launch_mode": "NATIVE",
-      "launch_options": {
-        "boot_volume_type": "PARAVIRTUALIZED",
-        "firmware": "UEFI_64",
-        "is_consistent_volume_naming_enabled": false,
-        "is_pv_encryption_in_transit_enabled": true,
-        "network_type": "VFIO",
-        "remote_data_volume_type": "PARAVIRTUALIZED"
-      },
-      "lifecycle_state": "AVAILABLE",
-      "operating_system": "Windows",
-      "operating_system_version": "Server 2016 Standard",
-      "shapes": [
-        "VM.DenseIO1.16",
-        "VM.DenseIO1.4",
-        "VM.DenseIO1.8",
-        "VM.Standard.A1.Flex",
-        "VM.Standard1.1",
-        "VM.Standard1.16",
-        "VM.Standard1.2",
-        "VM.Standard1.4",
-        "VM.Standard1.8",
-        "VM.Standard.B1.2",
-        "VM.Standard.B1.4",
-        "VM.Standard.B1.8",
-        "VM.Standard.E2.1",
-        "VM.Standard.E2.2",
-        "VM.Standard.E2.4",
-        "VM.Standard.E2.8",
-        "VM.Standard1.1",
-        "VM.Standard1.16",
-        "VM.Standard1.2",
-        "VM.Standard1.4",
-        "VM.Standard1.8",
-        "VM.Standard2.1",
-        "VM.Standard2.16",
-        "VM.Standard2.2",
-        "VM.Standard2.24",
-        "VM.Standard2.4",
-        "VM.Standard2.8"
-      ],
-      "size_in_mbs": 262144,
-      "sort_key": "Windows Server 2016 Standard",
-      "time_created": "2020-12-01T23:32:46.689000+00:00"
-    },
-    {
-      "agent_features": null,
-      "base_image_id": null,
-      "compartment_id": null,
-      "create_image_allowed": true,
-      "defined_tags": {},
-      "display_name": "Windows-Server-2016-Standard-Edition-VM-2020.10.21-0",
-      "freeform_tags": {},
-      "id": "ocid1.image.oc1.phx.aaaaaaaauvmvuy4nqbsjvgnnxakjgrtzrmy2r6yzfzvkl2mzupfzqs23kzwq",
+      "id": "ocid1.image.oc1.iad.aaaaaaaay4n2c4dtezblhspjhdl5b4orpebsjmadfui4kphjdpb6qkub3n2q",
       "launch_mode": "NATIVE",
       "launch_options": {
         "boot_volume_type": "PARAVIRTUALIZED",
@@ -6174,7 +7020,61 @@
       ],
       "size_in_mbs": 262144,
       "sort_key": "Windows Server 2016 Standard",
-      "time_created": "2020-10-23T02:24:20.872000+00:00"
+      "time_created": "2020-11-15T00:58:04.400000+00:00"
+    },
+    {
+      "agent_features": null,
+      "base_image_id": null,
+      "compartment_id": null,
+      "create_image_allowed": true,
+      "defined_tags": {},
+      "display_name": "Windows-Server-2019-Datacenter-Edition-BM-E3-2021.02.12-0",
+      "freeform_tags": {},
+      "id": "ocid1.image.oc1.iad.aaaaaaaa32k2ut3557auhgwhwwk5evzpdnl2gqkce23ck2gtin2dx7yj2aoq",
+      "launch_mode": "NATIVE",
+      "launch_options": {
+        "boot_volume_type": "PARAVIRTUALIZED",
+        "firmware": "UEFI_64",
+        "is_consistent_volume_naming_enabled": false,
+        "is_pv_encryption_in_transit_enabled": true,
+        "network_type": "VFIO",
+        "remote_data_volume_type": "PARAVIRTUALIZED"
+      },
+      "lifecycle_state": "AVAILABLE",
+      "operating_system": "Windows",
+      "operating_system_version": "Server 2019 Datacenter",
+      "shapes": [
+        "BM.Standard.E3.128",
+        "VM.DenseIO1.4",
+        "VM.DenseIO1.8",
+        "VM.GPU2.1",
+        "VM.GPU3.1",
+        "VM.GPU3.2",
+        "VM.GPU3.4",
+        "VM.Standard.B1.1",
+        "VM.Standard.B1.16",
+        "VM.Standard.B1.2",
+        "VM.Standard.B1.4",
+        "VM.Standard.B1.8",
+        "VM.Standard.E2.1",
+        "VM.Standard.E2.2",
+        "VM.Standard.E2.4",
+        "VM.Standard.E2.8",
+        "VM.Standard1.1",
+        "VM.Standard1.16",
+        "VM.Standard1.2",
+        "VM.Standard1.4",
+        "VM.Standard1.8",
+        "VM.Standard2.1",
+        "VM.Standard2.16",
+        "VM.Standard2.2",
+        "VM.Standard2.24",
+        "VM.Standard2.4",
+        "VM.Standard2.8"
+      ],
+      "size_in_mbs": 262144,
+      "sort_key": "Windows Server 2019 Datacenter",
+      "time_created": "2021-02-12T23:33:31.797000+00:00"
     },
     {
       "agent_features": null,
@@ -6184,7 +7084,7 @@
       "defined_tags": {},
       "display_name": "Windows-Server-2019-Datacenter-Edition-BM-E3-2020.12.12-0",
       "freeform_tags": {},
-      "id": "ocid1.image.oc1.phx.aaaaaaaao65ddu2xp5ggyproatfukvs3qvaccufpf4lxv5q7mllemzb3hzja",
+      "id": "ocid1.image.oc1.iad.aaaaaaaaeayeyd4cecqlzzkruw44ppmb5ioggeuvbmqivqdvvd5jksxxv5ma",
       "launch_mode": "NATIVE",
       "launch_options": {
         "boot_volume_type": "PARAVIRTUALIZED",
@@ -6228,7 +7128,7 @@
       ],
       "size_in_mbs": 262144,
       "sort_key": "Windows Server 2019 Datacenter",
-      "time_created": "2020-12-20T06:06:20.319000+00:00"
+      "time_created": "2020-12-12T09:24:45.509000+00:00"
     },
     {
       "agent_features": null,
@@ -6238,7 +7138,7 @@
       "defined_tags": {},
       "display_name": "Windows-Server-2019-Datacenter-Edition-BM-E3-2020.11.18-0",
       "freeform_tags": {},
-      "id": "ocid1.image.oc1.phx.aaaaaaaab7cfgaiopmr26xnjsedhugo7t5xoiwbq2kxpkz2vo4oqjs3ouxbq",
+      "id": "ocid1.image.oc1.iad.aaaaaaaal7eka4pikhog5miccimcbejsfixoxcj7xjivywekqsyznzp73bra",
       "launch_mode": "NATIVE",
       "launch_options": {
         "boot_volume_type": "PARAVIRTUALIZED",
@@ -6252,8 +7152,8 @@
       "operating_system": "Windows",
       "operating_system_version": "Server 2019 Datacenter",
       "shapes": [
-        "VM.Standard.A1.Flex",
         "BM.Standard.E3.128",
+        "VM.DenseIO1.4",
         "VM.DenseIO1.8",
         "VM.GPU2.1",
         "VM.GPU3.1",
@@ -6282,7 +7182,61 @@
       ],
       "size_in_mbs": 262144,
       "sort_key": "Windows Server 2019 Datacenter",
-      "time_created": "2020-11-19T22:10:26.882000+00:00"
+      "time_created": "2020-11-18T02:56:44.771000+00:00"
+    },
+    {
+      "agent_features": null,
+      "base_image_id": null,
+      "compartment_id": null,
+      "create_image_allowed": true,
+      "defined_tags": {},
+      "display_name": "Windows-Server-2019-Standard-Edition-VM-Gen2-2021.02.13-0",
+      "freeform_tags": {},
+      "id": "ocid1.image.oc1.iad.aaaaaaaa3vaz723hft7rn6vydsubjyhfswqlqjxgwjpbocrwrpofdgl653vq",
+      "launch_mode": "CUSTOM",
+      "launch_options": {
+        "boot_volume_type": "PARAVIRTUALIZED",
+        "firmware": "UEFI_64",
+        "is_consistent_volume_naming_enabled": false,
+        "is_pv_encryption_in_transit_enabled": true,
+        "network_type": "PARAVIRTUALIZED",
+        "remote_data_volume_type": "PARAVIRTUALIZED"
+      },
+      "lifecycle_state": "AVAILABLE",
+      "operating_system": "Windows",
+      "operating_system_version": "Server 2019 Standard",
+      "shapes": [
+        "VM.DenseIO1.16",
+        "VM.DenseIO1.4",
+        "VM.DenseIO1.8",
+        "VM.GPU2.1",
+        "VM.GPU3.1",
+        "VM.GPU3.2",
+        "VM.GPU3.4",
+        "VM.Standard.B1.1",
+        "VM.Standard.B1.16",
+        "VM.Standard.B1.2",
+        "VM.Standard.B1.4",
+        "VM.Standard.B1.8",
+        "VM.Standard.E2.1",
+        "VM.Standard.E2.2",
+        "VM.Standard.E2.4",
+        "VM.Standard.E2.8",
+        "VM.Standard1.1",
+        "VM.Standard1.16",
+        "VM.Standard1.2",
+        "VM.Standard1.4",
+        "VM.Standard1.8",
+        "VM.Standard2.1",
+        "VM.Standard2.16",
+        "VM.Standard2.2",
+        "VM.Standard2.24",
+        "VM.Standard2.4",
+        "VM.Standard2.8"
+      ],
+      "size_in_mbs": 262144,
+      "sort_key": "Windows Server 2019 Standard",
+      "time_created": "2021-02-19T01:33:41.289000+00:00"
     },
     {
       "agent_features": null,
@@ -6292,7 +7246,7 @@
       "defined_tags": {},
       "display_name": "Windows-Server-2019-Standard-Edition-VM-Gen2-2020.12.12-0",
       "freeform_tags": {},
-      "id": "ocid1.image.oc1.phx.aaaaaaaa73djydwnlvfwjt6a3mbq37iox7hslkcq2zd7lluuwknoiwlj2qva",
+      "id": "ocid1.image.oc1.iad.aaaaaaaafc3hsrzrtcayhmais3o33wr7em2wan4pihqwle4orydmcntgggtq",
       "launch_mode": "PARAVIRTUALIZED",
       "launch_options": {
         "boot_volume_type": "PARAVIRTUALIZED",
@@ -6336,7 +7290,7 @@
       ],
       "size_in_mbs": 262144,
       "sort_key": "Windows Server 2019 Standard",
-      "time_created": "2020-12-20T06:04:33.177000+00:00"
+      "time_created": "2020-12-12T04:41:01.090000+00:00"
     },
     {
       "agent_features": null,
@@ -6346,7 +7300,7 @@
       "defined_tags": {},
       "display_name": "Windows-Server-2019-Standard-Edition-VM-Gen2-2020.11.18-0",
       "freeform_tags": {},
-      "id": "ocid1.image.oc1.phx.aaaaaaaapzaztatcrkifgtughkzcpjh3rgjrttq5txtoimfn6eolafbssqaq",
+      "id": "ocid1.image.oc1.iad.aaaaaaaag4tm7iecos2jinen25m2dyi24ljun24n47f6kjxgk5dtwoikpdaa",
       "launch_mode": "PARAVIRTUALIZED",
       "launch_options": {
         "boot_volume_type": "PARAVIRTUALIZED",
@@ -6390,7 +7344,7 @@
       ],
       "size_in_mbs": 262144,
       "sort_key": "Windows Server 2019 Standard",
-      "time_created": "2020-11-19T23:00:13.323000+00:00"
+      "time_created": "2020-11-18T10:14:46.856000+00:00"
     },
     {
       "agent_features": null,
@@ -6398,23 +7352,23 @@
       "compartment_id": null,
       "create_image_allowed": true,
       "defined_tags": {},
-      "display_name": "Windows-Server-2019-Standard-Edition-VM-Gen2-2020.10.22-0",
+      "display_name": "Windows-Server-2019-Standard-Edition-VM-E3-2021.02.13-0",
       "freeform_tags": {},
-      "id": "ocid1.image.oc1.phx.aaaaaaaav7ka3mph2332cxxyn7h2wd6malruxdmu23wh7gyxj2e33ilfk62q",
-      "launch_mode": "PARAVIRTUALIZED",
+      "id": "ocid1.image.oc1.iad.aaaaaaaalihxttg4gcn5gakhgxgkmlqbh5rtpulhv47ftaydsrh2ilu4eeya",
+      "launch_mode": "CUSTOM",
       "launch_options": {
         "boot_volume_type": "PARAVIRTUALIZED",
         "firmware": "UEFI_64",
         "is_consistent_volume_naming_enabled": false,
         "is_pv_encryption_in_transit_enabled": true,
-        "network_type": "PARAVIRTUALIZED",
+        "network_type": "VFIO",
         "remote_data_volume_type": "PARAVIRTUALIZED"
       },
       "lifecycle_state": "AVAILABLE",
       "operating_system": "Windows",
       "operating_system_version": "Server 2019 Standard",
       "shapes": [
-        "VM.DenseIO1.16",
+        "VM.Standard.E3.Flex",
         "VM.DenseIO1.4",
         "VM.DenseIO1.8",
         "VM.GPU2.1",
@@ -6444,7 +7398,7 @@
       ],
       "size_in_mbs": 262144,
       "sort_key": "Windows Server 2019 Standard",
-      "time_created": "2020-10-26T19:56:31.832000+00:00"
+      "time_created": "2021-02-13T23:06:29.273000+00:00"
     },
     {
       "agent_features": null,
@@ -6454,7 +7408,7 @@
       "defined_tags": {},
       "display_name": "Windows-Server-2019-Standard-Edition-VM-E3-2020.12.12-0",
       "freeform_tags": {},
-      "id": "ocid1.image.oc1.phx.aaaaaaaaxh32eyhevp4hy2iykel2maiqmpjtlxeuatlzxyfqmbon6uiberra",
+      "id": "ocid1.image.oc1.iad.aaaaaaaan6wdens6qkfrjbk4x6r763u6lkayjx6kvmfmufkducxd3ruqlrkq",
       "launch_mode": "PARAVIRTUALIZED",
       "launch_options": {
         "boot_volume_type": "PARAVIRTUALIZED",
@@ -6471,15 +7425,34 @@
         "VM.Standard.E3.Flex",
         "VM.DenseIO1.4",
         "VM.DenseIO1.8",
+        "VM.GPU2.1",
+        "VM.GPU3.1",
+        "VM.GPU3.2",
+        "VM.GPU3.4",
+        "VM.Standard.B1.1",
+        "VM.Standard.B1.16",
+        "VM.Standard.B1.2",
+        "VM.Standard.B1.4",
+        "VM.Standard.B1.8",
+        "VM.Standard.E2.1",
+        "VM.Standard.E2.2",
+        "VM.Standard.E2.4",
+        "VM.Standard.E2.8",
         "VM.Standard1.1",
         "VM.Standard1.16",
         "VM.Standard1.2",
         "VM.Standard1.4",
-        "VM.Standard1.8"
+        "VM.Standard1.8",
+        "VM.Standard2.1",
+        "VM.Standard2.16",
+        "VM.Standard2.2",
+        "VM.Standard2.24",
+        "VM.Standard2.4",
+        "VM.Standard2.8"
       ],
       "size_in_mbs": 262144,
       "sort_key": "Windows Server 2019 Standard",
-      "time_created": "2020-12-20T22:55:24.770000+00:00"
+      "time_created": "2020-12-12T04:52:49.342000+00:00"
     },
     {
       "agent_features": null,
@@ -6489,7 +7462,7 @@
       "defined_tags": {},
       "display_name": "Windows-Server-2019-Standard-Edition-VM-E3-2020.11.18-0",
       "freeform_tags": {},
-      "id": "ocid1.image.oc1.phx.aaaaaaaams673s56sfhgtha6vmgrdznhpkehymeibw274jam26yhtd27xpha",
+      "id": "ocid1.image.oc1.iad.aaaaaaaapnsbyuwsfyzc6pmzpgjihucvzegzvksrcpzxiikcvvclrd6tnzpq",
       "launch_mode": "PARAVIRTUALIZED",
       "launch_options": {
         "boot_volume_type": "PARAVIRTUALIZED",
@@ -6506,132 +7479,6 @@
         "VM.Standard.E3.Flex",
         "VM.DenseIO1.4",
         "VM.DenseIO1.8",
-        "VM.Standard1.1",
-        "VM.Standard1.16",
-        "VM.Standard1.2",
-        "VM.Standard1.4",
-        "VM.Standard1.8"
-      ],
-      "size_in_mbs": 262144,
-      "sort_key": "Windows Server 2019 Standard",
-      "time_created": "2020-11-20T01:49:29.949000+00:00"
-    },
-    {
-      "agent_features": null,
-      "base_image_id": null,
-      "compartment_id": null,
-      "create_image_allowed": true,
-      "defined_tags": {},
-      "display_name": "Windows-Server-2019-Standard-Edition-VM-E3-2020.10.20-0",
-      "freeform_tags": {},
-      "id": "ocid1.image.oc1.phx.aaaaaaaaggmjueitxfk2fdfcomq2cu32db6664olcuf5lnsdglcf46w6puja",
-      "launch_mode": "PARAVIRTUALIZED",
-      "launch_options": {
-        "boot_volume_type": "PARAVIRTUALIZED",
-        "firmware": "UEFI_64",
-        "is_consistent_volume_naming_enabled": false,
-        "is_pv_encryption_in_transit_enabled": true,
-        "network_type": "VFIO",
-        "remote_data_volume_type": "PARAVIRTUALIZED"
-      },
-      "lifecycle_state": "AVAILABLE",
-      "operating_system": "Windows",
-      "operating_system_version": "Server 2019 Standard",
-      "shapes": [
-        "VM.Standard.E3.Flex",
-        "VM.DenseIO1.4",
-        "VM.DenseIO1.8",
-        "VM.Standard1.1",
-        "VM.Standard1.16",
-        "VM.Standard1.2",
-        "VM.Standard1.4",
-        "VM.Standard1.8"
-      ],
-      "size_in_mbs": 262144,
-      "sort_key": "Windows Server 2019 Standard",
-      "time_created": "2020-10-26T16:59:30.290000+00:00"
-    },
-    {
-      "agent_features": null,
-      "base_image_id": null,
-      "compartment_id": null,
-      "create_image_allowed": true,
-      "defined_tags": {},
-      "display_name": "Windows-Server-2019-Datacenter-Edition-BM-E3-2020.09.22-0",
-      "freeform_tags": {},
-      "id": "ocid1.image.oc1.phx.aaaaaaaabyvxlwdlwi4znkuioi7qrzst5v7ie7eoa5cbeekorbbmqikhkwzq",
-      "launch_mode": "NATIVE",
-      "launch_options": {
-        "boot_volume_type": "PARAVIRTUALIZED",
-        "firmware": "UEFI_64",
-        "is_consistent_volume_naming_enabled": false,
-        "is_pv_encryption_in_transit_enabled": true,
-        "network_type": "VFIO",
-        "remote_data_volume_type": "PARAVIRTUALIZED"
-      },
-      "lifecycle_state": "AVAILABLE",
-      "operating_system": "Windows",
-      "operating_system_version": "Server 2019 Datacenter",
-      "shapes": [
-        "BM.Standard.E3.128"
-      ],
-      "size_in_mbs": 262144,
-      "sort_key": "Windows Server 2019 Datacenter",
-      "time_created": "2020-09-27T02:48:59.894000+00:00"
-    },
-    {
-      "agent_features": null,
-      "base_image_id": null,
-      "compartment_id": null,
-      "create_image_allowed": true,
-      "defined_tags": {},
-      "display_name": "Windows-Server-2019-Datacenter-Edition-BM-E3-2020.08.27-0",
-      "freeform_tags": {},
-      "id": "ocid1.image.oc1.phx.aaaaaaaajonqlwvrwurvstg46dpipgsqbr4kdcwpgdl5fzp7xsl3ilzmswfq",
-      "launch_mode": "NATIVE",
-      "launch_options": {
-        "boot_volume_type": "PARAVIRTUALIZED",
-        "firmware": "UEFI_64",
-        "is_consistent_volume_naming_enabled": false,
-        "is_pv_encryption_in_transit_enabled": true,
-        "network_type": "VFIO",
-        "remote_data_volume_type": "PARAVIRTUALIZED"
-      },
-      "lifecycle_state": "AVAILABLE",
-      "operating_system": "Windows",
-      "operating_system_version": "Server 2019 Datacenter",
-      "shapes": [
-        "BM.Standard.E3.128"
-      ],
-      "size_in_mbs": 262144,
-      "sort_key": "Windows Server 2019 Datacenter",
-      "time_created": "2020-08-27T13:13:39.901000+00:00"
-    },
-    {
-      "agent_features": null,
-      "base_image_id": null,
-      "compartment_id": null,
-      "create_image_allowed": true,
-      "defined_tags": {},
-      "display_name": "Windows-Server-2019-Standard-Edition-VM-Gen2-2020.10.22-0",
-      "freeform_tags": {},
-      "id": "ocid1.image.oc1.phx.aaaaaaaav7ka3mph2332cxxyn7h2wd6malruxdmu23wh7gyxj2e33ilfk62q",
-      "launch_mode": "PARAVIRTUALIZED",
-      "launch_options": {
-        "boot_volume_type": "PARAVIRTUALIZED",
-        "firmware": "UEFI_64",
-        "is_consistent_volume_naming_enabled": false,
-        "is_pv_encryption_in_transit_enabled": true,
-        "network_type": "PARAVIRTUALIZED",
-        "remote_data_volume_type": "PARAVIRTUALIZED"
-      },
-      "lifecycle_state": "AVAILABLE",
-      "operating_system": "Windows",
-      "operating_system_version": "Server 2019 Standard",
-      "shapes": [
-        "VM.DenseIO1.16",
-        "VM.DenseIO1.4",
-        "VM.DenseIO1.8",
         "VM.GPU2.1",
         "VM.GPU3.1",
         "VM.GPU3.2",
@@ -6659,169 +7506,7 @@
       ],
       "size_in_mbs": 262144,
       "sort_key": "Windows Server 2019 Standard",
-      "time_created": "2020-10-26T19:56:31.832000+00:00"
-    },
-    {
-      "agent_features": null,
-      "base_image_id": null,
-      "compartment_id": null,
-      "create_image_allowed": true,
-      "defined_tags": {},
-      "display_name": "Windows-Server-2019-Standard-Edition-VM-Gen2-2020.09.21-0",
-      "freeform_tags": {},
-      "id": "ocid1.image.oc1.phx.aaaaaaaafn3mm6sojdrjva3wwuzgb3j7pzxhqyqhfwrz2thboibrtsp252ua",
-      "launch_mode": "PARAVIRTUALIZED",
-      "launch_options": {
-        "boot_volume_type": "PARAVIRTUALIZED",
-        "firmware": "UEFI_64",
-        "is_consistent_volume_naming_enabled": false,
-        "is_pv_encryption_in_transit_enabled": true,
-        "network_type": "PARAVIRTUALIZED",
-        "remote_data_volume_type": "PARAVIRTUALIZED"
-      },
-      "lifecycle_state": "AVAILABLE",
-      "operating_system": "Windows",
-      "operating_system_version": "Server 2019 Standard",
-      "shapes": [
-        "VM.DenseIO1.16",
-        "VM.DenseIO1.4",
-        "VM.DenseIO1.8",
-        "VM.GPU2.1",
-        "VM.GPU3.1",
-        "VM.GPU3.2",
-        "VM.GPU3.4",
-        "VM.Standard.B1.1",
-        "VM.Standard.B1.16",
-        "VM.Standard.B1.2",
-        "VM.Standard.B1.4",
-        "VM.Standard.B1.8",
-        "VM.Standard.E2.1",
-        "VM.Standard.E2.2",
-        "VM.Standard.E2.4",
-        "VM.Standard.E2.8",
-        "VM.Standard1.1",
-        "VM.Standard1.16",
-        "VM.Standard1.2",
-        "VM.Standard1.4",
-        "VM.Standard1.8",
-        "VM.Standard2.1",
-        "VM.Standard2.16",
-        "VM.Standard2.2",
-        "VM.Standard2.24",
-        "VM.Standard2.4",
-        "VM.Standard2.8"
-      ],
-      "size_in_mbs": 262144,
-      "sort_key": "Windows Server 2019 Standard",
-      "time_created": "2020-09-25T13:41:27.161000+00:00"
-    },
-    {
-      "agent_features": null,
-      "base_image_id": null,
-      "compartment_id": null,
-      "create_image_allowed": true,
-      "defined_tags": {},
-      "display_name": "Windows-Server-2019-Standard-Edition-VM-Gen2-2020.08.28-0",
-      "freeform_tags": {},
-      "id": "ocid1.image.oc1.phx.aaaaaaaaxj2cachojmpi3vzok4u5gfeff5a3ozhkareyxomh6z2po7egnsla",
-      "launch_mode": "PARAVIRTUALIZED",
-      "launch_options": {
-        "boot_volume_type": "PARAVIRTUALIZED",
-        "firmware": "UEFI_64",
-        "is_consistent_volume_naming_enabled": false,
-        "is_pv_encryption_in_transit_enabled": true,
-        "network_type": "PARAVIRTUALIZED",
-        "remote_data_volume_type": "PARAVIRTUALIZED"
-      },
-      "lifecycle_state": "AVAILABLE",
-      "operating_system": "Windows",
-      "operating_system_version": "Server 2019 Standard",
-      "shapes": [
-        "VM.DenseIO1.16",
-        "VM.DenseIO1.4",
-        "VM.DenseIO1.8",
-        "VM.GPU2.1",
-        "VM.GPU3.1",
-        "VM.GPU3.2",
-        "VM.GPU3.4",
-        "VM.Standard.B1.1",
-        "VM.Standard.B1.16",
-        "VM.Standard.B1.2",
-        "VM.Standard.B1.4",
-        "VM.Standard.B1.8",
-        "VM.Standard.E2.1",
-        "VM.Standard.E2.2",
-        "VM.Standard.E2.4",
-        "VM.Standard.E2.8",
-        "VM.Standard1.1",
-        "VM.Standard1.16",
-        "VM.Standard1.2",
-        "VM.Standard1.4",
-        "VM.Standard1.8",
-        "VM.Standard2.1",
-        "VM.Standard2.16",
-        "VM.Standard2.2",
-        "VM.Standard2.24",
-        "VM.Standard2.4",
-        "VM.Standard2.8"
-      ],
-      "size_in_mbs": 262144,
-      "sort_key": "Windows Server 2019 Standard",
-      "time_created": "2020-08-31T05:36:47.896000+00:00"
-    },
-    {
-      "agent_features": null,
-      "base_image_id": null,
-      "compartment_id": null,
-      "create_image_allowed": true,
-      "defined_tags": {},
-      "display_name": "Windows-Server-2019-Standard-Edition-VM-Gen2-2020.07.17-0",
-      "freeform_tags": {},
-      "id": "ocid1.image.oc1.phx.aaaaaaaafruz4sutfyotjvrqjhl72ogzbb5hphzra5us2454zgrtgdmrwe7a",
-      "launch_mode": "PARAVIRTUALIZED",
-      "launch_options": {
-        "boot_volume_type": "PARAVIRTUALIZED",
-        "firmware": "UEFI_64",
-        "is_consistent_volume_naming_enabled": false,
-        "is_pv_encryption_in_transit_enabled": true,
-        "network_type": "PARAVIRTUALIZED",
-        "remote_data_volume_type": "PARAVIRTUALIZED"
-      },
-      "lifecycle_state": "AVAILABLE",
-      "operating_system": "Windows",
-      "operating_system_version": "Server 2019 Standard",
-      "shapes": [
-        "VM.DenseIO1.16",
-        "VM.DenseIO1.4",
-        "VM.DenseIO1.8",
-        "VM.GPU2.1",
-        "VM.GPU3.1",
-        "VM.GPU3.2",
-        "VM.GPU3.4",
-        "VM.Standard.B1.1",
-        "VM.Standard.B1.16",
-        "VM.Standard.B1.2",
-        "VM.Standard.B1.4",
-        "VM.Standard.B1.8",
-        "VM.Standard.E2.1",
-        "VM.Standard.E2.2",
-        "VM.Standard.E2.4",
-        "VM.Standard.E2.8",
-        "VM.Standard1.1",
-        "VM.Standard1.16",
-        "VM.Standard1.2",
-        "VM.Standard1.4",
-        "VM.Standard1.8",
-        "VM.Standard2.1",
-        "VM.Standard2.16",
-        "VM.Standard2.2",
-        "VM.Standard2.24",
-        "VM.Standard2.4",
-        "VM.Standard2.8"
-      ],
-      "size_in_mbs": 262144,
-      "sort_key": "Windows Server 2019 Standard",
-      "time_created": "2020-07-23T16:39:29.362000+00:00"
+      "time_created": "2020-11-18T10:10:11.759000+00:00"
     },
     {
       "agent_features": null,
@@ -7291,8 +7976,8 @@
       "version_family": "8.0",
       "versions": [
         {
-          "description": "8.0.22",
-          "version": "8.0.22"
+          "description": "8.0.23",
+          "version": "8.0.23"
         },
         {
           "description": "8.0.23",
@@ -7452,11 +8137,6 @@
       "name": "apm"
     },
     {
-      "description": "Application Migration",
-      "display_name": "application-migration",
-      "name": "application-migration"
-    },
-    {
       "description": "Auto Scaling",
       "display_name": "auto-scaling",
       "name": "auto-scaling"
@@ -7475,11 +8155,6 @@
       "description": "Blockchain",
       "display_name": "blockchain",
       "name": "blockchain"
-    },
-    {
-      "description": "Caching",
-      "display_name": "caching",
-      "name": "caching"
     },
     {
       "description": "Cloud Shell",
@@ -7522,16 +8197,6 @@
       "name": "data-flow"
     },
     {
-      "description": "Data Flow SQL Cluster",
-      "display_name": "data-flow-interactive",
-      "name": "data-flow-interactive"
-    },
-    {
-      "description": "Data Integration",
-      "display_name": "data-integration",
-      "name": "data-integration"
-    },
-    {
       "description": "Data Science",
       "display_name": "data-science",
       "name": "data-science"
@@ -7545,11 +8210,6 @@
       "description": "Database",
       "display_name": "database",
       "name": "database"
-    },
-    {
-      "description": "Database Migration",
-      "display_name": "database-migration",
-      "name": "database-migration"
     },
     {
       "description": "Digital Assistant",
@@ -7587,11 +8247,6 @@
       "name": "filesystem"
     },
     {
-      "description": "GoldenGate",
-      "display_name": "goldengate",
-      "name": "goldengate"
-    },
-    {
       "description": "Health Check",
       "display_name": "health-checks",
       "name": "health-checks"
@@ -7602,19 +8257,9 @@
       "name": "integration"
     },
     {
-      "description": "Java Management",
-      "display_name": "java-management",
-      "name": "java-management"
-    },
-    {
       "description": "Key Management",
       "display_name": "kms",
       "name": "kms"
-    },
-    {
-      "description": "Limits",
-      "display_name": "limits",
-      "name": "limits"
     },
     {
       "description": "LbaaS",
@@ -7647,11 +8292,6 @@
       "name": "mysql"
     },
     {
-      "description": "Network Load Balancer",
-      "display_name": "network-load-balancer-api",
-      "name": "network-load-balancer-api"
-    },
-    {
       "description": "NoSQL",
       "display_name": "nosql",
       "name": "nosql"
@@ -7665,6 +8305,51 @@
       "description": "Object Storage",
       "display_name": "object-storage",
       "name": "object-storage"
+    },
+    {
+      "description": "VMware Solution",
+      "display_name": "ocvp",
+      "name": "ocvp"
+    },
+    {
+      "description": "Regions",
+      "display_name": "regions",
+      "name": "regions"
+    },
+    {
+      "description": "Resource Manager",
+      "display_name": "resource-manager",
+      "name": "resource-manager"
+    },
+    {
+      "description": "Service Connector Hub",
+      "display_name": "service-connector-hub",
+      "name": "service-connector-hub"
+    },
+    {
+      "description": "Streaming",
+      "display_name": "streaming",
+      "name": "streaming"
+    },
+    {
+      "description": "Virtual Cloud Network",
+      "display_name": "vcn",
+      "name": "vcn"
+    },
+    {
+      "description": "IP Management",
+      "display_name": "vcnip",
+      "name": "vcnip"
+    },
+    {
+      "description": "VPN",
+      "display_name": "vpn",
+      "name": "vpn"
+    },
+    {
+      "description": "WaaS",
+      "display_name": "waas",
+      "name": "waas"
     },
     {
       "description": "VMware Solution",
@@ -7751,60 +8436,6 @@
     {
       "gpu_description": null,
       "gpus": 0,
-      "local_disk_description": "NVMe SSD Storage",
-      "local_disks": 8,
-      "local_disks_total_size_in_gbs": 52428.8,
-      "max_vnic_attachment_options": null,
-      "max_vnic_attachments": 52,
-      "memory_in_gbs": 768,
-      "memory_options": null,
-      "networking_bandwidth_in_gbps": 50,
-      "networking_bandwidth_options": null,
-      "ocpu_options": null,
-      "ocpus": 52,
-      "processor_description": "2.0 GHz Intel\u00ae Xeon\u00ae Platinum 8167M (Skylake)",
-      "shape": "BM.DenseIO2.52",
-      "sort_key": "BM-DenseIO2-052-768"
-    },
-    {
-      "gpu_description": null,
-      "gpus": 0,
-      "local_disk_description": "NVMe SSD Storage",
-      "local_disks": 8,
-      "local_disks_total_size_in_gbs": 6860.8,
-      "max_vnic_attachment_options": null,
-      "max_vnic_attachments": 50,
-      "memory_in_gbs": 384,
-      "memory_options": null,
-      "networking_bandwidth_in_gbps": 25,
-      "networking_bandwidth_options": null,
-      "ocpu_options": null,
-      "ocpus": 36,
-      "processor_description": "3.0 GHz Intel\u00ae Xeon\u00ae Gold 6154 (Skylake)",
-      "shape": "BM.HPC2.36",
-      "sort_key": "BM-HPC2-036-384"
-    },
-    {
-      "gpu_description": null,
-      "gpus": 0,
-      "local_disk_description": null,
-      "local_disks": 0,
-      "local_disks_total_size_in_gbs": null,
-      "max_vnic_attachment_options": null,
-      "max_vnic_attachments": 44,
-      "memory_in_gbs": 512,
-      "memory_options": null,
-      "networking_bandwidth_in_gbps": 25,
-      "networking_bandwidth_options": null,
-      "ocpu_options": null,
-      "ocpus": 44,
-      "processor_description": "2.2 GHz Intel\u00ae Xeon\u00ae E5-2669 v4 (Broadwell)",
-      "shape": "BM.Standard.B1.44",
-      "sort_key": "BM-Standard-044-512"
-    },
-    {
-      "gpu_description": null,
-      "gpus": 0,
       "local_disk_description": null,
       "local_disks": 0,
       "local_disks_total_size_in_gbs": null,
@@ -7877,56 +8508,20 @@
     {
       "gpu_description": null,
       "gpus": 0,
-      "local_disk_description": "NVMe SSD Storage",
-      "local_disks": 1,
-      "local_disks_total_size_in_gbs": 6553.6,
+      "local_disk_description": null,
+      "local_disks": 0,
+      "local_disks_total_size_in_gbs": null,
       "max_vnic_attachment_options": null,
-      "max_vnic_attachments": 8,
-      "memory_in_gbs": 120,
+      "max_vnic_attachments": 1,
+      "memory_in_gbs": 1,
       "memory_options": null,
-      "networking_bandwidth_in_gbps": 8.2,
+      "networking_bandwidth_in_gbps": 0.48,
       "networking_bandwidth_options": null,
       "ocpu_options": null,
-      "ocpus": 8,
-      "processor_description": "2.0 GHz Intel\u00ae Xeon\u00ae Platinum 8167M (Skylake)",
-      "shape": "VM.DenseIO2.8",
-      "sort_key": "VM-DenseIO2-008-120"
-    },
-    {
-      "gpu_description": null,
-      "gpus": 0,
-      "local_disk_description": "NVMe SSD Storage",
-      "local_disks": 2,
-      "local_disks_total_size_in_gbs": 13107.2,
-      "max_vnic_attachment_options": null,
-      "max_vnic_attachments": 16,
-      "memory_in_gbs": 240,
-      "memory_options": null,
-      "networking_bandwidth_in_gbps": 16.4,
-      "networking_bandwidth_options": null,
-      "ocpu_options": null,
-      "ocpus": 16,
-      "processor_description": "2.0 GHz Intel\u00ae Xeon\u00ae Platinum 8167M (Skylake)",
-      "shape": "VM.DenseIO2.16",
-      "sort_key": "VM-DenseIO2-016-240"
-    },
-    {
-      "gpu_description": null,
-      "gpus": 0,
-      "local_disk_description": "NVMe SSD Storage",
-      "local_disks": 4,
-      "local_disks_total_size_in_gbs": 26214.4,
-      "max_vnic_attachment_options": null,
-      "max_vnic_attachments": 24,
-      "memory_in_gbs": 320,
-      "memory_options": null,
-      "networking_bandwidth_in_gbps": 24.6,
-      "networking_bandwidth_options": null,
-      "ocpu_options": null,
-      "ocpus": 24,
-      "processor_description": "2.0 GHz Intel\u00ae Xeon\u00ae Platinum 8167M (Skylake)",
-      "shape": "VM.DenseIO2.24",
-      "sort_key": "VM-DenseIO2-024-320"
+      "ocpus": 1,
+      "processor_description": "2.0 GHz AMD EPYC\u2122 7551 (Naples)",
+      "shape": "VM.Standard.E2.1.Micro",
+      "sort_key": "VM-Standard-001-001"
     },
     {
       "gpu_description": null,
@@ -7945,24 +8540,6 @@
       "processor_description": "2.0 GHz AMD EPYC\u2122 7551 (Naples)",
       "shape": "VM.Standard.E2.1",
       "sort_key": "VM-Standard-001-008"
-    },
-    {
-      "gpu_description": null,
-      "gpus": 0,
-      "local_disk_description": null,
-      "local_disks": 0,
-      "local_disks_total_size_in_gbs": null,
-      "max_vnic_attachment_options": null,
-      "max_vnic_attachments": 2,
-      "memory_in_gbs": 12,
-      "memory_options": null,
-      "networking_bandwidth_in_gbps": 0.6,
-      "networking_bandwidth_options": null,
-      "ocpu_options": null,
-      "ocpus": 1,
-      "processor_description": "2.2 GHz Intel\u00ae Xeon\u00ae E5-2669 v4 (Broadwell)",
-      "shape": "VM.Standard.B1.1",
-      "sort_key": "VM-Standard-001-012"
     },
     {
       "gpu_description": null,
@@ -8024,24 +8601,6 @@
       "local_disks": 0,
       "local_disks_total_size_in_gbs": null,
       "max_vnic_attachment_options": null,
-      "max_vnic_attachments": 2,
-      "memory_in_gbs": 24,
-      "memory_options": null,
-      "networking_bandwidth_in_gbps": 1.2,
-      "networking_bandwidth_options": null,
-      "ocpu_options": null,
-      "ocpus": 2,
-      "processor_description": "2.2 GHz Intel\u00ae Xeon\u00ae E5-2669 v4 (Broadwell)",
-      "shape": "VM.Standard.B1.2",
-      "sort_key": "VM-Standard-002-024"
-    },
-    {
-      "gpu_description": null,
-      "gpus": 0,
-      "local_disk_description": null,
-      "local_disks": 0,
-      "local_disks_total_size_in_gbs": null,
-      "max_vnic_attachment_options": null,
       "max_vnic_attachments": 4,
       "memory_in_gbs": 32,
       "memory_options": null,
@@ -8052,24 +8611,6 @@
       "processor_description": "2.0 GHz AMD EPYC\u2122 7551 (Naples)",
       "shape": "VM.Standard.E2.4",
       "sort_key": "VM-Standard-004-032"
-    },
-    {
-      "gpu_description": null,
-      "gpus": 0,
-      "local_disk_description": null,
-      "local_disks": 0,
-      "local_disks_total_size_in_gbs": null,
-      "max_vnic_attachment_options": null,
-      "max_vnic_attachments": 4,
-      "memory_in_gbs": 48,
-      "memory_options": null,
-      "networking_bandwidth_in_gbps": 2.4,
-      "networking_bandwidth_options": null,
-      "ocpu_options": null,
-      "ocpus": 4,
-      "processor_description": "2.2 GHz Intel\u00ae Xeon\u00ae E5-2669 v4 (Broadwell)",
-      "shape": "VM.Standard.B1.4",
-      "sort_key": "VM-Standard-004-048"
     },
     {
       "gpu_description": null,
@@ -8096,42 +8637,6 @@
       "local_disks": 0,
       "local_disks_total_size_in_gbs": null,
       "max_vnic_attachment_options": null,
-      "max_vnic_attachments": 8,
-      "memory_in_gbs": 96,
-      "memory_options": null,
-      "networking_bandwidth_in_gbps": 4.8,
-      "networking_bandwidth_options": null,
-      "ocpu_options": null,
-      "ocpus": 8,
-      "processor_description": "2.2 GHz Intel\u00ae Xeon\u00ae E5-2669 v4 (Broadwell)",
-      "shape": "VM.Standard.B1.8",
-      "sort_key": "VM-Standard-008-096"
-    },
-    {
-      "gpu_description": null,
-      "gpus": 0,
-      "local_disk_description": null,
-      "local_disks": 0,
-      "local_disks_total_size_in_gbs": null,
-      "max_vnic_attachment_options": null,
-      "max_vnic_attachments": 16,
-      "memory_in_gbs": 192,
-      "memory_options": null,
-      "networking_bandwidth_in_gbps": 9.6,
-      "networking_bandwidth_options": null,
-      "ocpu_options": null,
-      "ocpus": 16,
-      "processor_description": "2.2 GHz Intel\u00ae Xeon\u00ae E5-2669 v4 (Broadwell)",
-      "shape": "VM.Standard.B1.16",
-      "sort_key": "VM-Standard-016-192"
-    },
-    {
-      "gpu_description": null,
-      "gpus": 0,
-      "local_disk_description": null,
-      "local_disks": 0,
-      "local_disks_total_size_in_gbs": null,
-      "max_vnic_attachment_options": null,
       "max_vnic_attachments": 2,
       "memory_in_gbs": 7,
       "memory_options": null,
@@ -8142,6 +8647,186 @@
       "processor_description": "2.3 GHz Intel\u00ae Xeon\u00ae E5-2699 v3 (Haswell)",
       "shape": "VM.Standard1.1",
       "sort_key": "VM-Standard1-001-007"
+    },
+    {
+      "gpu_description": null,
+      "gpus": 0,
+      "local_disk_description": null,
+      "local_disks": 0,
+      "local_disks_total_size_in_gbs": null,
+      "max_vnic_attachment_options": null,
+      "max_vnic_attachments": 2,
+      "memory_in_gbs": 14,
+      "memory_options": null,
+      "networking_bandwidth_in_gbps": 1.2,
+      "networking_bandwidth_options": null,
+      "ocpu_options": null,
+      "ocpus": 2,
+      "processor_description": "2.3 GHz Intel\u00ae Xeon\u00ae E5-2699 v3 (Haswell)",
+      "shape": "VM.Standard1.2",
+      "sort_key": "VM-Standard1-002-014"
+    },
+    {
+      "gpu_description": null,
+      "gpus": 0,
+      "local_disk_description": null,
+      "local_disks": 0,
+      "local_disks_total_size_in_gbs": null,
+      "max_vnic_attachment_options": null,
+      "max_vnic_attachments": 4,
+      "memory_in_gbs": 28,
+      "memory_options": null,
+      "networking_bandwidth_in_gbps": 1.2,
+      "networking_bandwidth_options": null,
+      "ocpu_options": null,
+      "ocpus": 4,
+      "processor_description": "2.3 GHz Intel\u00ae Xeon\u00ae E5-2699 v3 (Haswell)",
+      "shape": "VM.Standard1.4",
+      "sort_key": "VM-Standard1-004-028"
+    },
+    {
+      "gpu_description": null,
+      "gpus": 0,
+      "local_disk_description": null,
+      "local_disks": 0,
+      "local_disks_total_size_in_gbs": null,
+      "max_vnic_attachment_options": null,
+      "max_vnic_attachments": 8,
+      "memory_in_gbs": 56,
+      "memory_options": null,
+      "networking_bandwidth_in_gbps": 2.4,
+      "networking_bandwidth_options": null,
+      "ocpu_options": null,
+      "ocpus": 8,
+      "processor_description": "2.3 GHz Intel\u00ae Xeon\u00ae E5-2699 v3 (Haswell)",
+      "shape": "VM.Standard1.8",
+      "sort_key": "VM-Standard1-008-056"
+    },
+    {
+      "gpu_description": null,
+      "gpus": 0,
+      "local_disk_description": null,
+      "local_disks": 0,
+      "local_disks_total_size_in_gbs": null,
+      "max_vnic_attachment_options": null,
+      "max_vnic_attachments": 16,
+      "memory_in_gbs": 112,
+      "memory_options": null,
+      "networking_bandwidth_in_gbps": 4.8,
+      "networking_bandwidth_options": null,
+      "ocpu_options": null,
+      "ocpus": 16,
+      "processor_description": "2.3 GHz Intel\u00ae Xeon\u00ae E5-2699 v3 (Haswell)",
+      "shape": "VM.Standard1.16",
+      "sort_key": "VM-Standard1-016-112"
+    },
+    {
+      "gpu_description": null,
+      "gpus": 0,
+      "local_disk_description": null,
+      "local_disks": 0,
+      "local_disks_total_size_in_gbs": null,
+      "max_vnic_attachment_options": null,
+      "max_vnic_attachments": 2,
+      "memory_in_gbs": 15,
+      "memory_options": null,
+      "networking_bandwidth_in_gbps": 1,
+      "networking_bandwidth_options": null,
+      "ocpu_options": null,
+      "ocpus": 1,
+      "processor_description": "2.0 GHz Intel\u00ae Xeon\u00ae Platinum 8167M (Skylake)",
+      "shape": "VM.Standard2.1",
+      "sort_key": "VM-Standard2-001-015"
+    },
+    {
+      "gpu_description": null,
+      "gpus": 0,
+      "local_disk_description": null,
+      "local_disks": 0,
+      "local_disks_total_size_in_gbs": null,
+      "max_vnic_attachment_options": null,
+      "max_vnic_attachments": 2,
+      "memory_in_gbs": 30,
+      "memory_options": null,
+      "networking_bandwidth_in_gbps": 2,
+      "networking_bandwidth_options": null,
+      "ocpu_options": null,
+      "ocpus": 2,
+      "processor_description": "2.0 GHz Intel\u00ae Xeon\u00ae Platinum 8167M (Skylake)",
+      "shape": "VM.Standard2.2",
+      "sort_key": "VM-Standard2-002-030"
+    },
+    {
+      "gpu_description": null,
+      "gpus": 0,
+      "local_disk_description": null,
+      "local_disks": 0,
+      "local_disks_total_size_in_gbs": null,
+      "max_vnic_attachment_options": null,
+      "max_vnic_attachments": 4,
+      "memory_in_gbs": 60,
+      "memory_options": null,
+      "networking_bandwidth_in_gbps": 4.1,
+      "networking_bandwidth_options": null,
+      "ocpu_options": null,
+      "ocpus": 4,
+      "processor_description": "2.0 GHz Intel\u00ae Xeon\u00ae Platinum 8167M (Skylake)",
+      "shape": "VM.Standard2.4",
+      "sort_key": "VM-Standard2-004-060"
+    },
+    {
+      "gpu_description": null,
+      "gpus": 0,
+      "local_disk_description": null,
+      "local_disks": 0,
+      "local_disks_total_size_in_gbs": null,
+      "max_vnic_attachment_options": null,
+      "max_vnic_attachments": 8,
+      "memory_in_gbs": 120,
+      "memory_options": null,
+      "networking_bandwidth_in_gbps": 8.2,
+      "networking_bandwidth_options": null,
+      "ocpu_options": null,
+      "ocpus": 8,
+      "processor_description": "2.0 GHz Intel\u00ae Xeon\u00ae Platinum 8167M (Skylake)",
+      "shape": "VM.Standard2.8",
+      "sort_key": "VM-Standard2-008-120"
+    },
+    {
+      "gpu_description": null,
+      "gpus": 0,
+      "local_disk_description": null,
+      "local_disks": 0,
+      "local_disks_total_size_in_gbs": null,
+      "max_vnic_attachment_options": null,
+      "max_vnic_attachments": 16,
+      "memory_in_gbs": 240,
+      "memory_options": null,
+      "networking_bandwidth_in_gbps": 16.4,
+      "networking_bandwidth_options": null,
+      "ocpu_options": null,
+      "ocpus": 16,
+      "processor_description": "2.0 GHz Intel\u00ae Xeon\u00ae Platinum 8167M (Skylake)",
+      "shape": "VM.Standard2.16",
+      "sort_key": "VM-Standard2-016-240"
+    },
+    {
+      "gpu_description": null,
+      "gpus": 0,
+      "local_disk_description": null,
+      "local_disks": 0,
+      "local_disks_total_size_in_gbs": null,
+      "max_vnic_attachment_options": null,
+      "max_vnic_attachments": 24,
+      "memory_in_gbs": 320,
+      "memory_options": null,
+      "networking_bandwidth_in_gbps": 24.6,
+      "networking_bandwidth_options": null,
+      "ocpu_options": null,
+      "ocpus": 24,
+      "processor_description": "2.0 GHz Intel\u00ae Xeon\u00ae Platinum 8167M (Skylake)",
+      "shape": "VM.Standard2.24",
+      "sort_key": "VM-Standard2-024-320"
     },
     {
       "gpu_description": null,

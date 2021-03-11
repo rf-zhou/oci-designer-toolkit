@@ -21,11 +21,11 @@ class Analytics extends OkitArtifact {
         *       capacity {
         */
         this.capacity = {
-            capacity_type: 'Need to check what/where this comes from',
+            capacity_type: '',
             capacity_value: ''
         };
         this.network_endpoint_details = {
-            network_endpoint_type: 'Need to check what/where this comes from',
+            network_endpoint_type: '',
             subnet_id: '',
             vcn_id: '',
             whitelisted_ips: [],
@@ -34,6 +34,8 @@ class Analytics extends OkitArtifact {
         this.description = '';
         this.feature_set = '';
         this.license_type = '';
+        this.idcs_access_token = '';
+        this.display_name = '';
         this.email_notification = '';
 
         // Update with any passed data

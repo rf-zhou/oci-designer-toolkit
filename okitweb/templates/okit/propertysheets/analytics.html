@@ -3,7 +3,38 @@
 ** Licensed under the Universal Permissive License v 1.0 as shown at https://oss.oracle.com/licenses/upl.
 -->
 {% extends "okit/propertysheets/base_property_sheet.html" %}
+
 {% block title_block %}Analytics{% endblock %}
-{% block required_properties_table_rows_block %}{% endblock %}
-{% block optional_properties_table_rows_block %}{% endblock %}
-{% block optional_properties_block %}{% endblock %}
+
+{% block required_properties_table_rows_block %}
+<div class='tr'><div class='td'>Capacity_type</div><div class='td'><input type="text" id="capacity_type" name="capacity_type" class="okit-property-value"></div></div>   
+<div class='tr'><div class='td'>Capacity_value</div><div class='td'><input type="text" id="capacity_value" name="capacity_value" class="okit-property-value"></div></div>   
+<div class='tr'><div class='td'>Feature_set</div><div class='td'><input type="text" id="feature_set" name="feature_set" class="okit-property-value"></div></div>
+<div class='tr'><div class='td'>idcs_access_token</div><div class='td'><input type="text" id="idcs_access_token" name= "idcs_access_token" class="okit-property-value"></div></div>
+<div class='tr'><div class='td'>License_type</div><div class='td'><input type="text" id="license_type" name="license_type" name="license_type" class="okit-property-value"></div></div>
+{% endblock %}
+
+{% block optional_properties_table_rows_block %}
+    <div class='tr'><div class='td'>Description</div><div class='td'><input type="text" id="description" name="description" class="okit-property-value"></div></div>
+    <div class='tr'><div class='td'>Email_Notification</div><div class='td'><input type="text" id="email_notification" name="email_notification" class="okit-property-value"></div></div>
+{% endblock %}
+
+{% block optional_properties_block %}
+<details open="open">
+    <summary><a>
+        <svg width="20" height="20" viewBox="0 0 20 20" focusable="false" xmlns="http://www.w3.org/2000/svg" ratio="1"> <ellipse fill="none" stroke="#000" cx="6.11" cy="3.55" rx="2.11" ry="2.15"></ellipse> <ellipse fill="none" stroke="#000" cx="6.11" cy="15.55" rx="2.11" ry="2.15"></ellipse> <circle fill="none" stroke="#000" cx="13.15" cy="9.55" r="2.15"></circle> <rect x="1" y="3" width="3" height="1"></rect> <rect x="10" y="3" width="8" height="1"></rect> <rect x="1" y="9" width="8" height="1"></rect> <rect x="15" y="9" width="3" height="1"></rect> <rect x="1" y="15" width="3" height="1"></rect> <rect x="10" y="15" width="8" height="1"></rect></svg>
+        <span> Network Endpoint Details</span></a>
+    </summary>
+    <div id="optional_properties_div" class="table okit-table okit-properties-table">
+        <div class="thead">
+            <div class="tr"><div class="th">Property</div><div class="th">Value</div></div>
+        </div>
+        <div class="tbody">
+            <div class='tr'><div class='td'>Network_Endpoint_type</div><div class='td'><input type="text" id="network_endpoint_type" name="network_endpoint_type" class="okit-property-value"></div></div>
+            <div class='tr'><div class='td'>Subnet_Id</div><div class='td'><input type="text" id="subnet_id" name="subnet_id" class="okit-property-value"></div></div>
+            <div class='tr'><div class='td'>Vcn_Id</div><div class='td'><input type="text" id="vcn_id" name="vcn_id" class="okit-property-value"></div></div>
+            <div class='tr'><div class='td'>Whitelisted_Ips</div><div class='td'><input type="text" id="whitelisted_ips" name="whitelisted_ips" class="okit-property-value"></div></div>
+            <div class='tr'><div class='td'>Whitelisted_vcns</div><div class='td'><input type="text" id="whitelisted_vcns" name="whitelisted_vcns" class="okit-property-value"></div></div>
+        </div>
+</details>
+{% endblock %}

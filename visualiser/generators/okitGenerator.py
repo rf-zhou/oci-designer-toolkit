@@ -148,6 +148,10 @@ class OCIGenerator(object):
         # -- Customer Premise Equipments
         for customer_premise_equipment in self.visualiser_json.get('customer_premise_equipments', []):
             self.renderCustomerPremiseEquipment(customer_premise_equipment)
+        # -- Analytics
+        # -- //Need to check ANALYTICS
+        for analyticss in self.visualiser_json.get('analyticss', []):
+            self.renderAnalytics(analyticss)
 
         # - Virtual Cloud Network Sub Components
         # -- Internet Gateways
@@ -345,6 +349,57 @@ class OCIGenerator(object):
 
         # -- Render Template
         jinja2_template = self.jinja2_environment.get_template("compartment.jinja2")
+        self.create_sequence.append(jinja2_template.render(self.jinja2_variables))
+        logger.debug(self.create_sequence[-1])
+        return
+
+        # -- Need to check the Analytics
+    def renderAnalytics(self, analyticss):
+        # Reset Variables
+        self.initialiseJinja2Variables()
+        # Read Data
+        standardisedName = self.standardiseResourceName(analyticss['display_name'])
+        resourceName = '{0:s}'.format(standardisedName)
+        self.jinja2_variables['resource_name'] = resourceName
+        self.jinja2_variables['output_name'] = analyticss['display_name']
+        # Process Analytics Data
+        logger.info('Processing analyticss Information {0!s:s}'.format(standardisedName))
+        # -- Define Variables
+        # --- Required
+        # ---- Compartment Id
+        self.jinja2_variables["compartment_id"] = self.formatJinja2IdReference(self.standardiseResourceName(self.id_name_map[analyticss['compartment_id']]))
+        # ---- Capacity_Type 
+        self.addJinja2Variable("capacity_type", analyticss["capacity"]["capacity_type"], standardisedName)
+        # ---- Capacity_Value 
+        self.addJinja2Variable("capacity_value", analyticss["capacity"]["capacity_value"], standardisedName)
+        # --- feature set
+        self.addJinja2Variable("feature_set", analyticss["feature_set"], standardisedName) 
+        # ---- idcs_access_token
+        self.addJinja2Variable("idcs_access_token", analyticss["idcs_access_token"], standardisedName)
+        # ---- license_type
+        self.addJinja2Variable("license_type", analyticss["license_type"], standardisedName) 
+        # --- Optional
+        # ---- email_notification
+        self.addJinja2Variable("email_notification", analyticss["email_notification"], standardisedName)
+        # ---- Display Name
+        self.addJinja2Variable("display_name", analyticss["display_name"], standardisedName)
+        # --- Description
+        self.addJinja2Variable("description", analyticss["description"], standardisedName)
+        # --- Network Endpoint Type
+        self.addJinja2Variable("network_endpoint_type", analyticss["network_endpoint_details"]["network_endpoint_type"], standardisedName)
+        # --- Subnet_Id
+        self.addJinja2Variable("subnet_id", analyticss["network_endpoint_details"]["subnet_id"], standardisedName)
+        # --- Vcn_Id
+        self.addJinja2Variable("vcn_id", analyticss["network_endpoint_details"]["vcn_id"], standardisedName)
+        # --- Whitelisted_Ips
+        self.addJinja2Variable("whitelisted_ips", analyticss["network_endpoint_details"]["whitelisted_ips"], standardisedName)
+        # --- Whitelisted_vcns
+        self.addJinja2Variable("whitelisted_vcns", analyticss["network_endpoint_details"]["whitelisted_vcns"], standardisedName)
+        # ---- Tags
+        self.renderTags(analyticss)
+
+        # -- Render Template
+        jinja2_template = self.jinja2_environment.get_template("analytics.jinja2")
         self.create_sequence.append(jinja2_template.render(self.jinja2_variables))
         logger.debug(self.create_sequence[-1])
         return
