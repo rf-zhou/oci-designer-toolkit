@@ -271,3 +271,16 @@ function handleContextMenu() {
     $("#right-click-delete").on('click', function() {deleteAssetFromSVG(artefact, okit_id);});
 }
 
+//zoom
+function zoom() {
+    var zoom = d3.zoom()
+        .scaleExtent([0.1, 1])
+        .on('zoom', zoomed);
+
+    var canvas = d3.select('.okit-svg-canvas').call(zoom);
+
+    function zoomed() {
+        var transform = d3.event.transform;
+        canvas.style("transform", "translate(" + transform.x + "px," + transform.y +"px) scale(" + transform.k + ")");
+    }
+}
